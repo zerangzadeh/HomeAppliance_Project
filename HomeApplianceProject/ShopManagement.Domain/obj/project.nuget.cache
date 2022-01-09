@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "rLSUDADh4slw7YBrQJpjQSsX9/O4a+twZFTUp6tHt5ay5jxSTMEuk4UWcViMZAwv/4YbOmy/y+w2sE+ou8u8Cg==",
+  "success": true,
+  "projectFilePath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\ShopManagement.Domain\\ShopManagement.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\azera\\.nuget\\packages\\linqtotwitter\\6.10.0\\linqtotwitter.6.10.0.nupkg.sha512",
+    "C:\\Users\\azera\\.nuget\\packages\\system.text.json\\5.0.1\\system.text.json.5.0.1.nupkg.sha512",
+    "C:\\Users\\azera\\.nuget\\packages\\umbracocms.core\\8.17.1\\umbracocms.core.8.17.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'UmbracoCms.Core 8.17.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "UmbracoCms.Core",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}
