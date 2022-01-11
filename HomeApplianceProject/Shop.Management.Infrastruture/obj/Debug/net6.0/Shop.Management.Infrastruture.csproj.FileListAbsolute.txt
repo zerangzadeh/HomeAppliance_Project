@@ -1,0 +1,5 @@
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\Shop.Management.Infrastruture\obj\Debug\net6.0\Shop.Management.Infrastruture.csproj.AssemblyReference.cache
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\Shop.Management.Infrastruture\obj\Debug\net6.0\Shop.Management.Infrastruture.GeneratedMSBuildEditorConfig.editorconfig
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\Shop.Management.Infrastruture\obj\Debug\net6.0\Shop.Management.Infrastruture.AssemblyInfoInputs.cache
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\Shop.Management.Infrastruture\obj\Debug\net6.0\Shop.Management.Infrastruture.AssemblyInfo.cs
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\Shop.Management.Infrastruture\obj\Debug\net6.0\Shop.Management.Infrastruture.csproj.CoreCompileInputs.cache

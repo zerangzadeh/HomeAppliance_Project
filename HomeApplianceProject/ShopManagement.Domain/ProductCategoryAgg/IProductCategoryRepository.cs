@@ -11,7 +11,7 @@ namespace ShopManagement.Domain.ProductCategoryAgg
 {
     public interface IProductCategoryRepository:IBaseRepository<long,ProductCategory>
     {
-        ProductCategoryViewModel GetDetails(long ID);
-        List<ProductCategoryViewModel> Serach(ProductCategorySearchModel searchModel);
+        UpdateProductCategory GetDetails(long ID);
+        List<ProductCategoryViewModel> Search(ProductCategorySearchModel searchModel);
     }
 }

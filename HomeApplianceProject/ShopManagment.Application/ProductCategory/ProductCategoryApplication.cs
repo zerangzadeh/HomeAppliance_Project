@@ -56,9 +56,9 @@ namespace ShopManagment.Application.ProductCategory
             throw new NotImplementedException();
         }
 
-        public ProductCategoryViewModel GetDetails(long ID)
+        public UpdateProductCategory GetDetails(long ID)
         {
-            _productCategoryRepository.GetDetails(ID);
+            return _productCategoryRepository.GetDetails(ID);
         }
 
         public List<ProductCategoryViewModel> Search(ProductCategorySearchModel searchModel)
@@ -82,9 +82,7 @@ namespace ShopManagment.Application.ProductCategory
             {
                 var slug = command.Slug.GenerateSlug();
                 //To Fix
-                var productCategory = new ShopManagement.Domain.ProductCategoryAgg.ProductCategory(command.Title,
-                           command.Description, command.PicSrc, command.PicAlt, command.PicTitle,
-                           command.KeyWord, command.MetaDesc,slug);
+                
                 _productCategoryRepository.Update(productCategory);
                 _productCategoryRepository.SaveChanges();
                 return operationResult.Succeeded("ک.فق ");

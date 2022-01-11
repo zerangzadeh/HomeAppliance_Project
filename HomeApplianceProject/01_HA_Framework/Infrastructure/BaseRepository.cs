@@ -4,6 +4,9 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+using Shop.Management.Infrastruture;
+
 
 
 
@@ -12,13 +15,20 @@ namespace _01_HA_Framework.Infrastructure
 {
     public class BaseRepository<TKey, TEntity> : IBaseRepository<TKey, TEntity> where TEntity : EntityBase<TKey>
     {
+        private readonly DbContext _dBContext;
+
+        public BaseRepository(DbContext dBContext)
+        {
+           _dBContext = dBContext;
+        }
+
         public BaseRepository()
         {
         }
 
         public void Create(TEntity entity)
         {
-            throw new NotImplementedException();
+           _dBContext.Add<TEntity>(entity);
         }
 
         public void Delete(TEntity entity)
@@ -28,22 +38,22 @@ namespace _01_HA_Framework.Infrastructure
 
         public bool Exists(Expression<Func<TEntity, bool>> expression)
         {
-            throw new NotImplementedException();
+            return _dBContext.Set<TEntity>().Any(expression);
         }
 
         public List<TEntity> GetAll()
         {
-            throw new NotImplementedException();
+            return _dBContext.Set<TEntity>().ToList();
         }
 
         public TEntity GetBy(TKey ID)
         {
-            throw new NotImplementedException();
+            return _dBContext.Find<TEntity>(ID);
         }
 
         public void SaveChanges()
         {
-            throw new NotImplementedException();
+            _dBContext.SaveChanges();
         }
 
         public void Update(TEntity entity)
