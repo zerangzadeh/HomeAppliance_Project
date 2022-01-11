@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "d18e6f9d-55de-4836-a89c-1f8a72b779be": {
+      "ProjectGuid": "d18e6f9d-55de-4836-a89c-1f8a72b779be",
+      "DisplayName": "HomeApplianceProject",
+      "ColorIndex": 0
+    },
+    "86043584-6bea-4f77-9464-8b13592aef4c": {
+      "ProjectGuid": "86043584-6bea-4f77-9464-8b13592aef4c",
+      "DisplayName": "ShopManagement.Domain",
+      "ColorIndex": 1
+    },
+    "b9850f15-4d19-4a07-80a1-2da8ba170123": {
+      "ProjectGuid": "b9850f15-4d19-4a07-80a1-2da8ba170123",
+      "DisplayName": "01_HA_Framework",
+      "ColorIndex": 2
+    },
+    "fdd3ef60-6a12-4914-b9fb-aa929892cf50": {
+      "ProjectGuid": "fdd3ef60-6a12-4914-b9fb-aa929892cf50",
+      "DisplayName": "ShopManagement.Application.Contracts",
+      "ColorIndex": 3
+    },
+    "6c8f9322-4eb3-4977-92a5-031a84c585be": {
+      "ProjectGuid": "6c8f9322-4eb3-4977-92a5-031a84c585be",
+      "DisplayName": "ShopManagment.Application",
+      "ColorIndex": 4
+    },
+    "950ea304-54d4-43e7-b2fd-7955da7a53d3": {
+      "ProjectGuid": "950ea304-54d4-43e7-b2fd-7955da7a53d3",
+      "DisplayName": "SM.Presentation",
+      "ColorIndex": 5
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 6
+}

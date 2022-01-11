@@ -45,19 +45,6 @@
         "runtime": {
           "bin/placeholder/01_HA_Framework.dll": {}
         }
-      },
-      "ShopManagement.Domain/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "01_HA_Framework": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/ShopManagement.Domain.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ShopManagement.Domain.dll": {}
-        }
       }
     }
   },
@@ -115,16 +102,11 @@
       "type": "project",
       "path": "../01_HA_Framework/01_HA_Framework.csproj",
       "msbuildProject": "../01_HA_Framework/01_HA_Framework.csproj"
-    },
-    "ShopManagement.Domain/1.0.0": {
-      "type": "project",
-      "path": "../ShopManagement.Domain/ShopManagement.Domain.csproj",
-      "msbuildProject": "../ShopManagement.Domain/ShopManagement.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "ShopManagement.Domain >= 1.0.0"
+      "01_HA_Framework >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -154,8 +136,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
-              "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
+            "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\01_HA_Framework\\01_HA_Framework.csproj": {
+              "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\01_HA_Framework\\01_HA_Framework.csproj"
             }
           }
         }

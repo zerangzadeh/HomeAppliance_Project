@@ -1,0 +1,68 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "01_HA_Framework/1.0.0": {
+        "dependencies": {
+          "UmbracoCms.Core": "8.17.1",
+          "linqtotwitter": "6.10.0"
+        },
+        "runtime": {
+          "01_HA_Framework.dll": {}
+        }
+      },
+      "linqtotwitter/6.10.0": {
+        "dependencies": {
+          "System.Text.Json": "5.0.1"
+        },
+        "runtime": {
+          "lib/net5.0/LinqToTwitter.dll": {
+            "assemblyVersion": "6.10.0.0",
+            "fileVersion": "6.10.0.0"
+          }
+        }
+      },
+      "System.Text.Json/5.0.1": {},
+      "UmbracoCms.Core/8.17.1": {
+        "runtime": {
+          "lib/net472/Umbraco.Core.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.17.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "01_HA_Framework/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "linqtotwitter/6.10.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UrjzxapLrM1FI+1Ck+VlfBbgfpniluu/3pOJL2HJI5XnEZG8OdU32ELREPoYAV40xpKtJB4uf8KQbz4vSzfxlQ==",
+      "path": "linqtotwitter/6.10.0",
+      "hashPath": "linqtotwitter.6.10.0.nupkg.sha512"
+    },
+    "System.Text.Json/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/UM3UK1dXKl8Ybysg/21gM4S8DJgkR+yLU8JwqCVbuNqQNImelntgYFAN5QxR8sJJ1kMx//hOUdf0lltosi8cQ==",
+      "path": "system.text.json/5.0.1",
+      "hashPath": "system.text.json.5.0.1.nupkg.sha512"
+    },
+    "UmbracoCms.Core/8.17.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wAwGion9B+T06s0gUbJS7+Wx4qippoBQ2JQ+NCfHaXllvAXLnGx2vUwl8emQB1X+YR/6SlEe9J0zsHD38upgcQ==",
+      "path": "umbracocms.core/8.17.1",
+      "hashPath": "umbracocms.core.8.17.1.nupkg.sha512"
+    }
+  }
+}

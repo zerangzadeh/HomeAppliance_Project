@@ -1,4 +1,5 @@
-﻿using ShopManagement.Domain.ProductCategoryAgg;
+﻿using _01_HA_Framework.Application;
+using ShopManagement.Domain.ProductCategoryAgg;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,8 +13,8 @@ namespace ShopManagement.Application.Contracts.ProductCategory
 {
     public interface IProductCategoryApplication
     {
-        void Create(CreateProductCategory command);
-        void Update(UpdateProductCategory command);
+        OperationResult Create(CreateProductCategory command);
+        OperationResult Update(UpdateProductCategory command);
         void Delete(long ID);
         ProductCategoryViewModel GetBy(long ID);
         List<ProductCategoryViewModel> GetAll();
