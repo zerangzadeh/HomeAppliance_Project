@@ -2003,9 +2003,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\Shop.Management.Infrastruture\\Shop.Management.Infrastruture.csproj",
-      "projectName": "Shop.Management.Infrastruture",
-      "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\Shop.Management.Infrastruture\\Shop.Management.Infrastruture.csproj",
+      "projectUniqueName": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\Shop.Management.Infrastruture\\ShopManagement.Infrastructure.csproj",
+      "projectName": "ShopManagement.Infrastructure",
+      "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\Shop.Management.Infrastruture\\ShopManagement.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\azera\\.nuget\\packages\\",
       "outputPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\Shop.Management.Infrastruture\\obj\\",
       "projectStyle": "PackageReference",

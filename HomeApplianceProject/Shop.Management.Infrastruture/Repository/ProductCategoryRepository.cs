@@ -15,7 +15,7 @@ namespace Shop.Management.Infrastruture.Repository
     {
         private readonly ShopDBContext _shopDBContext;
 
-        public ProductCategoryRepository(ShopDBContext shopDBContext)
+        public ProductCategoryRepository(ShopDBContext shopDBContext):base(shopDBContext)
         {
             _shopDBContext = shopDBContext;
         }
@@ -56,3 +56,4 @@ namespace Shop.Management.Infrastruture.Repository
         }
     }
 }
+ 

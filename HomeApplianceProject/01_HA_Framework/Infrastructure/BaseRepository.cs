@@ -5,9 +5,6 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using Shop.Management.Infrastruture;
-
-
 
 
 

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FACrbvz8zNt95F6hvPUyTiyXkKBZVJNNOMxsxTL/ypLt2KElBFDn/LwPc0GJK0M5ifGhskBm1kPC2PPJ8D6G6Q==",
+  "dgSpecHash": "o6cjCR3VCLjHuu2SRRikAb5FnMXQvpISRk76T8S/7tGBRIYgnMFQtfORrFjXYBNEhv0V2PxAb6emyjJn4Hn92A==",
   "success": true,
-  "projectFilePath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\Shop.Management.Infrastruture\\Shop.Management.Infrastruture.csproj",
+  "projectFilePath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\Shop.Management.Infrastruture\\ShopManagement.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\azera\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\azera\\.nuget\\packages\\linqtotwitter\\6.10.0\\linqtotwitter.6.10.0.nupkg.sha512",
