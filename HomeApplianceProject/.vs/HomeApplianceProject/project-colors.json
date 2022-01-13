@@ -38,9 +38,19 @@
     },
     "ba81f2a6-d238-42da-84c2-2b99a1461c1f": {
       "ProjectGuid": "ba81f2a6-d238-42da-84c2-2b99a1461c1f",
-      "DisplayName": "Shop.Management.Infrastruture",
+      "DisplayName": "ShopManagement.Infrastructure",
       "ColorIndex": 6
+    },
+    "a9d55ba0-2d4a-41d5-88e0-330bc39ad9b4": {
+      "ProjectGuid": "a9d55ba0-2d4a-41d5-88e0-330bc39ad9b4",
+      "DisplayName": "ShopManagement.Configuration",
+      "ColorIndex": 7
+    },
+    "93dced1b-c0c5-45b6-88ec-86f735d9fa83": {
+      "ProjectGuid": "93dced1b-c0c5-45b6-88ec-86f735d9fa83",
+      "DisplayName": "ServiceHost",
+      "ColorIndex": 8
     }
   },
-  "NextColorIndex": 7
+  "NextColorIndex": 9
 }

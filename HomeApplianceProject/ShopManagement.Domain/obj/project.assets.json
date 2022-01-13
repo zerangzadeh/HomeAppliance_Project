@@ -2,18 +2,6 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "linqtotwitter/6.10.0": {
-        "type": "package",
-        "dependencies": {
-          "System.Text.Json": "5.0.1"
-        },
-        "compile": {
-          "lib/net5.0/LinqToTwitter.dll": {}
-        },
-        "runtime": {
-          "lib/net5.0/LinqToTwitter.dll": {}
-        }
-      },
       "Microsoft.EntityFrameworkCore/6.0.1": {
         "type": "package",
         "dependencies": {
@@ -204,31 +192,11 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "System.Text.Json/5.0.1": {
-        "type": "package",
-        "compile": {
-          "lib/netcoreapp3.0/System.Text.Json.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.0/System.Text.Json.dll": {}
-        }
-      },
-      "UmbracoCms.Core/8.17.1": {
-        "type": "package",
-        "compile": {
-          "lib/net472/Umbraco.Core.dll": {}
-        },
-        "runtime": {
-          "lib/net472/Umbraco.Core.dll": {}
-        }
-      },
       "01_HA_Framework/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "6.0.1",
-          "UmbracoCms.Core": "8.17.1",
-          "linqtotwitter": "6.10.0"
+          "Microsoft.EntityFrameworkCore": "6.0.1"
         },
         "compile": {
           "bin/placeholder/01_HA_Framework.dll": {}
@@ -253,19 +221,6 @@
     }
   },
   "libraries": {
-    "linqtotwitter/6.10.0": {
-      "sha512": "UrjzxapLrM1FI+1Ck+VlfBbgfpniluu/3pOJL2HJI5XnEZG8OdU32ELREPoYAV40xpKtJB4uf8KQbz4vSzfxlQ==",
-      "type": "package",
-      "path": "linqtotwitter/6.10.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "200xColor_2.png",
-        "lib/net5.0/LinqToTwitter.dll",
-        "linqtotwitter.6.10.0.nupkg.sha512",
-        "linqtotwitter.nuspec"
-      ]
-    },
     "Microsoft.EntityFrameworkCore/6.0.1": {
       "sha512": "UmZBVaRbOgtbYkp4x8W9j8HBd7ywzPRPj5StSiqFt/nsH6nOf1eQmHFfjIRb70cxsuC0NbkFBAAoUHFRCscCKA==",
       "type": "package",
@@ -588,42 +543,6 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.Text.Json/5.0.1": {
-      "sha512": "/UM3UK1dXKl8Ybysg/21gM4S8DJgkR+yLU8JwqCVbuNqQNImelntgYFAN5QxR8sJJ1kMx//hOUdf0lltosi8cQ==",
-      "type": "package",
-      "path": "system.text.json/5.0.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/net461/System.Text.Json.dll",
-        "lib/net461/System.Text.Json.xml",
-        "lib/netcoreapp3.0/System.Text.Json.dll",
-        "lib/netcoreapp3.0/System.Text.Json.xml",
-        "lib/netstandard2.0/System.Text.Json.dll",
-        "lib/netstandard2.0/System.Text.Json.xml",
-        "system.text.json.5.0.1.nupkg.sha512",
-        "system.text.json.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
-      ]
-    },
-    "UmbracoCms.Core/8.17.1": {
-      "sha512": "wAwGion9B+T06s0gUbJS7+Wx4qippoBQ2JQ+NCfHaXllvAXLnGx2vUwl8emQB1X+YR/6SlEe9J0zsHD38upgcQ==",
-      "type": "package",
-      "path": "umbracocms.core/8.17.1",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net472/Umbraco.Core.dll",
-        "lib/net472/Umbraco.Core.pdb",
-        "lib/net472/Umbraco.Core.xml",
-        "umbracocms.core.8.17.1.nupkg.sha512",
-        "umbracocms.core.nuspec"
-      ]
-    },
     "01_HA_Framework/1.0.0": {
       "type": "project",
       "path": "../01_HA_Framework/01_HA_Framework.csproj",
@@ -704,17 +623,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'UmbracoCms.Core 8.17.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
-      "libraryId": "UmbracoCms.Core",
-      "targetGraphs": [
-        "net6.0"
-      ]
-    }
-  ]
+  }
 }
