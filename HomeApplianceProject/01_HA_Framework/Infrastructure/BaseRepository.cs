@@ -55,7 +55,9 @@ namespace _01_HA_Framework.Infrastructure
 
         public void Update(TEntity entity)
         {
-            throw new NotImplementedException();
+          
         }
+
+        
     }
 }

@@ -87,8 +87,18 @@ namespace ShopManagement.Application.ProductCategory
             {
                 var slug = command.Slug.GenerateSlug();
                 //To Fix
-                
-                _productCategoryRepository.Update(productCategory);
+
+                productCategory.Title = command.Title;
+                productCategory.Description = command.Description;
+                productCategory.PicSrc = command.PicSrc;
+                productCategory.PicAlt=command.PicAlt;
+                productCategory.PicTitle=command.PicTitle;
+                productCategory.KeyWord = command.KeyWord;
+                productCategory.MetaDesc = command.MetaDesc;
+                productCategory.Slug=command.Slug;
+
+
+        _productCategoryRepository.Update(productCategory);
                 _productCategoryRepository.SaveChanges();
                 return operationResult.Succeeded("ک.فق ");
 

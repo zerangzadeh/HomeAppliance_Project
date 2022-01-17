@@ -54,6 +54,11 @@ namespace Shop.Management.Infrastruture.Repository
             }
             return query.OrderByDescending(x=>x.ID).ToList();
         }
+
+       
     }
+
+
+  
 }
  
