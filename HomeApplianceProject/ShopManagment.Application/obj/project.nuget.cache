@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0WNQLoMvi2NuO7wRfuvE2JaKO0dsFISc4QlUfTdy13Efn0tewkOHPnnqOYkvIuDx9ZRGPC0wooOyayArZVvgjg==",
+  "dgSpecHash": "9OlSMPV3FzY2QL7APGcaCvZ9D5lcCUm9vWeWbimkUSU4uKueUaLLqBqJsNYu3K028qB9s3hpd2za2qKo4r7e7w==",
   "success": true,
-  "projectFilePath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\ShopManagment.Application\\ShopManagment.Application.csproj",
+  "projectFilePath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\ShopManagment.Application\\ShopManagement.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\azera\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\azera\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ShopManagment.Application.ProductCategory
+namespace ShopManagement.Application.ProductCategory
 {
     public class ProductCategoryApplication : IProductCategoryApplication
     {
@@ -55,6 +55,11 @@ namespace ShopManagment.Application.ProductCategory
         {
             throw new NotImplementedException();
         }
+
+        //public ProductCategoryViewModel GetBy(long ID)
+        //{
+        //    //return _productCategoryRepository.GetBy(ID);
+        //}
 
         public UpdateProductCategory GetDetails(long ID)
         {

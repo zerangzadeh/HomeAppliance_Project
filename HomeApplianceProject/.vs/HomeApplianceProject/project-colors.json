@@ -23,7 +23,7 @@
     },
     "6c8f9322-4eb3-4977-92a5-031a84c585be": {
       "ProjectGuid": "6c8f9322-4eb3-4977-92a5-031a84c585be",
-      "DisplayName": "ShopManagment.Application",
+      "DisplayName": "ShopManagement.Application",
       "ColorIndex": 4
     },
     "950ea304-54d4-43e7-b2fd-7955da7a53d3": {
@@ -50,7 +50,22 @@
       "ProjectGuid": "93dced1b-c0c5-45b6-88ec-86f735d9fa83",
       "DisplayName": "ServiceHost",
       "ColorIndex": 8
+    },
+    "4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7": {
+      "ProjectGuid": "4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7",
+      "DisplayName": "ServiceHost",
+      "ColorIndex": 9
+    },
+    "bd5d2c9c-5c86-47b4-86cc-49b2d1ce2997": {
+      "ProjectGuid": "bd5d2c9c-5c86-47b4-86cc-49b2d1ce2997",
+      "DisplayName": "TestWenApi",
+      "ColorIndex": 10
+    },
+    "afacbd5c-7f7a-4c01-a0c2-2b89de3d7441": {
+      "ProjectGuid": "afacbd5c-7f7a-4c01-a0c2-2b89de3d7441",
+      "DisplayName": "TestWebApi",
+      "ColorIndex": 11
     }
   },
-  "NextColorIndex": 9
+  "NextColorIndex": 12
 }

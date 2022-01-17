@@ -829,6 +829,22 @@
           "bin/placeholder/01_HA_Framework.dll": {}
         }
       },
+      "ShopManagement.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "AutoMapper": "11.0.0",
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "11.0.0",
+          "ShopManagement.Application.Contracts": "1.0.0",
+          "ShopManagement.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ShopManagement.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ShopManagement.Application.dll": {}
+        }
+      },
       "ShopManagement.Application.Contracts/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -870,22 +886,6 @@
         },
         "runtime": {
           "bin/placeholder/ShopManagement.Infrastructure.dll": {}
-        }
-      },
-      "ShopManagment.Application/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "AutoMapper": "11.0.0",
-          "AutoMapper.Extensions.Microsoft.DependencyInjection": "11.0.0",
-          "ShopManagement.Application.Contracts": "1.0.0",
-          "ShopManagement.Domain": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/ShopManagment.Application.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ShopManagment.Application.dll": {}
         }
       }
     }
@@ -2540,6 +2540,11 @@
       "path": "../01_HA_Framework/01_HA_Framework.csproj",
       "msbuildProject": "../01_HA_Framework/01_HA_Framework.csproj"
     },
+    "ShopManagement.Application/1.0.0": {
+      "type": "project",
+      "path": "../ShopManagment.Application/ShopManagement.Application.csproj",
+      "msbuildProject": "../ShopManagment.Application/ShopManagement.Application.csproj"
+    },
     "ShopManagement.Application.Contracts/1.0.0": {
       "type": "project",
       "path": "../ShopManagement.Application.Contracts/ShopManagement.Application.Contracts.csproj",
@@ -2554,11 +2559,6 @@
       "type": "project",
       "path": "../Shop.Management.Infrastruture/ShopManagement.Infrastructure.csproj",
       "msbuildProject": "../Shop.Management.Infrastruture/ShopManagement.Infrastructure.csproj"
-    },
-    "ShopManagment.Application/1.0.0": {
-      "type": "project",
-      "path": "../ShopManagment.Application/ShopManagment.Application.csproj",
-      "msbuildProject": "../ShopManagment.Application/ShopManagment.Application.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -2566,8 +2566,8 @@
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.1",
       "Microsoft.Extensions.DependencyInjection >= 6.0.0",
       "Microsoft.Extensions.DependencyInjection.Abstractions >= 6.0.0",
-      "ShopManagement.Infrastructure >= 1.0.0",
-      "ShopManagment.Application >= 1.0.0"
+      "ShopManagement.Application >= 1.0.0",
+      "ShopManagement.Infrastructure >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2600,8 +2600,8 @@
             "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\Shop.Management.Infrastruture\\ShopManagement.Infrastructure.csproj": {
               "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\Shop.Management.Infrastruture\\ShopManagement.Infrastructure.csproj"
             },
-            "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\ShopManagment.Application\\ShopManagment.Application.csproj": {
-              "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\ShopManagment.Application\\ShopManagment.Application.csproj"
+            "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\ShopManagment.Application\\ShopManagement.Application.csproj": {
+              "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\ShopManagment.Application\\ShopManagement.Application.csproj"
             }
           }
         }

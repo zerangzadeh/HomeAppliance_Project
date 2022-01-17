@@ -719,9 +719,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\ShopManagment.Application\\ShopManagment.Application.csproj",
-      "projectName": "ShopManagment.Application",
-      "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\ShopManagment.Application\\ShopManagment.Application.csproj",
+      "projectUniqueName": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\ShopManagment.Application\\ShopManagement.Application.csproj",
+      "projectName": "ShopManagement.Application",
+      "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\ShopManagment.Application\\ShopManagement.Application.csproj",
       "packagesPath": "C:\\Users\\azera\\.nuget\\packages\\",
       "outputPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\ShopManagment.Application\\obj\\",
       "projectStyle": "PackageReference",

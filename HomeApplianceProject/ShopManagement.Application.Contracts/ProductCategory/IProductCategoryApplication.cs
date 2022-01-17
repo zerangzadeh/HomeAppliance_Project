@@ -20,9 +20,5 @@ namespace ShopManagement.Application.Contracts.ProductCategory
         List<ProductCategoryViewModel> GetAll();
         UpdateProductCategory GetDetails(long ID);
         List<ProductCategoryViewModel> Search(ProductCategorySearchModel searchModel);
-
-
-
-
     }
 }

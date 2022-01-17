@@ -15,7 +15,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SM.Application", "SM.Applic
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopManagement.Application.Contracts", "ShopManagement.Application.Contracts\ShopManagement.Application.Contracts.csproj", "{FDD3EF60-6A12-4914-B9FB-AA929892CF50}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopManagment.Application", "ShopManagment.Application\ShopManagment.Application.csproj", "{6C8F9322-4EB3-4977-92A5-031A84C585BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopManagement.Application", "ShopManagment.Application\ShopManagement.Application.csproj", "{6C8F9322-4EB3-4977-92A5-031A84C585BE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SM.Infrastructure", "SM.Infrastructure", "{9D1B1284-C6CD-4992-B7A0-82808B96D755}"
 EndProject
@@ -23,7 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopManagement.Infrastructu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopManagement.Configuration", "ShopManagement.Configuration\ShopManagement.Configuration.csproj", "{A9D55BA0-2D4A-41D5-88E0-330BC39AD9B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceHost", "ServiceHost\ServiceHost.csproj", "{4FD1CBBC-CCCD-4D74-8D55-8A670F3A0BC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceHost", "ServiceHost\ServiceHost.csproj", "{4FD1CBBC-CCCD-4D74-8D55-8A670F3A0BC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWebApi", "TestWebApi\TestWebApi.csproj", "{AFACBD5C-7F7A-4C01-A0C2-2B89DE3D7441}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +61,10 @@ Global
 		{4FD1CBBC-CCCD-4D74-8D55-8A670F3A0BC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4FD1CBBC-CCCD-4D74-8D55-8A670F3A0BC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4FD1CBBC-CCCD-4D74-8D55-8A670F3A0BC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFACBD5C-7F7A-4C01-A0C2-2B89DE3D7441}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFACBD5C-7F7A-4C01-A0C2-2B89DE3D7441}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFACBD5C-7F7A-4C01-A0C2-2B89DE3D7441}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFACBD5C-7F7A-4C01-A0C2-2B89DE3D7441}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
