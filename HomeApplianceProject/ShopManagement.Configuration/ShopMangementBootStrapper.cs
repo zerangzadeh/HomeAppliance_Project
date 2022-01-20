@@ -7,6 +7,10 @@ using ShopManagement.Application.ProductCategory;
 using Shop.Management.Infrastruture.Repository;
 using Shop.Management.Infrastruture;
 using Microsoft.EntityFrameworkCore;
+using ShopManagement.Domain.ProductAgg;
+using ShopManagement.Infrastructure.Repository;
+using ShopManagement.Application.Product;
+using ShopManagement.Application.Contracts.Product;
 
 namespace ShopManagement.Configuration
 {
@@ -17,6 +21,8 @@ namespace ShopManagement.Configuration
         {
             serviceCollection.AddTransient<IProductCategoryApplication, ProductCategoryApplication>();
             serviceCollection.AddTransient<IProductCategoryRepository, ProductCategoryRepository>();
+            serviceCollection.AddTransient<IProductApplication, ProductApplication>();
+            serviceCollection.AddTransient<IProductRepository, ProductRepository>();
             serviceCollection.AddDbContext<ShopDBContext>(x => x.UseSqlServer(connectionString));
          }
 

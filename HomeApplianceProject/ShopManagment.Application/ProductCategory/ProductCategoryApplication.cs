@@ -21,10 +21,11 @@ namespace ShopManagement.Application.ProductCategory
         public OperationResult Create(CreateProductCategory command)
         {
             var operationResult = new OperationResult();
+            var messageForOperation = new MessageForOpeartion();
             if (command != null)
             {
                 if (_productCategoryRepository.Exists(x=>x.Title==command.Title))
-                    return operationResult.Failed("رکورد تکراری");
+                    return operationResult.Failed(messageForOperation.ExistMessage);
                 else
                 {
                     var slug = command.Slug.GenerateSlug();
@@ -32,13 +33,13 @@ namespace ShopManagement.Application.ProductCategory
                         command.Description, command.PicSrc, command.PicAlt,command.PicTitle,
                         command.KeyWord, command.MetaDesc, slug);
                     _productCategoryRepository.Create(productCategory);
-                    _productCategoryRepository.SaveChanges();
-                    return operationResult.Succeeded("ذخیره موفقیت آمیز");
+                  
+                    return operationResult.Succeeded(messageForOperation.SuccessMessage);
                 }
 
             }
 
-            else return operationResult.Failed("نقص اطلاعات");
+            else return operationResult.Failed(messageForOperation.FailMessage);
         }
 
         public void Delete(long ID)
@@ -98,8 +99,8 @@ namespace ShopManagement.Application.ProductCategory
                 productCategory.Slug=command.Slug;
 
 
-        _productCategoryRepository.Update(productCategory);
-                _productCategoryRepository.SaveChanges();
+       _productCategoryRepository.Update(productCategory);
+               
                 return operationResult.Succeeded("ک.فق ");
 
             }

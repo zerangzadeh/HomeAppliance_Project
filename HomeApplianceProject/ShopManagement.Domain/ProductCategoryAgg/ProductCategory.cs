@@ -1,4 +1,5 @@
 ﻿using _01_HA_Framework;
+using ShopManagement.Domain.ProductAgg;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -18,9 +19,11 @@ namespace ShopManagement.Domain.ProductCategoryAgg
         public string KeyWord { get; set; }
         public string MetaDesc { get; set; }
         public string Slug { get; set; }
+        public List<Product> Products { get; set; } 
 
         public ProductCategory()
         {
+            Products = new List<Product>();
         }
 
         public ProductCategory(string title, string description, string picSrc, string picAlt,

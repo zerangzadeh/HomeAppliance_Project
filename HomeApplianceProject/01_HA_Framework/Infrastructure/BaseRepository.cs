@@ -26,6 +26,7 @@ namespace _01_HA_Framework.Infrastructure
         public void Create(TEntity entity)
         {
            _dBContext.Add<TEntity>(entity);
+            SaveChanges();
         }
 
         public void Delete(TEntity entity)
@@ -55,7 +56,7 @@ namespace _01_HA_Framework.Infrastructure
 
         public void Update(TEntity entity)
         {
-          
+            SaveChanges();
         }
 
         
