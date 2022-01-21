@@ -25,7 +25,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopManagement.Configuratio
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServiceHost", "ServiceHost\ServiceHost.csproj", "{4FD1CBBC-CCCD-4D74-8D55-8A670F3A0BC7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWebApi", "TestWebApi\TestWebApi.csproj", "{AFACBD5C-7F7A-4C01-A0C2-2B89DE3D7441}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestWebApi", "TestWebApi\TestWebApi.csproj", "{AFACBD5C-7F7A-4C01-A0C2-2B89DE3D7441}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

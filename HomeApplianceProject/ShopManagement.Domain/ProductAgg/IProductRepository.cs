@@ -1,6 +1,6 @@
 ﻿using _01_HA_Framework.Infrastructure;
 using ShopManagement.Application.Contracts.Product;
-//using ShopManagement.Application.Contracts.ProductCategory;
+using ShopManagement.Application.Contracts.ProductCategory;
 using ShopManagement.Domain;
 using System;
 using System.Collections.Generic;

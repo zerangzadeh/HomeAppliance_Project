@@ -5,505 +5,372 @@ i:{00000000-0000-0000-0000-000000000000}:01_HA_Framework
 i:{86043584-6bea-4f77-9464-8b13592aef4c}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\01_ha_framework\01_ha_framework.csproj
 i:{fdd3ef60-6a12-4914-b9fb-aa929892cf50}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\01_ha_framework\01_ha_framework.csproj
 ++Dependencies
-i:{b9850f15-4d19-4a07-80a1-2da8ba170123}:>1602
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:>2611
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:>2610
-i:{86043584-6bea-4f77-9464-8b13592aef4c}:>1601
-i:{ba81f2a6-d238-42da-84c2-2b99a1461c1f}:>1600
-i:{a9d55ba0-2d4a-41d5-88e0-330bc39ad9b4}:>1598
-i:{6c8f9322-4eb3-4977-92a5-031a84c585be}:>1599
-i:{fdd3ef60-6a12-4914-b9fb-aa929892cf50}:>1597
+i:{b9850f15-4d19-4a07-80a1-2da8ba170123}:>626
+i:{86043584-6bea-4f77-9464-8b13592aef4c}:>629
+i:{fdd3ef60-6a12-4914-b9fb-aa929892cf50}:>624
+i:{6c8f9322-4eb3-4977-92a5-031a84c585be}:>628
+i:{ba81f2a6-d238-42da-84c2-2b99a1461c1f}:>625
+i:{a9d55ba0-2d4a-41d5-88e0-330bc39ad9b4}:>627
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:>2651
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:>2650
 ++Application
 i:{b9850f15-4d19-4a07-80a1-2da8ba170123}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\01_ha_framework\application\
-++OperationResult.cs
-i:{b9850f15-4d19-4a07-80a1-2da8ba170123}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\01_ha_framework\application\operationresult.cs
-++Slugify.cs
-i:{b9850f15-4d19-4a07-80a1-2da8ba170123}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\01_ha_framework\application\slugify.cs
 ++Domain
 i:{b9850f15-4d19-4a07-80a1-2da8ba170123}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\01_ha_framework\domain\
-++EntityBase.cs
-i:{b9850f15-4d19-4a07-80a1-2da8ba170123}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\01_ha_framework\domain\entitybase.cs
-++IBaseRepository.cs
-i:{b9850f15-4d19-4a07-80a1-2da8ba170123}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\01_ha_framework\domain\ibaserepository.cs
 ++Infrastructure
 i:{b9850f15-4d19-4a07-80a1-2da8ba170123}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\01_ha_framework\infrastructure\
 ++ProductCategory
 i:{b9850f15-4d19-4a07-80a1-2da8ba170123}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\01_ha_framework\infrastructure\productcategory\
-i:{6c8f9322-4eb3-4977-92a5-031a84c585be}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shopmanagment.application\productcategory\
 i:{fdd3ef60-6a12-4914-b9fb-aa929892cf50}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shopmanagement.application.contracts\productcategory\
+i:{6c8f9322-4eb3-4977-92a5-031a84c585be}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shopmanagment.application\productcategory\
 ++BaseRepository.cs
 i:{b9850f15-4d19-4a07-80a1-2da8ba170123}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\01_ha_framework\infrastructure\baserepository.cs
 ++Analyzers
 i:{b9850f15-4d19-4a07-80a1-2da8ba170123}:analyzers
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:analyzers
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:analyzers
 i:{86043584-6bea-4f77-9464-8b13592aef4c}:analyzers
+i:{fdd3ef60-6a12-4914-b9fb-aa929892cf50}:analyzers
+i:{6c8f9322-4eb3-4977-92a5-031a84c585be}:analyzers
 i:{ba81f2a6-d238-42da-84c2-2b99a1461c1f}:analyzers
 i:{a9d55ba0-2d4a-41d5-88e0-330bc39ad9b4}:analyzers
-i:{6c8f9322-4eb3-4977-92a5-031a84c585be}:analyzers
-i:{fdd3ef60-6a12-4914-b9fb-aa929892cf50}:analyzers
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:analyzers
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:analyzers
 ++Frameworks
 i:{b9850f15-4d19-4a07-80a1-2da8ba170123}:frameworks
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:frameworks
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:frameworks
 i:{86043584-6bea-4f77-9464-8b13592aef4c}:frameworks
+i:{fdd3ef60-6a12-4914-b9fb-aa929892cf50}:frameworks
+i:{6c8f9322-4eb3-4977-92a5-031a84c585be}:frameworks
 i:{ba81f2a6-d238-42da-84c2-2b99a1461c1f}:frameworks
 i:{a9d55ba0-2d4a-41d5-88e0-330bc39ad9b4}:frameworks
-i:{6c8f9322-4eb3-4977-92a5-031a84c585be}:frameworks
-i:{fdd3ef60-6a12-4914-b9fb-aa929892cf50}:frameworks
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:frameworks
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:frameworks
 ++Packages
 i:{b9850f15-4d19-4a07-80a1-2da8ba170123}:packages
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:packages
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:packages
+i:{6c8f9322-4eb3-4977-92a5-031a84c585be}:packages
 i:{ba81f2a6-d238-42da-84c2-2b99a1461c1f}:packages
 i:{a9d55ba0-2d4a-41d5-88e0-330bc39ad9b4}:packages
-i:{6c8f9322-4eb3-4977-92a5-031a84c585be}:packages
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:packages
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:packages
+++MessageForOpeartion.cs
+i:{b9850f15-4d19-4a07-80a1-2da8ba170123}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\01_ha_framework\application\messageforopeartion.cs
+++OperationResult.cs
+i:{b9850f15-4d19-4a07-80a1-2da8ba170123}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\01_ha_framework\application\operationresult.cs
+++Slugify.cs
+i:{b9850f15-4d19-4a07-80a1-2da8ba170123}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\01_ha_framework\application\slugify.cs
+++ValidationMessages.cs
+i:{b9850f15-4d19-4a07-80a1-2da8ba170123}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\01_ha_framework\application\validationmessages.cs
+++EntityBase.cs
+i:{b9850f15-4d19-4a07-80a1-2da8ba170123}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\01_ha_framework\domain\entitybase.cs
+++IBaseRepository.cs
+i:{b9850f15-4d19-4a07-80a1-2da8ba170123}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\01_ha_framework\domain\ibaserepository.cs
 ++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
 i:{b9850f15-4d19-4a07-80a1-2da8ba170123}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
 i:{86043584-6bea-4f77-9464-8b13592aef4c}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{fdd3ef60-6a12-4914-b9fb-aa929892cf50}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{6c8f9322-4eb3-4977-92a5-031a84c585be}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
 i:{ba81f2a6-d238-42da-84c2-2b99a1461c1f}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
 i:{a9d55ba0-2d4a-41d5-88e0-330bc39ad9b4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
-i:{6c8f9322-4eb3-4977-92a5-031a84c585be}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
-i:{fdd3ef60-6a12-4914-b9fb-aa929892cf50}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
 ++Microsoft.CodeAnalysis.NetAnalyzers
 i:{b9850f15-4d19-4a07-80a1-2da8ba170123}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
 i:{86043584-6bea-4f77-9464-8b13592aef4c}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{fdd3ef60-6a12-4914-b9fb-aa929892cf50}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{6c8f9322-4eb3-4977-92a5-031a84c585be}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
 i:{ba81f2a6-d238-42da-84c2-2b99a1461c1f}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
 i:{a9d55ba0-2d4a-41d5-88e0-330bc39ad9b4}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
-i:{6c8f9322-4eb3-4977-92a5-031a84c585be}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
-i:{fdd3ef60-6a12-4914-b9fb-aa929892cf50}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
 ++Microsoft.EntityFrameworkCore.Analyzers
 i:{b9850f15-4d19-4a07-80a1-2da8ba170123}:c:\users\azera\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.1\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:c:\users\azera\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.1\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:c:\users\azera\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.1\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
 i:{86043584-6bea-4f77-9464-8b13592aef4c}:c:\users\azera\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.1\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{fdd3ef60-6a12-4914-b9fb-aa929892cf50}:c:\users\azera\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.1\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{6c8f9322-4eb3-4977-92a5-031a84c585be}:c:\users\azera\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.1\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
 i:{ba81f2a6-d238-42da-84c2-2b99a1461c1f}:c:\users\azera\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.1\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
 i:{a9d55ba0-2d4a-41d5-88e0-330bc39ad9b4}:c:\users\azera\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.1\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
-i:{6c8f9322-4eb3-4977-92a5-031a84c585be}:c:\users\azera\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.1\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
-i:{fdd3ef60-6a12-4914-b9fb-aa929892cf50}:c:\users\azera\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.1\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:c:\users\azera\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.1\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:c:\users\azera\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.1\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
 ++Microsoft.Extensions.Logging.Generators
 i:{b9850f15-4d19-4a07-80a1-2da8ba170123}:c:\users\azera\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
 i:{86043584-6bea-4f77-9464-8b13592aef4c}:c:\users\azera\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{fdd3ef60-6a12-4914-b9fb-aa929892cf50}:c:\users\azera\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{6c8f9322-4eb3-4977-92a5-031a84c585be}:c:\users\azera\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
 i:{ba81f2a6-d238-42da-84c2-2b99a1461c1f}:c:\users\azera\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
 i:{a9d55ba0-2d4a-41d5-88e0-330bc39ad9b4}:c:\users\azera\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
-i:{6c8f9322-4eb3-4977-92a5-031a84c585be}:c:\users\azera\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
-i:{fdd3ef60-6a12-4914-b9fb-aa929892cf50}:c:\users\azera\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
 ++System.Text.Json.SourceGeneration
 i:{b9850f15-4d19-4a07-80a1-2da8ba170123}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
 i:{86043584-6bea-4f77-9464-8b13592aef4c}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{fdd3ef60-6a12-4914-b9fb-aa929892cf50}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{6c8f9322-4eb3-4977-92a5-031a84c585be}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
 i:{ba81f2a6-d238-42da-84c2-2b99a1461c1f}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
 i:{a9d55ba0-2d4a-41d5-88e0-330bc39ad9b4}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
-i:{6c8f9322-4eb3-4977-92a5-031a84c585be}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
-i:{fdd3ef60-6a12-4914-b9fb-aa929892cf50}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
 ++Microsoft.NETCore.App
 i:{b9850f15-4d19-4a07-80a1-2da8ba170123}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\01_ha_framework\microsoft.netcore.app
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\microsoft.netcore.app
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\microsoft.netcore.app
 i:{86043584-6bea-4f77-9464-8b13592aef4c}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shopmanagement.domain\microsoft.netcore.app
+i:{fdd3ef60-6a12-4914-b9fb-aa929892cf50}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shopmanagement.application.contracts\microsoft.netcore.app
+i:{6c8f9322-4eb3-4977-92a5-031a84c585be}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shopmanagment.application\microsoft.netcore.app
 i:{ba81f2a6-d238-42da-84c2-2b99a1461c1f}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shop.management.infrastruture\microsoft.netcore.app
 i:{a9d55ba0-2d4a-41d5-88e0-330bc39ad9b4}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shopmanagement.configuration\microsoft.netcore.app
-i:{6c8f9322-4eb3-4977-92a5-031a84c585be}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shopmanagment.application\microsoft.netcore.app
-i:{fdd3ef60-6a12-4914-b9fb-aa929892cf50}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shopmanagement.application.contracts\microsoft.netcore.app
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\microsoft.netcore.app
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\microsoft.netcore.app
 ++Microsoft.EntityFrameworkCore (6.0.1)
-i:{b9850f15-4d19-4a07-80a1-2da8ba170123}:>2648
-i:{ba81f2a6-d238-42da-84c2-2b99a1461c1f}:>2654
-++TestWebApi
-i:{00000000-0000-0000-0000-000000000000}:TestWebApi
-++Connected Services 
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:>2613
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:>2612
-++Properties
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\properties\
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\properties\
-++wwwroot
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\
-++css
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\css\
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\css\
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\css\
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\css\
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\font-awesome\css\
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\ionicon\css\
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\modal-effect\css\
-++js
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\js\
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\js\
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\js\
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\js\
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\modal-effect\js\
-++lib
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\
-++bootstrap
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\
-++dist
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\jquery\dist\
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\jquery-validation\dist\
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\jquery\dist\
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\jquery-validation\dist\
-++bootstrap.css
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\css\bootstrap.css
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\css\bootstrap.css
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\css\bootstrap.css
-++bootstrap.css.map
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\css\bootstrap.css.map
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
-++bootstrap.min.css
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\css\bootstrap.min.css
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
-++bootstrap.min.css.map
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
-++bootstrap.rtl.css
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
-++bootstrap.rtl.css.map
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
-++bootstrap.rtl.min.css
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
-++bootstrap.rtl.min.css.map
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
-++bootstrap-grid.css
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
-++bootstrap-grid.css.map
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
-++bootstrap-grid.min.css
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
-++bootstrap-grid.min.css.map
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
-++bootstrap-grid.rtl.css
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
-++bootstrap-grid.rtl.css.map
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
-++bootstrap-grid.rtl.min.css
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
-++bootstrap-grid.rtl.min.css.map
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
-++bootstrap-reboot.css
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
-++bootstrap-reboot.css.map
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
-++bootstrap-reboot.min.css
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
-++bootstrap-reboot.min.css.map
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
-++bootstrap-reboot.rtl.css
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
-++bootstrap-reboot.rtl.css.map
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
-++bootstrap-reboot.rtl.min.css
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
-++bootstrap-reboot.rtl.min.css.map
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
-++bootstrap-utilities.css
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
-++bootstrap-utilities.css.map
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
-++bootstrap-utilities.min.css
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
-++bootstrap-utilities.min.css.map
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
-++bootstrap-utilities.rtl.css
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
-++bootstrap-utilities.rtl.css.map
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
-++bootstrap-utilities.rtl.min.css
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
-++bootstrap-utilities.rtl.min.css.map
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
-++bootstrap.bundle.js
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
-++bootstrap.bundle.js.map
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
-++bootstrap.bundle.min.js
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
-++bootstrap.bundle.min.js.map
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
-++bootstrap.esm.js
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
-++bootstrap.esm.js.map
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
-++bootstrap.esm.min.js
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
-++bootstrap.esm.min.js.map
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
-++bootstrap.js
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\js\bootstrap.js
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\js\bootstrap.js
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\js\bootstrap.js
-++bootstrap.js.map
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
-++bootstrap.min.js
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\js\bootstrap.min.js
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
-++bootstrap.min.js.map
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
-++LICENSE
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\license
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\license
-++jquery
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\jquery\
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\jquery\
-++jquery-validation
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\jquery-validation\
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\jquery-validation\
-++jquery-validation-unobtrusive
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\jquery-validation-unobtrusive\
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\jquery-validation-unobtrusive\
-++favicon.ico
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\favicon.ico
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\favicon.ico
-++Pages
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\pages\
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\areas\administration\pages\
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\pages\
-++Shared
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\pages\shared\
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\areas\administration\pages\shared\
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\pages\shared\
-++_ViewImports.cshtml
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\pages\_viewimports.cshtml
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\areas\administration\pages\_viewimports.cshtml
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\pages\_viewimports.cshtml
-++_ViewStart.cshtml
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\pages\_viewstart.cshtml
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\areas\administration\pages\_viewstart.cshtml
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\pages\_viewstart.cshtml
-++Error.cshtml
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\pages\error.cshtml
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\pages\error.cshtml
-++Error.cshtml.cs
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\pages\error.cshtml.cs
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\pages\error.cshtml.cs
-++Index.cshtml
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\pages\index.cshtml
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\areas\administration\pages\shop\productcategories\index.cshtml
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\areas\administration\pages\index.cshtml
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\pages\index.cshtml
-++Index.cshtml.cs
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\pages\index.cshtml.cs
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\areas\administration\pages\shop\productcategories\index.cshtml.cs
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\areas\administration\pages\index.cshtml.cs
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\pages\index.cshtml.cs
-++Privacy.cshtml
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\pages\privacy.cshtml
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\pages\privacy.cshtml
-++Privacy.cshtml.cs
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\pages\privacy.cshtml.cs
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\pages\privacy.cshtml.cs
-++appsettings.Development.json
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\appsettings.development.json
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\appsettings.development.json
-++appsettings.json
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\appsettings.json
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\appsettings.json
-++Program.cs
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\program.cs
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\program.cs
-++ValuesController.cs
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\valuescontroller.cs
-++No service dependencies discovered
+i:{b9850f15-4d19-4a07-80a1-2da8ba170123}:>2717
+i:{ba81f2a6-d238-42da-84c2-2b99a1461c1f}:>2705
+++ShopMangement
+i:{00000000-0000-0000-0000-000000000000}:ShopMangement
+++SM.Domain
+i:{c45a3a7c-b450-478f-a161-6f42cb147dab}:SM.Domain
+++ShopManagement.Domain
+i:{a91c6a8c-4a31-484f-8e9a-afec67550d3a}:ShopManagement.Domain
+i:{6c8f9322-4eb3-4977-92a5-031a84c585be}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shopmanagement.domain\shopmanagement.domain.csproj
+i:{ba81f2a6-d238-42da-84c2-2b99a1461c1f}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shopmanagement.domain\bin\debug\net6.0\shopmanagement.domain.dll
+++ProductAgg
+i:{86043584-6bea-4f77-9464-8b13592aef4c}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shopmanagement.domain\productagg\
+++IProductRepository.cs
+i:{86043584-6bea-4f77-9464-8b13592aef4c}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shopmanagement.domain\productagg\iproductrepository.cs
+++Product.cs
+i:{86043584-6bea-4f77-9464-8b13592aef4c}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shopmanagement.domain\productagg\product.cs
+++ProductCategoryAgg
+i:{86043584-6bea-4f77-9464-8b13592aef4c}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shopmanagement.domain\productcategoryagg\
+++IProductCategoryRepository.cs
+i:{86043584-6bea-4f77-9464-8b13592aef4c}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shopmanagement.domain\productcategoryagg\iproductcategoryrepository.cs
+++ProductCategory.cs
+i:{86043584-6bea-4f77-9464-8b13592aef4c}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shopmanagement.domain\productcategoryagg\productcategory.cs
 ++Projects
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:projects
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:projects
 i:{86043584-6bea-4f77-9464-8b13592aef4c}:projects
+i:{fdd3ef60-6a12-4914-b9fb-aa929892cf50}:projects
+i:{6c8f9322-4eb3-4977-92a5-031a84c585be}:projects
 i:{ba81f2a6-d238-42da-84c2-2b99a1461c1f}:projects
 i:{a9d55ba0-2d4a-41d5-88e0-330bc39ad9b4}:projects
-i:{6c8f9322-4eb3-4977-92a5-031a84c585be}:projects
-i:{fdd3ef60-6a12-4914-b9fb-aa929892cf50}:projects
-++launchSettings.json
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\properties\launchsettings.json
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\properties\launchsettings.json
-++site.css
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\css\site.css
-++site.js
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\js\site.js
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\js\site.js
-++LICENSE.txt
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\jquery\license.txt
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\jquery-validation-unobtrusive\license.txt
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\jquery\license.txt
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\jquery-validation-unobtrusive\license.txt
-++LICENSE.md
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\jquery-validation\license.md
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\jquery-validation\license.md
-++jquery.validate.unobtrusive.js
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
-++jquery.validate.unobtrusive.min.js
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
-++_Layout.cshtml
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\pages\shared\_layout.cshtml
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\pages\shared\_layout.cshtml
-++_Layout.cshtml.css
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\pages\shared\_layout.cshtml.css
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\pages\shared\_layout.cshtml.css
-++_ValidationScriptsPartial.cshtml
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\pages\shared\_validationscriptspartial.cshtml
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\areas\administration\pages\shared\_validationscriptspartial.cshtml
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\pages\shared\_validationscriptspartial.cshtml
-++MessagePackAnalyzer
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:c:\users\azera\.nuget\packages\messagepackanalyzer\2.1.152\analyzers\dotnet\messagepackanalyzer.dll
-++Microsoft.AspNetCore.Analyzers
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
-++Microsoft.AspNetCore.App.Analyzers
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
-++Microsoft.AspNetCore.App.CodeFixes
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
-++Microsoft.AspNetCore.Components.Analyzers
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
-++Microsoft.AspNetCore.Mvc.Analyzers
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
-++Microsoft.AspNetCore.Razor.Internal.SourceGenerator.Transport
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.internal.sourcegenerator.transport.dll
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.internal.sourcegenerator.transport.dll
-++Microsoft.CodeAnalysis.Analyzers
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:c:\users\azera\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
-++Microsoft.CodeAnalysis.CSharp.Analyzers
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:c:\users\azera\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
-++Microsoft.NET.Sdk.Razor.SourceGenerators
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
-++Microsoft.AspNetCore.App
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\microsoft.aspnetcore.app
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\microsoft.aspnetcore.app
-++Microsoft.EntityFrameworkCore.SqlServer (6.0.1)
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:>2652
-i:{ba81f2a6-d238-42da-84c2-2b99a1461c1f}:>2657
-i:{a9d55ba0-2d4a-41d5-88e0-330bc39ad9b4}:>2650
-++Microsoft.EntityFrameworkCore.Tools (6.0.1)
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:>2655
-i:{ba81f2a6-d238-42da-84c2-2b99a1461c1f}:>2663
-++Microsoft.VisualStudio.Web.CodeGeneration (6.0.1)
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:>2661
-++Microsoft.VisualStudio.Web.CodeGeneration.Core (6.0.1)
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:>2649
-++Microsoft.VisualStudio.Web.CodeGeneration.Design (6.0.1)
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:>2658
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:projects
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:projects
+++ShopManagement.Application.Contracts
+i:{86043584-6bea-4f77-9464-8b13592aef4c}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shopmanagement.application.contracts\shopmanagement.application.contracts.csproj
+i:{559e72b0-9070-4913-89a4-ca8dce1b4f28}:ShopManagement.Application.Contracts
+i:{6c8f9322-4eb3-4977-92a5-031a84c585be}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shopmanagement.application.contracts\shopmanagement.application.contracts.csproj
+++SM.Application
+i:{c45a3a7c-b450-478f-a161-6f42cb147dab}:SM.Application
+++Product
+i:{fdd3ef60-6a12-4914-b9fb-aa929892cf50}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shopmanagement.application.contracts\product\
+i:{6c8f9322-4eb3-4977-92a5-031a84c585be}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shopmanagment.application\product\
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\areas\administration\pages\shop\product\
+++CreateProduct.cs
+i:{fdd3ef60-6a12-4914-b9fb-aa929892cf50}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shopmanagement.application.contracts\product\createproduct.cs
+++IProductApplication.cs
+i:{fdd3ef60-6a12-4914-b9fb-aa929892cf50}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shopmanagement.application.contracts\product\iproductapplication.cs
+++ProductSearchModel.cs
+i:{fdd3ef60-6a12-4914-b9fb-aa929892cf50}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shopmanagement.application.contracts\product\productsearchmodel.cs
+++ProductViewModel.cs
+i:{fdd3ef60-6a12-4914-b9fb-aa929892cf50}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shopmanagement.application.contracts\product\productviewmodel.cs
+++UpdateProduct.cs
+i:{fdd3ef60-6a12-4914-b9fb-aa929892cf50}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shopmanagement.application.contracts\product\updateproduct.cs
+++CreateProductCategory.cs
+i:{fdd3ef60-6a12-4914-b9fb-aa929892cf50}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shopmanagement.application.contracts\productcategory\createproductcategory.cs
+++IProductCategoryApplication.cs
+i:{fdd3ef60-6a12-4914-b9fb-aa929892cf50}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shopmanagement.application.contracts\productcategory\iproductcategoryapplication.cs
+++ProductCategorySearchModel.cs
+i:{fdd3ef60-6a12-4914-b9fb-aa929892cf50}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shopmanagement.application.contracts\productcategory\productcategorysearchmodel.cs
+++ProductCategoryViewModel.cs
+i:{fdd3ef60-6a12-4914-b9fb-aa929892cf50}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shopmanagement.application.contracts\productcategory\productcategoryviewmodel.cs
+++UpdateProductCategory.cs
+i:{fdd3ef60-6a12-4914-b9fb-aa929892cf50}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shopmanagement.application.contracts\productcategory\updateproductcategory.cs
 ++ShopManagement.Application
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shopmanagment.application\shopmanagement.application.csproj
-i:{a9d55ba0-2d4a-41d5-88e0-330bc39ad9b4}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shopmanagment.application\shopmanagement.application.csproj
 i:{559e72b0-9070-4913-89a4-ca8dce1b4f28}:ShopManagement.Application
+i:{a9d55ba0-2d4a-41d5-88e0-330bc39ad9b4}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shopmanagment.application\bin\debug\net6.0\shopmanagement.application.dll
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shopmanagment.application\shopmanagement.application.csproj
+++ProductApplication.cs
+i:{6c8f9322-4eb3-4977-92a5-031a84c585be}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shopmanagment.application\product\productapplication.cs
+++ProductCategoryApplication.cs
+i:{6c8f9322-4eb3-4977-92a5-031a84c585be}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shopmanagment.application\productcategory\productcategoryapplication.cs
+++AutoMapper (11.0.0)
+i:{6c8f9322-4eb3-4977-92a5-031a84c585be}:>2678
+++AutoMapper.Extensions.Microsoft.DependencyInjection (11.0.0)
+i:{6c8f9322-4eb3-4977-92a5-031a84c585be}:>2677
+++SM.Infrastructure
+i:{c45a3a7c-b450-478f-a161-6f42cb147dab}:SM.Infrastructure
 ++ShopManagement.Infrastructure
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shop.management.infrastruture\shopmanagement.infrastructure.csproj
 i:{9d1b1284-c6cd-4992-b7a0-82808b96d755}:ShopManagement.Infrastructure
-i:{a9d55ba0-2d4a-41d5-88e0-330bc39ad9b4}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shop.management.infrastruture\shopmanagement.infrastructure.csproj
-++jquery.js
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\jquery\dist\jquery.js
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\jquery\dist\jquery.js
-++jquery.min.js
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\jquery\dist\jquery.min.js
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\js\jquery.min.js
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\jquery\dist\jquery.min.js
-++jquery.min.map
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\jquery\dist\jquery.min.map
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\jquery\dist\jquery.min.map
-++additional-methods.js
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\jquery-validation\dist\additional-methods.js
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\jquery-validation\dist\additional-methods.js
-++additional-methods.min.js
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
-++jquery.validate.js
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\jquery-validation\dist\jquery.validate.js
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\jquery-validation\dist\jquery.validate.js
-++jquery.validate.min.js
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\jquery.validate\jquery.validate.min.js
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+i:{a9d55ba0-2d4a-41d5-88e0-330bc39ad9b4}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shop.management.infrastruture\bin\debug\net6.0\shopmanagement.infrastructure.dll
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shop.management.infrastruture\shopmanagement.infrastructure.csproj
+++Mapping
+i:{ba81f2a6-d238-42da-84c2-2b99a1461c1f}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shop.management.infrastruture\mapping\
+++ProductCategoryMapping.cs
+i:{ba81f2a6-d238-42da-84c2-2b99a1461c1f}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shop.management.infrastruture\mapping\productcategorymapping.cs
+++ProductMapping .cs
+i:{ba81f2a6-d238-42da-84c2-2b99a1461c1f}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shop.management.infrastruture\mapping\productmapping .cs
+++Migrations
+i:{ba81f2a6-d238-42da-84c2-2b99a1461c1f}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shop.management.infrastruture\migrations\
+++20220113103636_InitDB.cs
+i:{ba81f2a6-d238-42da-84c2-2b99a1461c1f}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shop.management.infrastruture\migrations\20220113103636_initdb.cs
+++20220113103636_InitDB.Designer.cs
+i:{ba81f2a6-d238-42da-84c2-2b99a1461c1f}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shop.management.infrastruture\migrations\20220113103636_initdb.designer.cs
+++ShopDBContextModelSnapshot.cs
+i:{ba81f2a6-d238-42da-84c2-2b99a1461c1f}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shop.management.infrastruture\migrations\shopdbcontextmodelsnapshot.cs
+++Repository
+i:{ba81f2a6-d238-42da-84c2-2b99a1461c1f}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shop.management.infrastruture\repository\
+++ProductCategoryRepository.cs
+i:{ba81f2a6-d238-42da-84c2-2b99a1461c1f}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shop.management.infrastruture\repository\productcategoryrepository.cs
+++ProductRepository.cs
+i:{ba81f2a6-d238-42da-84c2-2b99a1461c1f}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shop.management.infrastruture\repository\productrepository.cs
+++ShopDBContext.cs
+i:{ba81f2a6-d238-42da-84c2-2b99a1461c1f}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shop.management.infrastruture\shopdbcontext.cs
+++Microsoft.EntityFrameworkCore.Design (6.0.1)
+i:{ba81f2a6-d238-42da-84c2-2b99a1461c1f}:>2711
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:>2751
+++Microsoft.EntityFrameworkCore.SqlServer (6.0.1)
+i:{ba81f2a6-d238-42da-84c2-2b99a1461c1f}:>2708
+i:{a9d55ba0-2d4a-41d5-88e0-330bc39ad9b4}:>2704
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:>2740
+++Microsoft.EntityFrameworkCore.Tools (6.0.1)
+i:{ba81f2a6-d238-42da-84c2-2b99a1461c1f}:>2716
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:>2741
+++Microsoft.NETCore.App (2.2.8)
+i:{ba81f2a6-d238-42da-84c2-2b99a1461c1f}:>2719
+++ShopManagement.Configuration
+i:{9d1b1284-c6cd-4992-b7a0-82808b96d755}:ShopManagement.Configuration
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shopmanagement.configuration\shopmanagement.configuration.csproj
+++ShopMangementBootStrapper.cs
+i:{a9d55ba0-2d4a-41d5-88e0-330bc39ad9b4}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shopmanagement.configuration\shopmangementbootstrapper.cs
+++Microsoft.Extensions.DependencyInjection (6.0.0)
+i:{a9d55ba0-2d4a-41d5-88e0-330bc39ad9b4}:>2712
+++Microsoft.Extensions.DependencyInjection.Abstractions (6.0.0)
+i:{a9d55ba0-2d4a-41d5-88e0-330bc39ad9b4}:>2707
 ++ServiceHost
 i:{00000000-0000-0000-0000-000000000000}:ServiceHost
+++Connected Services 
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:>2652
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:>2653
+++Properties
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\properties\
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\properties\
+++wwwroot
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\
+++Areas
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\areas\
+++Administration
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\areas\administration\
+++Pages
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\areas\administration\pages\
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\pages\
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\pages\
+++Shared
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\areas\administration\pages\shared\
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\pages\shared\
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\pages\shared\
+++Shop
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\areas\administration\pages\shop\
+++ProductCategories
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\areas\administration\pages\shop\productcategories\
+++_ViewImports.cshtml
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\areas\administration\pages\_viewimports.cshtml
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\pages\_viewimports.cshtml
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\pages\_viewimports.cshtml
+++_ViewStart.cshtml
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\areas\administration\pages\_viewstart.cshtml
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\pages\_viewstart.cshtml
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\pages\_viewstart.cshtml
+++Index.cshtml
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\areas\administration\pages\index.cshtml
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\areas\administration\pages\shop\productcategories\index.cshtml
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\pages\index.cshtml
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\pages\index.cshtml
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\areas\administration\pages\shop\product\index.cshtml
+++Index.cshtml.cs
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\areas\administration\pages\index.cshtml.cs
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\areas\administration\pages\shop\productcategories\index.cshtml.cs
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\pages\index.cshtml.cs
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\pages\index.cshtml.cs
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\areas\administration\pages\shop\product\index.cshtml.cs
+++appsettings.Development.json
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\appsettings.development.json
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\appsettings.development.json
+++appsettings.json
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\appsettings.json
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\appsettings.json
+++Program.cs
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\program.cs
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\program.cs
+++No service dependencies discovered
+++launchSettings.json
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\properties\launchsettings.json
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\properties\launchsettings.json
 ++AdminTheme
 i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\
+++lib
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\
+++favicon.ico
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\favicon.ico
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\favicon.ico
+++_AdminLayout.cshtml
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\areas\administration\pages\shared\_adminlayout.cshtml
+++_AdminLayout.cshtml.css
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\areas\administration\pages\shared\_adminlayout.cshtml.css
+++_ValidationScriptsPartial.cshtml
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\areas\administration\pages\shared\_validationscriptspartial.cshtml
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\pages\shared\_validationscriptspartial.cshtml
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\pages\shared\_validationscriptspartial.cshtml
+++Create.cshtml
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\areas\administration\pages\shop\productcategories\create.cshtml
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\areas\administration\pages\shop\product\create.cshtml
+++Update.cshtml
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\areas\administration\pages\shop\productcategories\update.cshtml
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\areas\administration\pages\shop\product\update.cshtml
+++Error.cshtml
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\pages\error.cshtml
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\pages\error.cshtml
+++Error.cshtml.cs
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\pages\error.cshtml.cs
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\pages\error.cshtml.cs
+++Privacy.cshtml
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\pages\privacy.cshtml
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\pages\privacy.cshtml
+++Privacy.cshtml.cs
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\pages\privacy.cshtml.cs
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\pages\privacy.cshtml.cs
+++C:\Program Files\dotnet\sdk\6.0.101\Sdks\Microsoft.NET.Sdk.Web\analyzers\cs\Microsoft.AspNetCore.Analyzers.dll
+++C:\Program Files\dotnet\sdk\6.0.101\Sdks\Microsoft.NET.Sdk.Web\analyzers\cs\Microsoft.AspNetCore.Components.Analyzers.dll
+++C:\Program Files\dotnet\sdk\6.0.101\Sdks\Microsoft.NET.Sdk.Web\analyzers\cs\Microsoft.AspNetCore.Mvc.Analyzers.dll
+++C:\Program Files\dotnet\sdk\6.0.101\Sdks\Microsoft.NET.Sdk\targets\..\analyzers\Microsoft.CodeAnalysis.CSharp.NetAnalyzers.dll
+++C:\Program Files\dotnet\sdk\6.0.101\Sdks\Microsoft.NET.Sdk\targets\..\analyzers\Microsoft.CodeAnalysis.NetAnalyzers.dll
+++Microsoft.AspNetCore.App
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\microsoft.aspnetcore.app
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\microsoft.aspnetcore.app
 ++assets
 i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\
+++fonts
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\fonts\
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\fonts\
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\font-awesome\fonts\
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\ionicon\fonts\
+++bootstrap
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\
+++jquery
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\jquery\
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\jquery\
+++jquery-validation
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\jquery-validation\
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\jquery-validation\
+++jquery-validation-unobtrusive
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\jquery-validation-unobtrusive\
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\jquery-validation-unobtrusive\
+++_Layout.cshtml
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\pages\shared\_layout.cshtml
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\pages\shared\_layout.cshtml
+++_Layout.cshtml.css
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\pages\shared\_layout.cshtml.css
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\pages\shared\_layout.cshtml.css
 ++bootstrap3-editable
 i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\bootstrap3-editable\
-++bootstrap-editable.css
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\bootstrap3-editable\bootstrap-editable.css
-++bootstrap-editable.js
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\bootstrap3-editable\bootstrap-editable.js
-++clear.png
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\bootstrap3-editable\clear.png
-++demo-xeditable.js
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\bootstrap3-editable\demo-xeditable.js
-++loading.gif
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\bootstrap3-editable\loading.gif
-++moment.min.js
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\bootstrap3-editable\moment.min.js
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\fullcalendar\moment.min.js
 ++bootstrap-inputmask
 i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\bootstrap-inputmask\
-++bootstrap-inputmask.min.js
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\bootstrap-inputmask\bootstrap-inputmask.min.js
 ++bootstrap-wysihtml5
 i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\bootstrap-wysihtml5\
-++bootstrap-wysihtml5.css
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\bootstrap-wysihtml5\bootstrap-wysihtml5.css
-++bootstrap-wysihtml5.js
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\bootstrap-wysihtml5\bootstrap-wysihtml5.js
-++wysihtml5-0.3.0.js
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\bootstrap-wysihtml5\wysihtml5-0.3.0.js
-++wysiwyg-color.css
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\bootstrap-wysihtml5\wysiwyg-color.css
 ++chartjs
 i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\chartjs\
 ++chat
@@ -512,51 +379,20 @@ i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeapplia
 i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\codemirror\
 ++colorpicker
 i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\colorpicker\
-++img
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\colorpicker\img\
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\jquery-multi-select\img\
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\select2\img\
-++bootstrap-colorpicker.js
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\colorpicker\bootstrap-colorpicker.js
-++colorpicker.css
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\colorpicker\colorpicker.css
 ++comingsoon
 i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\comingsoon\
 ++counterup
 i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\counterup\
-++animate.css
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\css\animate.css
-++bootstrap-theme.css
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\css\bootstrap-theme.css
-++bootstrap-theme.css.map
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\css\bootstrap-theme.css.map
-++bootstrap-theme.min.css
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\css\bootstrap-theme.min.css
-++helper.css
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\css\helper.css
-++material-design-iconic-font.min.css
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\css\material-design-iconic-font.min.css
-++style.css
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\css\style.css
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\datatables\style.css
-++style-responsive.css
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\css\style-responsive.css
-++waves-effect.css
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\css\waves-effect.css
+++css
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\css\
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\font-awesome\css\
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\ionicon\css\
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\modal-effect\css\
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\css\
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\css\
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\css\
 ++datatables
 i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\datatables\
-++dataTables.bootstrap.js
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\datatables\datatables.bootstrap.js
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\jquery-datatables-editable\datatables.bootstrap.js
-++datatables.js
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\datatables\datatables.js
-++jquery.dataTables.js
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\datatables\jquery.datatables.js
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\jquery-datatables-editable\jquery.datatables.js
-++jquery.dataTables.min.css
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\datatables\jquery.datatables.min.css
-++jquery.dataTables.min.js
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\datatables\jquery.datatables.min.js
 ++dropzone
 i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\dropzone\
 ++easypie-chart
@@ -567,37 +403,10 @@ i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeapplia
 i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\flot-chart\
 ++font-awesome
 i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\font-awesome\
-++fonts
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\fonts\
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\fonts\
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\font-awesome\fonts\
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\ionicon\fonts\
 ++form-wizard
 i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\form-wizard\
-++bootstrap-validator.min.js
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\form-wizard\bootstrap-validator.min.js
-++jquery.steps.css
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\form-wizard\jquery.steps.css
-++jquery.steps.min.js
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\form-wizard\jquery.steps.min.js
-++wizard-init.js
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\form-wizard\wizard-init.js
 ++fullcalendar
 i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\fullcalendar\
-++bootstrap-fullcalendar.css
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\fullcalendar\bootstrap-fullcalendar.css
-++dragging-calendar-event-init.js
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\fullcalendar\dragging-calendar-event-init.js
-++external-dragging-calendar.js
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\fullcalendar\external-dragging-calendar.js
-++fullcalendar.css
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\fullcalendar\fullcalendar.css
-++fullcalendar.js
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\fullcalendar\fullcalendar.js
-++fullcalendar.min.css
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\fullcalendar\fullcalendar.min.css
-++fullcalendar.min.js
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\fullcalendar\fullcalendar.min.js
 ++gallery
 i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\gallery\
 i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\images\gallery\
@@ -615,10 +424,6 @@ i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeapplia
 i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\jquery-blockui\
 ++jquery-datatables-editable
 i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\jquery-datatables-editable\
-++datatables.css
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\jquery-datatables-editable\datatables.css
-++datatables.editable.init.js
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\jquery-datatables-editable\datatables.editable.init.js
 ++jquery-detectmobile
 i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\jquery-detectmobile\
 ++jquery-knob
@@ -629,30 +434,12 @@ i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeapplia
 i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\jquery-slimscroll\
 ++jquery-sparkline
 i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\jquery-sparkline\
-++jquery.app.js
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\js\jquery.app.js
-++jquery.chat.js
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\js\jquery.chat.js
-++jquery.dashboard.js
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\js\jquery.dashboard.js
-++jquery.nicescroll.js
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\js\jquery.nicescroll.js
-++jquery.scrollTo.min.js
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\js\jquery.scrollto.min.js
-++jquery.todo.js
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\js\jquery.todo.js
-++jquery-ui-1.10.1.custom.min.js
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\js\jquery-ui-1.10.1.custom.min.js
-++modernizr.min.js
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\js\modernizr.min.js
-++npm.js
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\js\npm.js
-++skycons.min.js
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\js\skycons.min.js
-++waves.js
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\js\waves.js
-++wow.min.js
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\js\wow.min.js
+++js
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\js\
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\modal-effect\js\
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\js\
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\js\
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\js\
 ++jvectormap
 i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\jvectormap\
 ++magnific-popup
@@ -683,34 +470,97 @@ i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeapplia
 i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\tagsinput\
 ++timepicker
 i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\timepicker\
-++bootstrap-datepicker.js
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\timepicker\bootstrap-datepicker.js
-++bootstrap-datepicker.min.css
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\timepicker\bootstrap-datepicker.min.css
-++bootstrap-timepicker.min.css
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\timepicker\bootstrap-timepicker.min.css
-++bootstrap-timepicker.min.js
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\timepicker\bootstrap-timepicker.min.js
 ++toggles
 i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\toggles\
-++Areas
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\areas\
-++Administration
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\areas\administration\
-++Shop
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\areas\administration\pages\shop\
-++ProductCategories
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\areas\administration\pages\shop\productcategories\
-++Create.cshtml
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\areas\administration\pages\shop\productcategories\create.cshtml
-++Update.cshtml
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\areas\administration\pages\shop\productcategories\update.cshtml
-++Microsoft.EntityFrameworkCore.Design (6.0.1)
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:>2701
-i:{ba81f2a6-d238-42da-84c2-2b99a1461c1f}:>2660
-++ShopManagement.Configuration
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shopmanagement.configuration\shopmanagement.configuration.csproj
-i:{9d1b1284-c6cd-4992-b7a0-82808b96d755}:ShopManagement.Configuration
+++glyphicons-halflings-regular.eot
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\fonts\glyphicons-halflings-regular.eot
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\fonts\glyphicons-halflings-regular.eot
+++glyphicons-halflings-regular.svg
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\fonts\glyphicons-halflings-regular.svg
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\fonts\glyphicons-halflings-regular.svg
+++glyphicons-halflings-regular.ttf
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\fonts\glyphicons-halflings-regular.ttf
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\fonts\glyphicons-halflings-regular.ttf
+++glyphicons-halflings-regular.woff
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\fonts\glyphicons-halflings-regular.woff
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\fonts\glyphicons-halflings-regular.woff
+++glyphicons-halflings-regular.woff2
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\fonts\glyphicons-halflings-regular.woff2
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\fonts\glyphicons-halflings-regular.woff2
+++IranianSans.eot
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\fonts\iraniansans.eot
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\fonts\iraniansans.eot
+++IranianSans.svg
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\fonts\iraniansans.svg
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\fonts\iraniansans.svg
+++IranianSans.ttf
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\fonts\iraniansans.ttf
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\fonts\iraniansans.ttf
+++IranianSans.woff
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\fonts\iraniansans.woff
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\fonts\iraniansans.woff
+++IranianSans.woff2
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\fonts\iraniansans.woff2
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\fonts\iraniansans.woff2
+++Material-Design-Iconic-Font.eot
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\fonts\material-design-iconic-font.eot
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\fonts\material-design-iconic-font.eot
+++Material-Design-Iconic-Font.svg
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\fonts\material-design-iconic-font.svg
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\fonts\material-design-iconic-font.svg
+++Material-Design-Iconic-Font.ttf
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\fonts\material-design-iconic-font.ttf
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\fonts\material-design-iconic-font.ttf
+++Material-Design-Iconic-Font.woff
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\fonts\material-design-iconic-font.woff
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\fonts\material-design-iconic-font.woff
+++dist
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\jquery\dist\
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\jquery-validation\dist\
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\jquery\dist\
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\jquery-validation\dist\
+++LICENSE
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\license
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\license
+++LICENSE.txt
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\jquery\license.txt
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\jquery-validation-unobtrusive\license.txt
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\jquery\license.txt
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\jquery-validation-unobtrusive\license.txt
+++LICENSE.md
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\jquery-validation\license.md
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\jquery-validation\license.md
+++jquery.validate.unobtrusive.js
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+++jquery.validate.unobtrusive.min.js
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+++bootstrap-editable.css
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\bootstrap3-editable\bootstrap-editable.css
+++bootstrap-editable.js
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\bootstrap3-editable\bootstrap-editable.js
+++clear.png
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\bootstrap3-editable\clear.png
+++demo-xeditable.js
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\bootstrap3-editable\demo-xeditable.js
+++loading.gif
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\bootstrap3-editable\loading.gif
+++moment.min.js
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\bootstrap3-editable\moment.min.js
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\fullcalendar\moment.min.js
+++bootstrap-inputmask.min.js
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\bootstrap-inputmask\bootstrap-inputmask.min.js
+++bootstrap-wysihtml5.css
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\bootstrap-wysihtml5\bootstrap-wysihtml5.css
+++bootstrap-wysihtml5.js
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\bootstrap-wysihtml5\bootstrap-wysihtml5.js
+++wysihtml5-0.3.0.js
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\bootstrap-wysihtml5\wysihtml5-0.3.0.js
+++wysiwyg-color.css
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\bootstrap-wysihtml5\wysiwyg-color.css
 ++chart.min.js
 i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\chartjs\chart.min.js
 ++chartjs.init.js
@@ -731,12 +581,14 @@ i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeapplia
 i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\codemirror\javascript.js
 ++xml.js
 i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\codemirror\xml.js
-++alpha.png
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\colorpicker\img\alpha.png
-++hue.png
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\colorpicker\img\hue.png
-++saturation.png
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\colorpicker\img\saturation.png
+++img
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\colorpicker\img\
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\jquery-multi-select\img\
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\select2\img\
+++bootstrap-colorpicker.js
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\colorpicker\bootstrap-colorpicker.js
+++colorpicker.css
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\colorpicker\colorpicker.css
 ++jquery.countdown.js
 i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\comingsoon\jquery.countdown.js
 ++jquery.simple-text-rotator.min.js
@@ -747,6 +599,49 @@ i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeapplia
 i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\counterup\jquery.counterup.min.js
 ++waypoints.min.js
 i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\counterup\waypoints.min.js
+++animate.css
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\css\animate.css
+++bootstrap.css
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\css\bootstrap.css
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+++bootstrap.css.map
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\css\bootstrap.css.map
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+++bootstrap.min.css
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\css\bootstrap.min.css
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+++bootstrap-theme.css
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\css\bootstrap-theme.css
+++bootstrap-theme.css.map
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\css\bootstrap-theme.css.map
+++bootstrap-theme.min.css
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\css\bootstrap-theme.min.css
+++helper.css
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\css\helper.css
+++material-design-iconic-font.min.css
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\css\material-design-iconic-font.min.css
+++style.css
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\css\style.css
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\datatables\style.css
+++style-responsive.css
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\css\style-responsive.css
+++waves-effect.css
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\css\waves-effect.css
+++dataTables.bootstrap.js
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\datatables\datatables.bootstrap.js
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\jquery-datatables-editable\datatables.bootstrap.js
+++datatables.js
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\datatables\datatables.js
+++jquery.dataTables.js
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\datatables\jquery.datatables.js
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\jquery-datatables-editable\jquery.datatables.js
+++jquery.dataTables.min.css
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\datatables\jquery.datatables.min.css
+++jquery.dataTables.min.js
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\datatables\jquery.datatables.min.js
 ++dropzone.css
 i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\dropzone\dropzone.css
 ++dropzone.min.js
@@ -785,48 +680,28 @@ i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeapplia
 i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\font-awesome\less\
 ++scss
 i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\font-awesome\scss\
-++glyphicons-halflings-regular.eot
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\fonts\glyphicons-halflings-regular.eot
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\fonts\glyphicons-halflings-regular.eot
-++glyphicons-halflings-regular.svg
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\fonts\glyphicons-halflings-regular.svg
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\fonts\glyphicons-halflings-regular.svg
-++glyphicons-halflings-regular.ttf
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\fonts\glyphicons-halflings-regular.ttf
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\fonts\glyphicons-halflings-regular.ttf
-++glyphicons-halflings-regular.woff
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\fonts\glyphicons-halflings-regular.woff
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\fonts\glyphicons-halflings-regular.woff
-++glyphicons-halflings-regular.woff2
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\fonts\glyphicons-halflings-regular.woff2
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\fonts\glyphicons-halflings-regular.woff2
-++IranianSans.eot
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\fonts\iraniansans.eot
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\fonts\iraniansans.eot
-++IranianSans.svg
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\fonts\iraniansans.svg
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\fonts\iraniansans.svg
-++IranianSans.ttf
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\fonts\iraniansans.ttf
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\fonts\iraniansans.ttf
-++IranianSans.woff
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\fonts\iraniansans.woff
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\fonts\iraniansans.woff
-++IranianSans.woff2
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\fonts\iraniansans.woff2
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\fonts\iraniansans.woff2
-++Material-Design-Iconic-Font.eot
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\fonts\material-design-iconic-font.eot
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\fonts\material-design-iconic-font.eot
-++Material-Design-Iconic-Font.svg
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\fonts\material-design-iconic-font.svg
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\fonts\material-design-iconic-font.svg
-++Material-Design-Iconic-Font.ttf
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\fonts\material-design-iconic-font.ttf
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\fonts\material-design-iconic-font.ttf
-++Material-Design-Iconic-Font.woff
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\fonts\material-design-iconic-font.woff
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\fonts\material-design-iconic-font.woff
+++bootstrap-validator.min.js
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\form-wizard\bootstrap-validator.min.js
+++jquery.steps.css
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\form-wizard\jquery.steps.css
+++jquery.steps.min.js
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\form-wizard\jquery.steps.min.js
+++wizard-init.js
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\form-wizard\wizard-init.js
+++bootstrap-fullcalendar.css
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\fullcalendar\bootstrap-fullcalendar.css
+++dragging-calendar-event-init.js
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\fullcalendar\dragging-calendar-event-init.js
+++external-dragging-calendar.js
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\fullcalendar\external-dragging-calendar.js
+++fullcalendar.css
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\fullcalendar\fullcalendar.css
+++fullcalendar.js
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\fullcalendar\fullcalendar.js
+++fullcalendar.min.css
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\fullcalendar\fullcalendar.min.css
+++fullcalendar.min.js
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\fullcalendar\fullcalendar.min.js
 ++isotope.js
 i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\gallery\isotope.js
 ++gmaps.js
@@ -862,8 +737,16 @@ i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeapplia
 i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\ion-rangeslider\ui-sliders.js
 ++form-validation-init.js
 i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\jquery.validate\form-validation-init.js
+++jquery.validate.min.js
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\jquery.validate\jquery.validate.min.js
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
 ++jquery.blockUI.js
 i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\jquery-blockui\jquery.blockui.js
+++datatables.css
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\jquery-datatables-editable\datatables.css
+++datatables.editable.init.js
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\jquery-datatables-editable\datatables.editable.init.js
 ++detect.js
 i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\jquery-detectmobile\detect.js
 ++excanvas.js
@@ -884,6 +767,45 @@ i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeapplia
 i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\jquery-sparkline\charts-sparkline.js
 ++jquery.sparkline.min.js
 i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\jquery-sparkline\jquery.sparkline.min.js
+++bootstrap.js
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\js\bootstrap.js
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+++bootstrap.min.js
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\js\bootstrap.min.js
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+++jquery.app.js
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\js\jquery.app.js
+++jquery.chat.js
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\js\jquery.chat.js
+++jquery.dashboard.js
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\js\jquery.dashboard.js
+++jquery.min.js
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\js\jquery.min.js
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\jquery\dist\jquery.min.js
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\jquery\dist\jquery.min.js
+++jquery.nicescroll.js
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\js\jquery.nicescroll.js
+++jquery.scrollTo.min.js
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\js\jquery.scrollto.min.js
+++jquery.todo.js
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\js\jquery.todo.js
+++jquery-ui-1.10.1.custom.min.js
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\js\jquery-ui-1.10.1.custom.min.js
+++modernizr.min.js
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\js\modernizr.min.js
+++npm.js
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\js\npm.js
+++site.js
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\js\site.js
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\js\site.js
+++skycons.min.js
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\js\skycons.min.js
+++waves.js
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\js\waves.js
+++wow.min.js
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\js\wow.min.js
 ++gdp-data.js
 i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\jvectormap\gdp-data.js
 ++jquery-jvectormap-2.0.2.css
@@ -960,14 +882,39 @@ i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeapplia
 i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\tagsinput\jquery.tagsinput.css
 ++jquery.tagsinput.min.js
 i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\tagsinput\jquery.tagsinput.min.js
+++bootstrap-datepicker.js
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\timepicker\bootstrap-datepicker.js
+++bootstrap-datepicker.min.css
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\timepicker\bootstrap-datepicker.min.css
+++bootstrap-timepicker.min.css
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\timepicker\bootstrap-timepicker.min.css
+++bootstrap-timepicker.min.js
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\timepicker\bootstrap-timepicker.min.js
 ++toggles.css
 i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\toggles\toggles.css
 ++toggles.min.js
 i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\toggles\toggles.min.js
-++_AdminLayout.cshtml
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\areas\administration\pages\shared\_adminlayout.cshtml
-++_AdminLayout.cshtml.css
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\areas\administration\pages\shared\_adminlayout.cshtml.css
+++jquery.js
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\jquery\dist\jquery.js
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\jquery\dist\jquery.js
+++jquery.min.map
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\jquery\dist\jquery.min.map
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\jquery\dist\jquery.min.map
+++additional-methods.js
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\jquery-validation\dist\additional-methods.js
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\jquery-validation\dist\additional-methods.js
+++additional-methods.min.js
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+++jquery.validate.js
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+++alpha.png
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\colorpicker\img\alpha.png
+++hue.png
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\colorpicker\img\hue.png
+++saturation.png
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\colorpicker\img\saturation.png
 ++font-awesome.css
 i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\font-awesome\css\font-awesome.css
 ++font-awesome.min.css
@@ -1126,108 +1073,168 @@ i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeapplia
 i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\select2\img\select2-spinner.gif
 ++select2x2.png
 i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\admintheme\assets\select2\img\select2x2.png
-++ShopMangement
-i:{00000000-0000-0000-0000-000000000000}:ShopMangement
-++SM.Domain
-i:{c45a3a7c-b450-478f-a161-6f42cb147dab}:SM.Domain
-++ShopManagement.Domain
-i:{a91c6a8c-4a31-484f-8e9a-afec67550d3a}:ShopManagement.Domain
-i:{ba81f2a6-d238-42da-84c2-2b99a1461c1f}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shopmanagement.domain\shopmanagement.domain.csproj
-i:{6c8f9322-4eb3-4977-92a5-031a84c585be}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shopmanagement.domain\shopmanagement.domain.csproj
-++ProductCategoryAgg
-i:{86043584-6bea-4f77-9464-8b13592aef4c}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shopmanagement.domain\productcategoryagg\
-++IProductCategoryRepository.cs
-i:{86043584-6bea-4f77-9464-8b13592aef4c}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shopmanagement.domain\productcategoryagg\iproductcategoryrepository.cs
-++ProductCategory.cs
-i:{86043584-6bea-4f77-9464-8b13592aef4c}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shopmanagement.domain\productcategoryagg\productcategory.cs
-++ShopManagement.Application.Contracts
-i:{86043584-6bea-4f77-9464-8b13592aef4c}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shopmanagement.application.contracts\shopmanagement.application.contracts.csproj
-i:{6c8f9322-4eb3-4977-92a5-031a84c585be}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shopmanagement.application.contracts\shopmanagement.application.contracts.csproj
-i:{559e72b0-9070-4913-89a4-ca8dce1b4f28}:ShopManagement.Application.Contracts
-++SM.Infrastructure
-i:{c45a3a7c-b450-478f-a161-6f42cb147dab}:SM.Infrastructure
-++Mapping
-i:{ba81f2a6-d238-42da-84c2-2b99a1461c1f}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shop.management.infrastruture\mapping\
-++ProductCategoryMapping.cs
-i:{ba81f2a6-d238-42da-84c2-2b99a1461c1f}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shop.management.infrastruture\mapping\productcategorymapping.cs
-++Migrations
-i:{ba81f2a6-d238-42da-84c2-2b99a1461c1f}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shop.management.infrastruture\migrations\
-++20220113103636_InitDB.cs
-i:{ba81f2a6-d238-42da-84c2-2b99a1461c1f}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shop.management.infrastruture\migrations\20220113103636_initdb.cs
-++20220113103636_InitDB.Designer.cs
-i:{ba81f2a6-d238-42da-84c2-2b99a1461c1f}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shop.management.infrastruture\migrations\20220113103636_initdb.designer.cs
-++ShopDBContextModelSnapshot.cs
-i:{ba81f2a6-d238-42da-84c2-2b99a1461c1f}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shop.management.infrastruture\migrations\shopdbcontextmodelsnapshot.cs
-++Repository
-i:{ba81f2a6-d238-42da-84c2-2b99a1461c1f}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shop.management.infrastruture\repository\
-++ProductCategoryRepository.cs
-i:{ba81f2a6-d238-42da-84c2-2b99a1461c1f}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shop.management.infrastruture\repository\productcategoryrepository.cs
-++ShopDBContext.cs
-i:{ba81f2a6-d238-42da-84c2-2b99a1461c1f}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shop.management.infrastruture\shopdbcontext.cs
-++Microsoft.NETCore.App (2.2.8)
-i:{ba81f2a6-d238-42da-84c2-2b99a1461c1f}:>2665
-++ShopMangementBootStrapper.cs
-i:{a9d55ba0-2d4a-41d5-88e0-330bc39ad9b4}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shopmanagement.configuration\shopmangementbootstrapper.cs
-++Microsoft.Extensions.DependencyInjection (6.0.0)
-i:{a9d55ba0-2d4a-41d5-88e0-330bc39ad9b4}:>2656
-++Microsoft.Extensions.DependencyInjection.Abstractions (6.0.0)
-i:{a9d55ba0-2d4a-41d5-88e0-330bc39ad9b4}:>2653
-++SM.Application
-i:{c45a3a7c-b450-478f-a161-6f42cb147dab}:SM.Application
-++ProductCategoryApplication.cs
-i:{6c8f9322-4eb3-4977-92a5-031a84c585be}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shopmanagment.application\productcategory\productcategoryapplication.cs
-++AutoMapper (11.0.0)
-i:{6c8f9322-4eb3-4977-92a5-031a84c585be}:>2664
-++AutoMapper.Extensions.Microsoft.DependencyInjection (11.0.0)
-i:{6c8f9322-4eb3-4977-92a5-031a84c585be}:>2662
-++CreateProductCategory.cs
-i:{fdd3ef60-6a12-4914-b9fb-aa929892cf50}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shopmanagement.application.contracts\productcategory\createproductcategory.cs
-++IProductCategoryApplication.cs
-i:{fdd3ef60-6a12-4914-b9fb-aa929892cf50}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shopmanagement.application.contracts\productcategory\iproductcategoryapplication.cs
-++ProductCategorySearchModel.cs
-i:{fdd3ef60-6a12-4914-b9fb-aa929892cf50}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shopmanagement.application.contracts\productcategory\productcategorysearchmodel.cs
-++ProductCategoryViewModel.cs
-i:{fdd3ef60-6a12-4914-b9fb-aa929892cf50}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shopmanagement.application.contracts\productcategory\productcategoryviewmodel.cs
-++UpdateProductCategory.cs
-i:{fdd3ef60-6a12-4914-b9fb-aa929892cf50}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shopmanagement.application.contracts\productcategory\updateproductcategory.cs
-++ValidationMessages.cs
-i:{b9850f15-4d19-4a07-80a1-2da8ba170123}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\01_ha_framework\application\validationmessages.cs
-++NewFolder
-++ProductAgg
-i:{86043584-6bea-4f77-9464-8b13592aef4c}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shopmanagement.domain\productagg\
-++Product.cs
-i:{86043584-6bea-4f77-9464-8b13592aef4c}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shopmanagement.domain\productagg\product.cs
-++ProductPicture.cs
-++IProductRepository.cs
-i:{86043584-6bea-4f77-9464-8b13592aef4c}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shopmanagement.domain\productagg\iproductrepository.cs
+++bootstrap.min.css.map
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+++bootstrap.rtl.css
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+++bootstrap.rtl.css.map
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+++bootstrap.rtl.min.css
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+++bootstrap.rtl.min.css.map
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+++bootstrap-grid.css
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+++bootstrap-grid.css.map
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+++bootstrap-grid.min.css
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+++bootstrap-grid.min.css.map
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+++bootstrap-grid.rtl.css
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+++bootstrap-grid.rtl.css.map
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+++bootstrap-grid.rtl.min.css
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+++bootstrap-grid.rtl.min.css.map
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+++bootstrap-reboot.css
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+++bootstrap-reboot.css.map
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+++bootstrap-reboot.min.css
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+++bootstrap-reboot.min.css.map
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+++bootstrap-reboot.rtl.css
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+++bootstrap-reboot.rtl.css.map
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+++bootstrap-reboot.rtl.min.css
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+++bootstrap-reboot.rtl.min.css.map
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+++bootstrap-utilities.css
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+++bootstrap-utilities.css.map
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+++bootstrap-utilities.min.css
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+++bootstrap-utilities.min.css.map
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+++bootstrap-utilities.rtl.css
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+++bootstrap-utilities.rtl.css.map
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+++bootstrap-utilities.rtl.min.css
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+++bootstrap-utilities.rtl.min.css.map
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+++bootstrap.bundle.js
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+++bootstrap.bundle.js.map
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+++bootstrap.bundle.min.js
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+++bootstrap.bundle.min.js.map
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+++bootstrap.esm.js
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+++bootstrap.esm.js.map
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+++bootstrap.esm.min.js
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+++bootstrap.esm.min.js.map
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+++bootstrap.js.map
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+++bootstrap.min.js.map
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\servicehost\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+++TestWebApi
+i:{00000000-0000-0000-0000-000000000000}:TestWebApi
+++ValuesController.cs
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\valuescontroller.cs
+++Microsoft.VisualStudio.Web.CodeGeneration (6.0.1)
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:>2743
+++Microsoft.VisualStudio.Web.CodeGeneration.Core (6.0.1)
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:>2739
+++Microsoft.VisualStudio.Web.CodeGeneration.Design (6.0.1)
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:>2742
+++site.css
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\testwebapi\wwwroot\css\site.css
+++Microsoft.AspNetCore.Analyzers
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.Internal.SourceGenerator.Transport
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.internal.sourcegenerator.transport.dll
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.internal.sourcegenerator.transport.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++MessagePackAnalyzer
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:c:\users\azera\.nuget\packages\messagepackanalyzer\2.1.152\analyzers\dotnet\messagepackanalyzer.dll
+++Microsoft.CodeAnalysis.Analyzers
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:c:\users\azera\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.Analyzers
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:c:\users\azera\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
 ++SQL Server Database
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:>2785
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:>2796
 ++SQL Server Database dependency is detected
-i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:>2786
+i:{afacbd5c-7f7a-4c01-a0c2-2b89de3d7441}:>2798
 ++SQL Server Database (ConnectionStrings:HomeApplianceDB)
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:>2784
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:>2797
 ++SQL Server Database dependency with connectionId 'ConnectionStrings:HomeApplianceDB' is detected
-i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:>2787
-++Product
-i:{fdd3ef60-6a12-4914-b9fb-aa929892cf50}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shopmanagement.application.contracts\product\
-i:{6c8f9322-4eb3-4977-92a5-031a84c585be}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shopmanagment.application\product\
-++CreateProduct.cs
-i:{fdd3ef60-6a12-4914-b9fb-aa929892cf50}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shopmanagement.application.contracts\product\createproduct.cs
-++UpdateProduct.cs
-i:{fdd3ef60-6a12-4914-b9fb-aa929892cf50}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shopmanagement.application.contracts\product\updateproduct.cs
-++ProductSearchModel.cs
-i:{fdd3ef60-6a12-4914-b9fb-aa929892cf50}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shopmanagement.application.contracts\product\productsearchmodel.cs
-++ProductViewModel.cs
-i:{fdd3ef60-6a12-4914-b9fb-aa929892cf50}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shopmanagement.application.contracts\product\productviewmodel.cs
-++IProductApplication.cs
-i:{fdd3ef60-6a12-4914-b9fb-aa929892cf50}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shopmanagement.application.contracts\product\iproductapplication.cs
-++ProductApplication.cs
-i:{6c8f9322-4eb3-4977-92a5-031a84c585be}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shopmanagment.application\product\productapplication.cs
-++MessageForOpeartion.cs
-i:{b9850f15-4d19-4a07-80a1-2da8ba170123}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\01_ha_framework\application\messageforopeartion.cs
-++ProductRepository.cs
-i:{ba81f2a6-d238-42da-84c2-2b99a1461c1f}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shop.management.infrastruture\repository\productrepository.cs
-++ProductCategoryMapping - Copy.cs
-++ProductCategoryMapping - Copy (2).cs
-++ProductMapping .cs
-i:{ba81f2a6-d238-42da-84c2-2b99a1461c1f}:e:\it studies\asp.net sample\homeappliance_project\homeapplianceproject\shop.management.infrastruture\mapping\productmapping .cs
+i:{4fd1cbbc-cccd-4d74-8d55-8a670f3a0bc7}:>2799
+++ProductCategories - Copy

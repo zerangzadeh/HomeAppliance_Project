@@ -15,50 +15,59 @@ namespace Shop.Management.Infrastruture.Repository
     {
         private readonly ShopDBContext _shopDBContext;
 
-        public ProductCategoryRepository(ShopDBContext shopDBContext):base(shopDBContext)
+        public ProductCategoryRepository(ShopDBContext shopDBContext) : base(shopDBContext)
         {
             _shopDBContext = shopDBContext;
         }
 
         public UpdateProductCategory GetDetails(long ID)
         {
-           return _shopDBContext.ProductCatrgories.Select(x => new UpdateProductCategory
-           { 
-               ID = x.ID,
-               Title = x.Title,
-               Description = x.Description,
-               PicSrc = x.PicSrc,
-               PicAlt = x.PicAlt,
-               PicTitle = x.PicTitle,
-               KeyWord=x.KeyWord,
-               MetaDesc=x.MetaDesc,
-               Slug=x.Slug
-            }).FirstOrDefault(x=>x.ID==ID);
+            return _shopDBContext.ProductCatrgories.Select(x => new UpdateProductCategory
+            {
+                ID = x.ID,
+                Title = x.Title,
+                Description = x.Description,
+                PicSrc = x.PicSrc,
+                PicAlt = x.PicAlt,
+                PicTitle = x.PicTitle,
+                KeyWord = x.KeyWord,
+                MetaDesc = x.MetaDesc,
+                Slug = x.Slug
+            }).FirstOrDefault(x => x.ID == ID);
+        }
+
+        public List<ProductCategoryViewModel> GetProductCategories()
+        {
+            return _shopDBContext.ProductCatrgories.Select(x => new ProductCategoryViewModel
+            {
+                ID = x.ID,
+                Title = x.Title
+
+            }).ToList();
         }
 
         public List<ProductCategoryViewModel> Search(ProductCategorySearchModel searchModel)
         {
             var query = _shopDBContext.ProductCatrgories.Select(x => new ProductCategoryViewModel
             {
-                ID=x.ID,
-                Title=x.Title,
-                Description=x.Description,
-                PicSrc=x.PicSrc,
-                PicAlt=x.PicAlt,
-                PicTitle=x.PicTitle,
-                CreationDate=x.CreationDate.ToString(),
+                ID = x.ID,
+                Title = x.Title,
+                Description = x.Description,
+                PicSrc = x.PicSrc,
+                PicAlt = x.PicAlt,
+                PicTitle = x.PicTitle,
+                CreationDate = x.CreationDate.ToString(),
             });
             if (!String.IsNullOrEmpty(searchModel.Title))
             {
                 query = query.Where(x => x.Title.Contains(searchModel.Title));
             }
-            return query.OrderByDescending(x=>x.ID).ToList();
+            return query.OrderByDescending(x => x.ID).ToList();
         }
 
-       
+
     }
 
 
-  
+
 }
- 

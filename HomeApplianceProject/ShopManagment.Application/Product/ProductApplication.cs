@@ -29,7 +29,7 @@ namespace ShopManagement.Application.Product
                 else
                 {
                     var slug = command.Slug.GenerateSlug();
-                    var product = new Product(command.Name, command.Code, command.UnitPrice,
+                    var product = new ShopManagement.Domain.ProductAgg.Product(command.Name, command.Code, command.UnitPrice,
                 command.ShortDESC, command.Description, command.PicSrc,
                 command.PicAlt, command.PicTitle, command.CategoryId, slug,
                 command.Keywords, command.MetaDESC);
@@ -142,6 +142,14 @@ namespace ShopManagement.Application.Product
             return _productRepository.Search(searchModel);
         }
 
+        public void IsStock(long ID)
+        {
+            throw new NotImplementedException();
+        }
 
+        public void NotInStock(long ID)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

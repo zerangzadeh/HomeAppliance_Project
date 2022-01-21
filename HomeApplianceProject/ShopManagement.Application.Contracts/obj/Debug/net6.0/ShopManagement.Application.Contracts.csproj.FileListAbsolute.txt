@@ -1,7 +1,3 @@
-E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\ShopManagement.Application.Contracts\obj\Debug\net6.0\ShopManagement.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
-E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\ShopManagement.Application.Contracts\obj\Debug\net6.0\ShopManagement.Application.Contracts.AssemblyInfoInputs.cache
-E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\ShopManagement.Application.Contracts\obj\Debug\net6.0\ShopManagement.Application.Contracts.AssemblyInfo.cs
-E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\ShopManagement.Application.Contracts\obj\Debug\net6.0\ShopManagement.Application.Contracts.csproj.CoreCompileInputs.cache
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\ShopManagement.Application.Contracts\bin\Debug\net6.0\ShopManagement.Application.Contracts.deps.json
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\ShopManagement.Application.Contracts\bin\Debug\net6.0\ShopManagement.Application.Contracts.dll
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\ShopManagement.Application.Contracts\bin\Debug\net6.0\ref\ShopManagement.Application.Contracts.dll
@@ -9,6 +5,10 @@ E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\ShopMana
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\ShopManagement.Application.Contracts\bin\Debug\net6.0\01_HA_Framework.dll
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\ShopManagement.Application.Contracts\bin\Debug\net6.0\01_HA_Framework.pdb
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\ShopManagement.Application.Contracts\obj\Debug\net6.0\ShopManagement.Application.Contracts.csproj.AssemblyReference.cache
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\ShopManagement.Application.Contracts\obj\Debug\net6.0\ShopManagement.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\ShopManagement.Application.Contracts\obj\Debug\net6.0\ShopManagement.Application.Contracts.AssemblyInfoInputs.cache
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\ShopManagement.Application.Contracts\obj\Debug\net6.0\ShopManagement.Application.Contracts.AssemblyInfo.cs
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\ShopManagement.Application.Contracts\obj\Debug\net6.0\ShopManagement.Application.Contracts.csproj.CoreCompileInputs.cache
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\ShopManagement.Application.Contracts\obj\Debug\net6.0\ShopManagement.Application.Contracts.csproj.CopyComplete
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\ShopManagement.Application.Contracts\obj\Debug\net6.0\ShopManagement.Application.Contracts.dll
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\ShopManagement.Application.Contracts\obj\Debug\net6.0\ref\ShopManagement.Application.Contracts.dll

@@ -18,6 +18,7 @@ namespace ShopManagement.Application.Contracts.ProductCategory
         void Delete(long ID);
         ProductCategoryViewModel GetBy(long ID);
         List<ProductCategoryViewModel> GetAll();
+        List<ProductCategoryViewModel> GetProductCategories();
         UpdateProductCategory GetDetails(long ID);
         List<ProductCategoryViewModel> Search(ProductCategorySearchModel searchModel);
     }

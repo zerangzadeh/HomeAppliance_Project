@@ -1,7 +1,3 @@
-E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\ShopManagement.Domain\obj\Debug\net6.0\ShopManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
-E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\ShopManagement.Domain\obj\Debug\net6.0\ShopManagement.Domain.AssemblyInfoInputs.cache
-E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\ShopManagement.Domain\obj\Debug\net6.0\ShopManagement.Domain.AssemblyInfo.cs
-E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\ShopManagement.Domain\obj\Debug\net6.0\ShopManagement.Domain.csproj.CoreCompileInputs.cache
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\ShopManagement.Domain\bin\Debug\net6.0\ShopManagement.Domain.deps.json
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\ShopManagement.Domain\bin\Debug\net6.0\ShopManagement.Domain.dll
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\ShopManagement.Domain\bin\Debug\net6.0\ref\ShopManagement.Domain.dll
@@ -11,6 +7,10 @@ E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\ShopMana
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\ShopManagement.Domain\bin\Debug\net6.0\01_HA_Framework.pdb
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\ShopManagement.Domain\bin\Debug\net6.0\ShopManagement.Application.Contracts.pdb
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\ShopManagement.Domain\obj\Debug\net6.0\ShopManagement.Domain.csproj.AssemblyReference.cache
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\ShopManagement.Domain\obj\Debug\net6.0\ShopManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\ShopManagement.Domain\obj\Debug\net6.0\ShopManagement.Domain.AssemblyInfoInputs.cache
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\ShopManagement.Domain\obj\Debug\net6.0\ShopManagement.Domain.AssemblyInfo.cs
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\ShopManagement.Domain\obj\Debug\net6.0\ShopManagement.Domain.csproj.CoreCompileInputs.cache
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\ShopManagement.Domain\obj\Debug\net6.0\ShopManagement.Domain.csproj.CopyComplete
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\ShopManagement.Domain\obj\Debug\net6.0\ShopManagement.Domain.dll
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\ShopManagement.Domain\obj\Debug\net6.0\ref\ShopManagement.Domain.dll

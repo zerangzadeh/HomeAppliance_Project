@@ -7,6 +7,8 @@ E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\TestWebA
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\TestWebApi\bin\Debug\net6.0\TestWebApi.dll
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\TestWebApi\bin\Debug\net6.0\ref\TestWebApi.dll
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\TestWebApi\bin\Debug\net6.0\TestWebApi.pdb
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\TestWebApi\bin\Debug\net6.0\AutoMapper.dll
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\TestWebApi\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\TestWebApi\bin\Debug\net6.0\Humanizer.dll
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\TestWebApi\bin\Debug\net6.0\MessagePack.dll
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\TestWebApi\bin\Debug\net6.0\MessagePack.Annotations.dll
@@ -244,9 +246,11 @@ E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\TestWebA
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\TestWebApi\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\TestWebApi\bin\Debug\net6.0\01_HA_Framework.dll
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\TestWebApi\bin\Debug\net6.0\ShopManagement.Application.Contracts.dll
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\TestWebApi\bin\Debug\net6.0\ShopManagement.Application.dll
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\TestWebApi\bin\Debug\net6.0\ShopManagement.Domain.dll
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\TestWebApi\bin\Debug\net6.0\ShopManagement.Infrastructure.dll
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\TestWebApi\bin\Debug\net6.0\ShopManagement.Infrastructure.pdb
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\TestWebApi\bin\Debug\net6.0\ShopManagement.Application.pdb
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\TestWebApi\bin\Debug\net6.0\01_HA_Framework.pdb
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\TestWebApi\bin\Debug\net6.0\ShopManagement.Application.Contracts.pdb
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\TestWebApi\bin\Debug\net6.0\ShopManagement.Domain.pdb
@@ -268,7 +272,3 @@ E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\TestWebA
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\TestWebApi\obj\Debug\net6.0\ref\TestWebApi.dll
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\TestWebApi\obj\Debug\net6.0\TestWebApi.pdb
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\TestWebApi\obj\Debug\net6.0\TestWebApi.genruntimeconfig.cache
-E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\TestWebApi\bin\Debug\net6.0\AutoMapper.dll
-E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\TestWebApi\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
-E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\TestWebApi\bin\Debug\net6.0\ShopManagement.Application.dll
-E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\TestWebApi\bin\Debug\net6.0\ShopManagement.Application.pdb
