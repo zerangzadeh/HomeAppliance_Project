@@ -17,7 +17,7 @@ namespace _01_HA_Framework.Application
         }
         public OperationResult Succeeded(string message)
         {
-           IsSucceeded=true;
+            IsSucceeded=true;
             Message = message;
             return this;
         }

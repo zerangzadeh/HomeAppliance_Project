@@ -3,50 +3,60 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using ShopManagement.Application.Contracts.Product;
 using ShopManagement.Application.Contracts.ProductCategory;
-using ShopManagement.Application.ProductCategory;
+using System.Collections.Generic;
+
 
 namespace ServiceHost.Areas.Administration.Pages.Shop.Products
 {
     public class IndexModel : PageModel
     {
-        private readonly IProductApplication _productApplication;
-        public List<ProductViewModel> productsList { get; set; }
-        public ProductSearchModel productSearchModel { get; set; } 
-        public SelectList ProductCategories { get; set; }
-        public IProductCategoryApplication ProductCategoryApplication { get; set; }
+       
+        public ProductSearchModel SearchModel { get; set; }
+        public List<ProductViewModel> Products;
+        public SelectList ProductCategories;
 
-        public IndexModel(IProductApplication productApplication,IProductCategoryApplication productCategoryApplication)
+        private readonly IProductApplication _productApplication;
+        private readonly IProductCategoryApplication _productCategoryApplication;
+
+        public IndexModel(IProductApplication productApplication,
+            IProductCategoryApplication productCategoryApplication)
         {
             _productApplication = productApplication;
-            ProductCategoryApplication = productCategoryApplication;
+            _productCategoryApplication = productCategoryApplication;
         }
 
-        public void OnGet(ProductSearchModel productSearchModel)
-
+        
+        public void OnGet(ProductSearchModel searchModel)
         {
-            ProductCategories=new SelectList(ProductCategoryApplication.GetProductCategories(),"ID","Title");
-            productsList=_productApplication.Search(productSearchModel);
-
+            ProductCategories = new SelectList(_productCategoryApplication.GetProductCategories(), "ID", "Title");
+            Products = _productApplication.Search(searchModel);
         }
 
         public IActionResult OnGetCreate()
         {
-            return Partial("./Create", new CreateProduct());
+            var command = new CreateProduct
+            {
+                Categories = _productCategoryApplication.GetProductCategories()
+            };
+            return Partial("./Create", command);
         }
 
+      
         public JsonResult OnPostCreate(CreateProduct command)
         {
-           var result=_productApplication.Create(command);
+            var result = _productApplication.Create(command);
             return new JsonResult(result);
         }
 
-        public IActionResult OnGetUpdate(long ID)
+        public IActionResult OnGetEdit(long id)
         {
-            var productCategory = _productApplication.GetDetails(ID);
-            return Partial("./Update", productCategory);
+            var product = _productApplication.GetDetails(id);
+            product.Categories = _productCategoryApplication.GetProductCategories();
+            return Partial("Edit", product);
         }
 
-        public JsonResult OnPostUpdate(UpdateProduct command)
+       
+        public JsonResult OnPostEdit(UpdateProduct command)
         {
             var result = _productApplication.Update(command);
             return new JsonResult(result);

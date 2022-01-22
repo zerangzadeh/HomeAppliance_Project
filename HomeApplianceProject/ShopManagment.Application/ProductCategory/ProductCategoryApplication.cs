@@ -35,6 +35,7 @@ namespace ShopManagement.Application.ProductCategory
                     _productCategoryRepository.Create(productCategory);
                   
                     return operationResult.Succeeded(messageForOperation.SuccessMessage);
+                    var b = operationResult.IsSucceeded;
                 }
 
             }

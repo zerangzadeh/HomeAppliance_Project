@@ -60,21 +60,15 @@ namespace ShopManagement.Infrastructure.Repository
                     UnitPrice = x.UnitPrice,
                     CreationDate = x.CreationDate.ToString()
                 });
-            if (searchModel.Name != null)
-            {
-                query=query.Where(x=>x.Name == searchModel.Name );
+            if (!string.IsNullOrWhiteSpace(searchModel.Name))
+                query = query.Where(x => x.Name.Contains(searchModel.Name));
 
-            }
-            if (searchModel.Code != null)
-            {
-                query = query.Where(x => x.Name == searchModel.Code);
+            if (!string.IsNullOrWhiteSpace(searchModel.Code))
+                query = query.Where(x => x.Code.Contains(searchModel.Code));
 
-            }
-            if (searchModel.CategoryId != null)
-            {
+            if (searchModel.CategoryId != 0)
                 query = query.Where(x => x.CategoryId == searchModel.CategoryId);
 
-            }
             return query.OrderByDescending(x => x.CategoryId).ToList();
 
         }
