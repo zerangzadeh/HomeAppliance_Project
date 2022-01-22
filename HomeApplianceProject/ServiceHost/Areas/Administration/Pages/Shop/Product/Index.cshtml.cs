@@ -11,6 +11,7 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.Products
     public class IndexModel : PageModel
     {
        
+        string Message { get; set; }    
         public ProductSearchModel SearchModel { get; set; }
         public List<ProductViewModel> Products;
         public SelectList ProductCategories;
@@ -31,6 +32,26 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.Products
             ProductCategories = new SelectList(_productCategoryApplication.GetProductCategories(), "ID", "Title");
             Products = _productApplication.Search(searchModel);
         }
+
+        public IActionResult OnGetNotInStock(long ID)
+        {
+            var result=_productApplication.SetNotInStock(ID);
+            if (result.IsSucceeded)
+                return RedirectToAction("Index");
+            Message = result.Message;
+            return RedirectToAction("Index");
+
+        }
+
+        public IActionResult OnGetIsInStock(long ID)
+        {
+            var result = _productApplication.SetIsStock(ID);
+            if (result.IsSucceeded)
+                return RedirectToAction("Index");
+            Message = result.Message;
+            return RedirectToAction("Index");
+        }
+
 
         public IActionResult OnGetCreate()
         {

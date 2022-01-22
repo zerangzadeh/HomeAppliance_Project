@@ -113,12 +113,15 @@ namespace ShopManagement.Application.Product
             var messageForOperation = new MessageForOpeartion();
             var product = _productRepository.GetBy(ID);
             if (product != null)
-
-                return operationResult.Failed(messageForOperation.NotFoundMessage);
-            else
             {
                 _productRepository.SetIsInStock(ID);
                 return operationResult.Succeeded(messageForOperation.SuccessMessage);
+            }
+
+
+            else
+            {
+                return operationResult.Failed(messageForOperation.NotFoundMessage);
             }
         }
 
@@ -128,12 +131,15 @@ namespace ShopManagement.Application.Product
             var messageForOperation = new MessageForOpeartion();
             var product = _productRepository.GetBy(ID);
             if (product != null)
-
-                return operationResult.Failed(messageForOperation.NotFoundMessage);
-            else
             {
                 _productRepository.SetNotInStock(ID);
                 return operationResult.Succeeded(messageForOperation.SuccessMessage);
+
+            }
+
+            else
+            {
+                return operationResult.Failed(messageForOperation.NotFoundMessage);
             }
         }
 
@@ -142,14 +148,6 @@ namespace ShopManagement.Application.Product
             return _productRepository.Search(searchModel);
         }
 
-        public void IsStock(long ID)
-        {
-            throw new NotImplementedException();
-        }
 
-        public void NotInStock(long ID)
-        {
-            throw new NotImplementedException();
-        }
     }
 }

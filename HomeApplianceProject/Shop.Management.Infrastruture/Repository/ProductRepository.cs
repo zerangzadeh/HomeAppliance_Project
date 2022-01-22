@@ -56,9 +56,10 @@ namespace ShopManagement.Infrastructure.Repository
 
                     PicSrc = x.PicSrc,
                     CategoryId=x.CategoryId,
-                    Category = x.Category.Title,
+                    Category = x.Category.Title, 
                     UnitPrice = x.UnitPrice,
-                    CreationDate = x.CreationDate.ToString()
+                    CreationDate = x.CreationDate.ToString(),
+                    IsInStock=x.IsInStock
                 });
             if (!string.IsNullOrWhiteSpace(searchModel.Name))
                 query = query.Where(x => x.Name.Contains(searchModel.Name));
