@@ -12,7 +12,7 @@ namespace ShopManagement.Application.Contracts.Product
         OperationResult Create(CreateProduct command);
         OperationResult Update(UpdateProduct command);
         void Delete(long ID);
-        ProductViewModel GetBy(long ID);
+        
         List<ProductViewModel> GetAll();
         UpdateProduct GetDetails(long ID);
         OperationResult SetIsStock(long ID);

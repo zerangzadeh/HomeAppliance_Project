@@ -56,7 +56,7 @@ namespace _01_HA_Framework.Infrastructure
 
         public void Update(TEntity entity)
         {
-            _dBContext.SaveChanges();
+            SaveChanges();
         }
 
         

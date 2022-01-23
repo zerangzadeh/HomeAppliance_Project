@@ -97,10 +97,7 @@ namespace ShopManagement.Application.Product
             throw new NotImplementedException();
         }
 
-        public ProductViewModel GetBy(long ID)
-        {
-            throw new NotImplementedException();
-        }
+       
 
         public UpdateProduct GetDetails(long ID)
         {

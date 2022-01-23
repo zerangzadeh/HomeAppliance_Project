@@ -15,8 +15,7 @@ namespace _01_HA_Framework.Infrastructure
             void Delete(TEntity entity);
             TEntity GetBy(TKey ID);
         //TEntity GetDetails(TKey ID);
-        List<TEntity> GetAll();
-       
+             List<TEntity> GetAll();
             bool Exists(Expression<Func<TEntity, bool>> expression);
             void SaveChanges();
         
