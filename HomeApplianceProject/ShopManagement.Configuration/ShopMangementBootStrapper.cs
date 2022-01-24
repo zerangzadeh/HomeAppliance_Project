@@ -11,6 +11,9 @@ using ShopManagement.Domain.ProductAgg;
 using ShopManagement.Infrastructure.Repository;
 using ShopManagement.Application.Product;
 using ShopManagement.Application.Contracts.Product;
+using ShopManagement.Application.Contracts.ProductPicture;
+using ShopManagement.Application.ProductPicture;
+using ShopManagement.Domain.ProductPictureAgg;
 
 namespace ShopManagement.Configuration
 {
@@ -23,6 +26,8 @@ namespace ShopManagement.Configuration
             serviceCollection.AddTransient<IProductCategoryRepository, ProductCategoryRepository>();
             serviceCollection.AddTransient<IProductApplication, ProductApplication>();
             serviceCollection.AddTransient<IProductRepository, ProductRepository>();
+            serviceCollection.AddTransient<IProductPictureApplication, ProductPictureApplication>();
+            serviceCollection.AddTransient<IProductPictureRepository, ProductPictureRepository>();
             serviceCollection.AddDbContext<ShopDBContext>(x => x.UseSqlServer(connectionString));
          }
 

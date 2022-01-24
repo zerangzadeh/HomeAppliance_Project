@@ -6,6 +6,7 @@
         public string ProductName { get; set; }
         public string PictureSource { get; set; }
         public string CreationDate { get; set; }    
+        public long ProductID { get; set; }
 
     }
 

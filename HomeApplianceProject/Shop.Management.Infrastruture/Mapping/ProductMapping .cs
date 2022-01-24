@@ -29,6 +29,8 @@ namespace Shop.Management.Infrastruture.Mapping
             builder.HasOne(x => x.Category)
                 .WithMany(x => x.Products)
                 .HasForeignKey(x => x.CategoryId);
+           builder.HasMany(x=>x.Pictures).WithOne(x => x.Product).HasForeignKey(x => x.ProductID);
+
         }
     }
 }
