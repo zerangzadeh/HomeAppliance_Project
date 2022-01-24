@@ -85,5 +85,17 @@ namespace ShopManagement.Infrastructure.Repository
             _shopDBContext.Products.FirstOrDefault(x => x.ID == ID).IsInStock = false;
             _shopDBContext.SaveChanges();
         }
+
+        List<ProductViewModel> IProductRepository.GetAll()
+        {
+          return  _shopDBContext.Products.Include(x => x.Category)
+                .Select(x => new ProductViewModel
+                {
+
+                    ID = x.ID,
+                    Name = x.Name,
+                   
+                }).OrderByDescending(x => x.ID).ToList();
+           }
     }
 }

@@ -34,10 +34,11 @@ namespace ShopManagement.Infrastructure.Repository
                    ProductName=x.Product.Name,
                    CreationDate=x.CreationDate.ToString(),
                    PictureSource=x.PictureSource,
+                   IsRemoved=x.IsRemoved,
                    ProductID=x.ProductID
                    });
 
-            if (productPictureSearchModel.ProductID!=null || productPictureSearchModel.ProductID !=0)
+            if (productPictureSearchModel.ProductID!=null && productPictureSearchModel.ProductID !=0)
                 query = query.Where(x => x.ProductID== productPictureSearchModel.ProductID);
 
               return query.OrderByDescending(x => x.ID).ToList();

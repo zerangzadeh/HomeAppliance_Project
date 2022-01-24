@@ -94,7 +94,7 @@ namespace ShopManagement.Application.Product
 
         public List<ProductViewModel> GetAll()
         {
-            throw new NotImplementedException();
+            return _productRepository.GetAll();
         }
 
        

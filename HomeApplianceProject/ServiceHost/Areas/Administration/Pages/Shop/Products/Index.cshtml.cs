@@ -69,15 +69,15 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.Products
             return new JsonResult(result);
         }
 
-        public IActionResult OnGetEdit(long id)
+        public IActionResult OnGetUpdate(long id)
         {
             var product = _productApplication.GetDetails(id);
             product.Categories = _productCategoryApplication.GetProductCategories();
-            return Partial("Edit", product);
+            return Partial("Update", product);
         }
 
        
-        public JsonResult OnPostEdit(UpdateProduct command)
+        public JsonResult OnPostUpdate(UpdateProduct command)
         {
             var result = _productApplication.Update(command);
             return new JsonResult(result);

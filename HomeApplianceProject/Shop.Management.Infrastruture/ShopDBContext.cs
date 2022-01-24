@@ -25,8 +25,14 @@ namespace Shop.Management.Infrastruture
         {
             var assembly=typeof(ProductCategoryMapping).Assembly;
             modelBuilder.ApplyConfigurationsFromAssembly(assembly);
-            base.OnModelCreating(modelBuilder); 
-            
+            base.OnModelCreating(modelBuilder);
+            assembly = typeof(ProductMapping).Assembly;
+            modelBuilder.ApplyConfigurationsFromAssembly(assembly);
+            base.OnModelCreating(modelBuilder);
+            assembly = typeof(ProductPictureMapping).Assembly;
+            modelBuilder.ApplyConfigurationsFromAssembly(assembly);
+            base.OnModelCreating(modelBuilder);
+
         }
     }
 }

@@ -13,7 +13,9 @@ namespace ShopManagement.Domain.ProductAgg
     public interface IProductRepository:IBaseRepository<long,Product>
     {
         UpdateProduct GetDetails(long ID);
+
         List<ProductViewModel> Search(ProductSearchModel searchModel);
+        List<ProductViewModel> GetAll();
         public void SetNotInStock(long ID);
         public void SetIsInStock(long ID);
     }
