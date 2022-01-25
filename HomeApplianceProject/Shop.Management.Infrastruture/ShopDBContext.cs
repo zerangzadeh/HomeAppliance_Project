@@ -3,6 +3,7 @@ using Shop.Management.Infrastruture.Mapping;
 using ShopManagement.Domain.ProductAgg;
 using ShopManagement.Domain.ProductCategoryAgg;
 using ShopManagement.Domain.ProductPictureAgg;
+using ShopManagement.Domain.SlideAgg;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,6 +17,7 @@ namespace Shop.Management.Infrastruture
         public DbSet<ProductCategory> ProductCatrgories { get; set; }
         public DbSet<Product> Products { get; set; }
         public DbSet<ProductPicture>  ProductPictures{get; set;}
+        public DbSet<Slide> Slides { get; set; }
         public ShopDBContext(DbContextOptions<ShopDBContext> options):base(options)
         {
 
@@ -29,7 +31,7 @@ namespace Shop.Management.Infrastruture
             assembly = typeof(ProductMapping).Assembly;
             modelBuilder.ApplyConfigurationsFromAssembly(assembly);
             base.OnModelCreating(modelBuilder);
-            assembly = typeof(ProductPictureMapping).Assembly;
+            assembly = typeof(SlideMapping).Assembly;
             modelBuilder.ApplyConfigurationsFromAssembly(assembly);
             base.OnModelCreating(modelBuilder);
 

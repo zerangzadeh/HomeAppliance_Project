@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ShopManagement.Domain.Slide
+namespace ShopManagement.Domain.SlideAgg
 {
     public interface ISlideRepository:IBaseRepository<long,Slide>
     {

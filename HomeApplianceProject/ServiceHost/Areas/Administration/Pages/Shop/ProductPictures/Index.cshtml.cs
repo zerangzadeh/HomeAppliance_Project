@@ -81,7 +81,7 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.ProductPictures
         {
             var result = _productPictureApplication.Update(command);
             return new JsonResult(result);
-            if (result.IsSucceeded)
+            //if (result.IsSucceeded)
             //    return RedirectToAction("Index");
             //Message = result.Message;
             //return Partial("Update", command);

@@ -1,7 +1,7 @@
 ﻿using _01_HA_Framework.Application;
 using ShopManagement.Application.Contracts.Slide;
 using ShopManagement.Domain.ProductAgg;
-using ShopManagement.Domain.Slide;
+using ShopManagement.Domain.SlideAgg;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,7 +19,7 @@ namespace ShopManagement.Application
             _slideRepository = slideRepository;
         }
 
-        OperationResult Create(CreateSlide command)
+        public OperationResult Create(CreateSlide command)
         {
             var operationResult = new OperationResult();
             var messageForOperation = new MessageForOpeartion();
@@ -39,7 +39,7 @@ namespace ShopManagement.Application
             return operationResult.Failed(messageForOperation.FailMessage);
         }
 
-        OperationResult ISlideApplication.Update(UpdateSlide command)
+        public OperationResult Update(UpdateSlide command)
         {
             var operationResult = new OperationResult();
             var messageForOperation = new MessageForOpeartion();
@@ -63,7 +63,7 @@ namespace ShopManagement.Application
 
         }
 
-        OperationResult Remove(long ID)
+        public OperationResult Remove(long ID)
         {
             var operationResult = new OperationResult();
             var messageForOperation = new MessageForOpeartion();
@@ -78,7 +78,7 @@ namespace ShopManagement.Application
             return operationResult.Succeeded(messageForOperation.SuccessMessage);
         }
 
-        OperationResult Restore(long ID)
+        public OperationResult Restore(long ID)
         {
             var operationResult = new OperationResult();
             var messageForOperation = new MessageForOpeartion();
@@ -93,14 +93,18 @@ namespace ShopManagement.Application
             return operationResult.Succeeded(messageForOperation.SuccessMessage);
         }
 
-        UpdateSlide GetDetail(long ID)
+        public UpdateSlide GetDetail(long ID)
         {
            return _slideRepository.GetDetails(ID);
         }
 
-        List<SlideViewModel> GetAll()
+        public List<SlideViewModel> GetAll()
         {
            return _slideRepository.GetAll();
         }
+
+       
+
+        
     }
 }
