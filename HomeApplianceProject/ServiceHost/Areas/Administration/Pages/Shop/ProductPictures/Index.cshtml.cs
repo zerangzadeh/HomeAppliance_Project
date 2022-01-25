@@ -77,10 +77,14 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.ProductPictures
         }
 
 
-        public JsonResult OnPostUpdate(UpdateProductPicture command)
+        public IActionResult OnPostUpdate(UpdateProductPicture command)
         {
             var result = _productPictureApplication.Update(command);
             return new JsonResult(result);
+            if (result.IsSucceeded)
+            //    return RedirectToAction("Index");
+            //Message = result.Message;
+            //return Partial("Update", command);
         }
     }
 }
