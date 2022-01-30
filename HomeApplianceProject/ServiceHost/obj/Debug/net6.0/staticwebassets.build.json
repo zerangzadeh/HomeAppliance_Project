@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "83YbbOPL66Pv1RvMxtyU4prPWo4gLbVFfUuodingO+s=",
+  "Hash": "75/QdSiP84dAvCmv1BDAAGgTahe6Ty3NC2+C0mpATIo=",
   "Source": "ServiceHost",
   "BasePath": "_content/ServiceHost",
   "Mode": "Default",
@@ -7123,12 +7123,12 @@
       "OriginalItemSpec": "wwwroot\\Theme\\assets\\img\\blog\\slider\\5-370x235.jpg"
     },
     {
-      "Identity": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\ServiceHost\\wwwroot\\Theme\\assets\\img\\category\\bedroom.jpg",
+      "Identity": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\ServiceHost\\wwwroot\\Theme\\assets\\img\\category\\cat1.jpg",
       "SourceId": "ServiceHost",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\ServiceHost\\wwwroot\\",
       "BasePath": "_content/ServiceHost",
-      "RelativePath": "Theme/assets/img/category/bedroom.jpg",
+      "RelativePath": "Theme/assets/img/category/cat1.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -7137,15 +7137,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Theme\\assets\\img\\category\\bedroom.jpg"
+      "OriginalItemSpec": "wwwroot\\Theme\\assets\\img\\category\\cat1.jpg"
     },
     {
-      "Identity": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\ServiceHost\\wwwroot\\Theme\\assets\\img\\category\\img1-top-eposi1.jpg",
+      "Identity": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\ServiceHost\\wwwroot\\Theme\\assets\\img\\category\\cat2.jpg",
       "SourceId": "ServiceHost",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\ServiceHost\\wwwroot\\",
       "BasePath": "_content/ServiceHost",
-      "RelativePath": "Theme/assets/img/category/img1-top-eposi1.jpg",
+      "RelativePath": "Theme/assets/img/category/cat2.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -7154,15 +7154,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Theme\\assets\\img\\category\\img1-top-eposi1.jpg"
+      "OriginalItemSpec": "wwwroot\\Theme\\assets\\img\\category\\cat2.jpg"
     },
     {
-      "Identity": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\ServiceHost\\wwwroot\\Theme\\assets\\img\\category\\img2-top-eposi1.jpg",
+      "Identity": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\ServiceHost\\wwwroot\\Theme\\assets\\img\\category\\cat3.png",
       "SourceId": "ServiceHost",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\ServiceHost\\wwwroot\\",
       "BasePath": "_content/ServiceHost",
-      "RelativePath": "Theme/assets/img/category/img2-top-eposi1.jpg",
+      "RelativePath": "Theme/assets/img/category/cat3.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -7171,15 +7171,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Theme\\assets\\img\\category\\img2-top-eposi1.jpg"
+      "OriginalItemSpec": "wwwroot\\Theme\\assets\\img\\category\\cat3.png"
     },
     {
-      "Identity": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\ServiceHost\\wwwroot\\Theme\\assets\\img\\category\\img2-top-eposi1.png",
+      "Identity": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\ServiceHost\\wwwroot\\Theme\\assets\\img\\category\\cat4.jpg",
       "SourceId": "ServiceHost",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\ServiceHost\\wwwroot\\",
       "BasePath": "_content/ServiceHost",
-      "RelativePath": "Theme/assets/img/category/img2-top-eposi1.png",
+      "RelativePath": "Theme/assets/img/category/cat4.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -7188,15 +7188,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Theme\\assets\\img\\category\\img2-top-eposi1.png"
+      "OriginalItemSpec": "wwwroot\\Theme\\assets\\img\\category\\cat4.jpg"
     },
     {
-      "Identity": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\ServiceHost\\wwwroot\\Theme\\assets\\img\\category\\img3-top-eposi1.jpg",
+      "Identity": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\ServiceHost\\wwwroot\\Theme\\assets\\img\\category\\cat5.jpg",
       "SourceId": "ServiceHost",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\ServiceHost\\wwwroot\\",
       "BasePath": "_content/ServiceHost",
-      "RelativePath": "Theme/assets/img/category/img3-top-eposi1.jpg",
+      "RelativePath": "Theme/assets/img/category/cat5.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -7205,15 +7205,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Theme\\assets\\img\\category\\img3-top-eposi1.jpg"
+      "OriginalItemSpec": "wwwroot\\Theme\\assets\\img\\category\\cat5.jpg"
     },
     {
-      "Identity": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\ServiceHost\\wwwroot\\Theme\\assets\\img\\category\\img4-top-eposi1.jpg",
+      "Identity": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\ServiceHost\\wwwroot\\Theme\\assets\\img\\category\\cat6.jpg",
       "SourceId": "ServiceHost",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\ServiceHost\\wwwroot\\",
       "BasePath": "_content/ServiceHost",
-      "RelativePath": "Theme/assets/img/category/img4-top-eposi1.jpg",
+      "RelativePath": "Theme/assets/img/category/cat6.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -7222,7 +7222,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Theme\\assets\\img\\category\\img4-top-eposi1.jpg"
+      "OriginalItemSpec": "wwwroot\\Theme\\assets\\img\\category\\cat6.jpg"
     },
     {
       "Identity": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\ServiceHost\\wwwroot\\Theme\\assets\\img\\favicon.ico",
