@@ -7,56 +7,57 @@ using System.Threading.Tasks;
 
 namespace ShopManagement.Domain.SlideAgg
 {
-       public class Slide : EntityBase<long>
+    public class Slide : EntityBase<long>
+    {
+        public string PictureSource { get; private set; }
+        public string PictureAlt { get; private set; }
+        public string PictureTitle { get; private set; }
+        public string Heading { get; private set; }
+        public string Title { get; private set; }
+        public string Text { get; private set; }
+        public string BtnText { get; private set; }
+        public string Link { get; private set; }
+        public bool IsRemoved { get; private set; }
+
+        public Slide(string pictureSource, string pictureAlt, string pictureTitle, string heading,
+            string title, string text, string link, string btnText)
         {
-            public string PictureSource { get; private set; }
-            public string PictureAlt { get; private set; }
-            public string PictureTitle { get; private set; }
-            public string Heading { get; private set; }
-            public string Title { get; private set; }
-            public string Text { get; private set; }
-            public string BtnText { get; private set; }
-            public string Link { get; private set; }
-            public bool IsRemoved { get; private set; }
-
-            public Slide(string pictureSource, string pictureAlt, string pictureTitle, string heading,
-                string title, string text, string link, string btnText)
-            {
             PictureSource = pictureSource;
-                PictureAlt = pictureAlt;
-                PictureTitle = pictureTitle;
-                Heading = heading;
-                Title = title;
-                Text = text;
-                BtnText = btnText;
-                Link = link;
-                IsRemoved = false;
-            }
+            PictureAlt = pictureAlt;
+            PictureTitle = pictureTitle;
+            Heading = heading;
+            Title = title;
+            Text = text;
+            Link = link;
+            BtnText = btnText;
+            IsRemoved = false;
+        }
 
-            public void Update(string pictureSource, string pictureAlt, string pictureTitle, string heading,
-                string title, string text, string link, string btnText)
-            {
-                if (!string.IsNullOrWhiteSpace(pictureSource))
+        public void Update(string pictureSource, string pictureAlt, string pictureTitle, string heading,
+            string title, string text, string link, string btnText)
+        {
+            if (!string.IsNullOrWhiteSpace(pictureSource))
                 PictureSource = pictureSource;
 
-                PictureAlt = pictureAlt;
-                PictureTitle = pictureTitle;
-                Heading = heading;
-                Title = title;
-                Text = text;
-                BtnText = btnText;
-                Link = link;
-            }
+            PictureAlt = pictureAlt;
+            PictureTitle = pictureTitle;
+            Heading = heading;
+            Title = title;
+            Text = text;
+            Link = link;
+            BtnText = btnText;
+            
+        }
 
-            public void Remove()
-            {
-                IsRemoved = true;
-            }
+        public void Remove()
+        {
+            IsRemoved = true;
+        }
 
-            public void Restore()
-            {
-                IsRemoved = false;
-            }
+        public void Restore()
+        {
+            IsRemoved = false;
         }
     }
+}
 

@@ -13,6 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\01_HomeAppliance_Query\01_HomeAppliance_Query.csproj" />
     <ProjectReference Include="..\Shop.Management.Infrastruture\ShopManagement.Infrastructure.csproj" />
     <ProjectReference Include="..\ShopManagment.Application\ShopManagement.Application.csproj" />
   </ItemGroup>

@@ -54,6 +54,7 @@
                                     <th>#</th>
                                     <th>عکس</th>
                                     <th>نام محصول</th>
+                                    <th>وضعیت</th>
                                     <th>تاریخ تولبد</th>
                                     <th>عملیات</th>
                                 </tr>
@@ -71,11 +72,11 @@
                                         <td class="text-center">
                                             @if (item.IsRemoved)
                                             {
-                                                <i class="fa fa-2x fa-check text-success"></i>
+                                                <i class="fa fa-2x fa-remove text-danger"></i>
                                             }
                                              else 
                                             {
-                                                <i class="fa fa-2x fa-remove text-danger"></i>
+                                                <i class="fa fa-2x fa-check text-success"></i>
                                             }
                                         </td>
 

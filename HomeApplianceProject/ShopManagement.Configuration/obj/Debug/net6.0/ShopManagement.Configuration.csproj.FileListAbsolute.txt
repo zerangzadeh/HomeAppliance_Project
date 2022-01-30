@@ -21,3 +21,5 @@ E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\ShopMana
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\ShopManagement.Configuration\obj\Debug\net6.0\ShopManagement.Configuration.dll
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\ShopManagement.Configuration\obj\Debug\net6.0\ref\ShopManagement.Configuration.dll
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\ShopManagement.Configuration\obj\Debug\net6.0\ShopManagement.Configuration.pdb
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\ShopManagement.Configuration\bin\Debug\net6.0\01_HomeAppliance_Query.dll
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\ShopManagement.Configuration\bin\Debug\net6.0\01_HomeAppliance_Query.pdb

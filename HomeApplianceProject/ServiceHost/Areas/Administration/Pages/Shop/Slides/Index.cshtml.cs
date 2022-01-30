@@ -11,11 +11,10 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.Slides
 {
     public class IndexModel : PageModel
     {
-       
-        string Message { get; set; }    
-        
+        [TempData]
+        public string Message { get; set; }
         public List<SlideViewModel> Slides;
-      
+
         private readonly ISlideApplication _slideApplication;
 
         public IndexModel(ISlideApplication slideApplication)
@@ -25,35 +24,14 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.Slides
 
         public void OnGet()
         {
-            Slides=_slideApplication.GetAll();
+            Slides = _slideApplication.GetAll();
         }
-
-        public IActionResult OnGetRemove(long ID)
-        {
-            var result = _slideApplication.Remove(ID);
-            if (result.IsSucceeded)
-                return RedirectToAction("Index");
-            Message = result.Message;
-            return RedirectToAction("Index");
-
-        }
-
-        public IActionResult OnGetRestore(long ID)
-        {
-            var result = _slideApplication.Restore(ID);
-            if (result.IsSucceeded)
-                return RedirectToAction("Index");
-            Message = result.Message;
-            return RedirectToAction("Index");
-        }
-
 
         public IActionResult OnGetCreate()
         {
             var command = new CreateSlide();
             return Partial("./Create", command);
         }
-
 
         public JsonResult OnPostCreate(CreateSlide command)
         {
@@ -63,16 +41,35 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.Slides
 
         public IActionResult OnGetUpdate(long id)
         {
-            var slide = _slideApplication.GetDetail(id);    
+            var slide = _slideApplication.GetDetail(id);
             return Partial("Update", slide);
         }
 
-
-        public IActionResult OnPostUpdate(UpdateSlide command)
+        public JsonResult OnPostUpdate(UpdateSlide command)
         {
             var result = _slideApplication.Update(command);
             return new JsonResult(result);
-                       
+        }
+
+        public IActionResult OnGetRemove(long id)
+        {
+            var result = _slideApplication.Remove(id);
+            if (result.IsSucceeded)
+               
+                return RedirectToPage("./Index");
+
+            Message = result.Message;
+            return RedirectToPage("./Index");
+        }
+
+        public IActionResult OnGetRestore(long id)
+        {
+            var result = _slideApplication.Restore(id);
+            if (result.IsSucceeded)
+                return RedirectToPage("./Index");
+
+            Message = result.Message;
+            return RedirectToPage("./Index");
         }
     }
 }

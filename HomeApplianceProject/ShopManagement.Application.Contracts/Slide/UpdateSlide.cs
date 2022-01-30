@@ -2,6 +2,6 @@
 {
     public class UpdateSlide : CreateSlide
     {
-        public long ID;
+        public long ID { get; set; }
     }
 }

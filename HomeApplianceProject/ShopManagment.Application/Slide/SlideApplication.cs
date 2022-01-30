@@ -25,9 +25,9 @@ namespace ShopManagement.Application
             var messageForOperation = new MessageForOpeartion();
             if (command != null)
             {
-                var slide = new ShopManagement.Domain.SlideAgg.Slide(command.PictureSource, command.PictureAlt, command.PictureTitle,
-                command.Heading, command.Title, command.Text,
-                command.BtnText, command.Link);
+                var slide = new ShopManagement.Domain.SlideAgg.Slide
+                    (command.PictureSource, command.PictureAlt, command.PictureTitle,
+                command.Heading, command.Title, command.Text, command.Link, command.BtnText);
 
                 _slideRepository.Create(slide);
 
@@ -48,14 +48,13 @@ namespace ShopManagement.Application
             {
                 return operationResult.Failed(messageForOperation.NotFoundMessage);
             }
-           
+
             else
             {
-                slide.Update(command.PictureSource, command.PictureAlt,
-                    command.PictureTitle,command.Heading, command.Title, command.Text,
-                 command.Link, command.BtnText);
-
                 
+                slide.Update(command.PictureSource, command.PictureAlt,
+                    command.PictureTitle, command.Heading, command.Title, command.Text,
+                 command.Link, command.BtnText);
                 _slideRepository.SaveChanges();
                 return operationResult.Succeeded(messageForOperation.SuccessMessage);
 
@@ -95,16 +94,16 @@ namespace ShopManagement.Application
 
         public UpdateSlide GetDetail(long ID)
         {
-           return _slideRepository.GetDetails(ID);
+            return _slideRepository.GetDetails(ID);
         }
 
         public List<SlideViewModel> GetAll()
         {
-           return _slideRepository.GetAll();
+            return _slideRepository.GetAll();
         }
 
-       
 
-        
+
+
     }
 }

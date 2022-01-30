@@ -1826,6 +1826,19 @@
           "bin/placeholder/01_HA_Framework.dll": {}
         }
       },
+      "01_HomeAppliance_Query/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ShopManagement.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/01_HomeAppliance_Query.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/01_HomeAppliance_Query.dll": {}
+        }
+      },
       "ShopManagement.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1860,6 +1873,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "01_HomeAppliance_Query": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.1",
           "Microsoft.Extensions.DependencyInjection": "6.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
@@ -5996,6 +6010,11 @@
       "type": "project",
       "path": "../01_HA_Framework/01_HA_Framework.csproj",
       "msbuildProject": "../01_HA_Framework/01_HA_Framework.csproj"
+    },
+    "01_HomeAppliance_Query/1.0.0": {
+      "type": "project",
+      "path": "../01_HomeAppliance_Query/01_HomeAppliance_Query.csproj",
+      "msbuildProject": "../01_HomeAppliance_Query/01_HomeAppliance_Query.csproj"
     },
     "ShopManagement.Application/1.0.0": {
       "type": "project",

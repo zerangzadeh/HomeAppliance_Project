@@ -37,7 +37,8 @@ namespace ShopManagement.Infrastructure.Repository
                     PictureSource=x.PictureSource,
                     Heading=x.Heading,
                     Title=x.Title,
-                    IsRemoved=x.IsRemoved
+                    IsRemoved=x.IsRemoved,
+                    CreationDate=x.CreationDate.ToString(),
                  }).OrderByDescending(x=>x.ID).ToList();
         }
 
@@ -51,6 +52,8 @@ namespace ShopManagement.Infrastructure.Repository
                 PictureAlt = x.PictureAlt,
                 Heading = x.Heading,
                 Title = x.Title,
+                Text = x.Title,
+                Link = x.Link,
                 BtnText = x.BtnText,
             })
                    .FirstOrDefault(x => x.ID == ID);

@@ -28,18 +28,18 @@ function hideModal() {
     $("#MainModal").modal("hide");
 }
 
-//$(document).ready(function () {
-//    window.onhashchange = function () {
-//        SinglePage.LoadModal();
-//    };
-//    $("#MainModal").on("shown.bs.modal",
-//        function () {
-//            window.location.hash = "##";
-//            $('.persianDateInput').persianDatepicker({
-//                format: 'YYYY/MM/DD',
-//                autoClose: true
-//            });
-//        });
+$(document).ready(function () {
+    window.onhashchange = function () {
+        SinglePage.LoadModal();
+    };
+    $("#MainModal").on("shown.bs.modal",
+        function () {
+            window.location.hash = "##";
+            $('.persianDateInput').persianDatepicker({
+                format: 'YYYY/MM/DD',
+                autoClose: true
+            });
+        });
 
     $(document).on("submit",
         'form[data-ajax="true"]',
@@ -83,12 +83,12 @@ function CallBackHandler(data, action, form) {
     switch (action) {
         case "Message":
             alert(data.Message);
+
             break;
         case "Refresh":
-            if (data.IsSucceeded) {
+            if (data.isSucceeded) {
                 window.location.reload();
-            }
-            else {
+            } else {
                 alert(data.message);
             }
             break;

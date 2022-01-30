@@ -69,7 +69,6 @@ E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\ServiceH
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\ServiceHost\bin\Debug\net6.0\ShopManagement.Infrastructure.pdb
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\ServiceHost\obj\Debug\net6.0\staticwebassets.build.json
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\ServiceHost\obj\Debug\net6.0\staticwebassets.development.json
-E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\ServiceHost\obj\Debug\net6.0\scopedcss\Areas\Administration\Pages\Shared\_AdminLayout.cshtml.rz.scp.css
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\ServiceHost\obj\Debug\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\ServiceHost\obj\Debug\net6.0\scopedcss\bundle\ServiceHost.styles.css
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\ServiceHost\obj\Debug\net6.0\scopedcss\projectbundle\ServiceHost.bundle.scp.css
@@ -78,3 +77,5 @@ E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\ServiceH
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\ServiceHost\obj\Debug\net6.0\ref\ServiceHost.dll
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\ServiceHost\obj\Debug\net6.0\ServiceHost.pdb
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\ServiceHost\obj\Debug\net6.0\ServiceHost.genruntimeconfig.cache
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\ServiceHost\bin\Debug\net6.0\01_HomeAppliance_Query.dll
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\ServiceHost\bin\Debug\net6.0\01_HomeAppliance_Query.pdb

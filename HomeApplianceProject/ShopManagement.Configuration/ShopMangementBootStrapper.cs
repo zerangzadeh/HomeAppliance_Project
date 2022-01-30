@@ -16,6 +16,8 @@ using ShopManagement.Application.ProductPicture;
 using ShopManagement.Domain.ProductPictureAgg;
 using ShopManagement.Application;
 using ShopManagement.Domain.SlideAgg;
+using _01_HomeAppliance_Query.Query;
+using _01_HomeAppliance_Query.Contracts.Slide;
 
 namespace ShopManagement.Configuration
 {
@@ -32,6 +34,7 @@ namespace ShopManagement.Configuration
             serviceCollection.AddTransient<IProductPictureRepository, ProductPictureRepository>();
             serviceCollection.AddTransient<ISlideApplication, SlideApplication>();
             serviceCollection.AddTransient<ISlideRepository, SlideRepository>();
+            serviceCollection.AddTransient<ISlideQuery, SlideQuery>();
             serviceCollection.AddDbContext<ShopDBContext>(x => x.UseSqlServer(connectionString));
          }
 

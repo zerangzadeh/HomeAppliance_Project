@@ -30,7 +30,7 @@
     <div class="col-md-12">
         <div class="panel panel-default">
             <div class="panel-heading">
-                <h3 class="panel-title">لیست محصولات</h3>
+                <h3 class="panel-title">لیست اسلایدها</h3>
             </div>
             <div class="panel-body">
                 <div class="row">
@@ -42,6 +42,7 @@
                                     <th>عکس</th>
                                     <th>سرتیتر</th>
                                     <th>عنوان</th>
+                                    <th>وضعیت</th>
                                     <th>عملیات</th>
                                 </tr>
                             </thead>
@@ -51,18 +52,18 @@
                                     <tr>
                                         <td>@item.ID</td>
                                         <td>
-                                            <img src="~/Slides/@item.PictureSource" style="width: 70px; height: 70px" />
+                                            <img src="@item.PictureSource" style="width: 70px; height: 70px" />
                                         </td>
                                         <td>@item.Heading</td>
                                         <td>@item.Title</td>
                                         <td class="text-center">
                                             @if (item.IsRemoved)
                                             {
-                                                <i class="fa fa-2x fa-check text-success"></i>
+                                                <i class="fa fa-2x fa-remove text-danger"></i>
                                             }
                                              else 
                                             {
-                                                <i class="fa fa-2x fa-remove text-danger"></i>
+                                                <i class="fa fa-2x fa-check text-success"></i>
                                             }
                                         </td>
 
@@ -80,13 +81,10 @@
                                             }
                                             else
                                             {
-                                                <a class="btn btn-success waves-effect waves-light m-b-5"
+                                                <a class="btn btn-danger waves-effect waves-light m-b-5"
                                               asp-asp-page="./Index" asp-page-handler="Remove" asp-route-id="@item.ID">
                                                 <i class="fa fa-item"></i> حذف</a>
                                             }
-
-                                           
-                                            
                                         </td>
                                     </tr>
                                 }
