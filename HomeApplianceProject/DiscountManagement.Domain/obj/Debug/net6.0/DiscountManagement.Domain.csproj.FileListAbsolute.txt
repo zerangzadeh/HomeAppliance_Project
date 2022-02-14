@@ -1,0 +1,17 @@
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagement.Domain\bin\Debug\net6.0\DiscountManagement.Domain.deps.json
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagement.Domain\bin\Debug\net6.0\DiscountManagement.Domain.dll
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagement.Domain\bin\Debug\net6.0\ref\DiscountManagement.Domain.dll
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagement.Domain\bin\Debug\net6.0\DiscountManagement.Domain.pdb
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagement.Domain\bin\Debug\net6.0\01_HA_Framework.dll
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagement.Domain\bin\Debug\net6.0\DiscountManagement.Application.Contract.dll
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagement.Domain\bin\Debug\net6.0\01_HA_Framework.pdb
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagement.Domain\bin\Debug\net6.0\DiscountManagement.Application.Contract.pdb
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagement.Domain\obj\Debug\net6.0\DiscountManagement.Domain.csproj.AssemblyReference.cache
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagement.Domain\obj\Debug\net6.0\DiscountManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagement.Domain\obj\Debug\net6.0\DiscountManagement.Domain.AssemblyInfoInputs.cache
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagement.Domain\obj\Debug\net6.0\DiscountManagement.Domain.AssemblyInfo.cs
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagement.Domain\obj\Debug\net6.0\DiscountManagement.Domain.csproj.CoreCompileInputs.cache
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagement.Domain\obj\Debug\net6.0\DiscountManagement.Domain.csproj.CopyComplete
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagement.Domain\obj\Debug\net6.0\DiscountManagement.Domain.dll
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagement.Domain\obj\Debug\net6.0\ref\DiscountManagement.Domain.dll
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagement.Domain\obj\Debug\net6.0\DiscountManagement.Domain.pdb

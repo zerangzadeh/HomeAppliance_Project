@@ -1,4 +1,5 @@
 ﻿using DiscountManagement.Domain;
+using DiscountManagement.Domain.CustomerDiscountAgg;
 using Microsoft.EntityFrameworkCore;
 using Shop.Management.Infrastruture.Mapping;
 using System;
@@ -29,4 +30,4 @@ namespace DiscountManagement.Infrastructure
     }
 
 }
-}
+

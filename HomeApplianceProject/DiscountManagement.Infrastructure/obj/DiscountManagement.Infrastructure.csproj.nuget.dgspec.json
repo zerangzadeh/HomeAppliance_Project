@@ -91,8 +91,8 @@
               "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\01_HA_Framework\\01_HA_Framework.csproj": {
                 "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\01_HA_Framework\\01_HA_Framework.csproj"
               },
-              "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\DiscountManagment.Application.Contracts\\DiscountManagment.Application.Contract.csproj": {
-                "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\DiscountManagment.Application.Contracts\\DiscountManagment.Application.Contract.csproj"
+              "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\DiscountManagment.Application.Contracts\\DiscountManagement.Application.Contract.csproj": {
+                "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\DiscountManagment.Application.Contracts\\DiscountManagement.Application.Contract.csproj"
               }
             }
           }
@@ -205,12 +205,12 @@
         }
       }
     },
-    "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\DiscountManagment.Application.Contracts\\DiscountManagment.Application.Contract.csproj": {
+    "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\DiscountManagment.Application.Contracts\\DiscountManagement.Application.Contract.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\DiscountManagment.Application.Contracts\\DiscountManagment.Application.Contract.csproj",
-        "projectName": "DiscountManagment.Application.Contract",
-        "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\DiscountManagment.Application.Contracts\\DiscountManagment.Application.Contract.csproj",
+        "projectUniqueName": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\DiscountManagment.Application.Contracts\\DiscountManagement.Application.Contract.csproj",
+        "projectName": "DiscountManagement.Application.Contract",
+        "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\DiscountManagment.Application.Contracts\\DiscountManagement.Application.Contract.csproj",
         "packagesPath": "C:\\Users\\azera\\.nuget\\packages\\",
         "outputPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\DiscountManagment.Application.Contracts\\obj\\",
         "projectStyle": "PackageReference",

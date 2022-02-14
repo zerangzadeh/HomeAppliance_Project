@@ -1,7 +1,8 @@
-﻿using _01_HA_Framework.Infrastructure;
+﻿using _01_HA_Framework.Application;
+using _01_HA_Framework.Infrastructure;
 using DiscountManagement.Domain;
 using DiscountManagement.Domain.CustomerDiscountAgg;
-using DiscountManagment.Application.Contract.CustomerDiscount;
+using DiscountManagement.Application.Contract.CustomerDiscount;
 using Shop.Management.Infrastruture;
 using System;
 using System.Collections.Generic;
@@ -12,12 +13,12 @@ using System.Threading.Tasks;
 
 namespace DiscountManagement.Infrastructure.Repository
 {
-    public class DiscountManagementRepository : BaseRepository<long, CustomerDiscount>, ICustomerDiscountRepository
+    public class CustomerDiscountRepository : BaseRepository<long, CustomerDiscount>, ICustomerDiscountRepository
     {
         private readonly DiscountDBContext _discountDBContext;
         private readonly ShopDBContext _shopDBContext;
 
-        public DiscountManagementRepository(DiscountDBContext discountDBContext,ShopDBContext shopDBContext):base(discountDBContext)
+        public CustomerDiscountRepository(DiscountDBContext discountDBContext,ShopDBContext shopDBContext):base(discountDBContext)
         {
             _discountDBContext = discountDBContext;
             _shopDBContext = shopDBContext;
@@ -37,7 +38,7 @@ namespace DiscountManagement.Infrastructure.Repository
         public UpdateCustomerDiscount GetDetails(long DiscountID)
         {
 
-            _discountDBContext.CustomerDiscounts.Select(x=>new UpdateCustomerDiscount { 
+            return _discountDBContext.CustomerDiscounts.Select(x=>new UpdateCustomerDiscount { 
             ID=x.ID,
             ProductID=x.ProductID,
             DiscountRate=x.DiscountRate,
@@ -55,8 +56,8 @@ namespace DiscountManagement.Infrastructure.Repository
                 ID = x.ID,
                 ProductID = x.ProductID,
                 DiscountRate = x.DiscountRate,
-                StartDate = x.StartDate.ToString(),
-                EndDate = x.EndDate.ToString(),
+                StartDate = x.StartDate.ToFarsi(),
+                EndDate = x.EndDate.ToFarsi(),
                 StartDateGr = x.StartDate,
                 EndDateGr = x.EndDate,
                 Reason = x.Reason
@@ -67,14 +68,14 @@ namespace DiscountManagement.Infrastructure.Repository
             }
             if (!string.IsNullOrWhiteSpace(searchModel.StartDate))
             {
-                var StartDate=DateTime.Now;
-                query=query.Where(x=>x.StartDateGr>StartDate);
+                //var StartDate=DateTime.Now;
+                query=query.Where(x=>x.StartDateGr>searchModel.StartDate.ToGeorgianDateTime());
 
             }
             if (!string.IsNullOrWhiteSpace(searchModel.EndDate))
             {
-                var EndDate = DateTime.Now;
-                query = query.Where(x => x.EndDateGr >EndDate);
+                //var EndDate = DateTime.Now;
+                query = query.Where(x => x.EndDateGr > searchModel.EndDate.ToGeorgianDateTime());
 
             }
 

@@ -1,4 +1,5 @@
-﻿using _01_HA_Framework.Infrastructure;
+﻿using _01_HA_Framework.Application;
+using _01_HA_Framework.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 using Shop.Management.Infrastruture;
 using ShopManagement.Application.Contracts.Product;
@@ -32,7 +33,7 @@ namespace ShopManagement.Infrastructure.Repository
                    Select(x => new ProductPictureViewModel { 
                    ID=x.ID,
                    ProductName=x.Product.Name,
-                   CreationDate=x.CreationDate.ToString(),
+                   CreationDate=x.CreationDate.ToFarsi(),
                    PictureSource=x.PictureSource,
                    IsRemoved=x.IsRemoved,
                    ProductID=x.ProductID

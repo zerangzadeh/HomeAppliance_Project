@@ -1,4 +1,4 @@
-﻿namespace DiscountManagment.Application.Contract.CustomerDiscount
+﻿namespace DiscountManagement.Application.Contract.CustomerDiscount
 {
     public class CustomerDiscountViewModel
     {

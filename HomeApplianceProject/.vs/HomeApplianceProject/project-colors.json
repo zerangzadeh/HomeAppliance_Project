@@ -65,7 +65,42 @@
       "ProjectGuid": "afacbd5c-7f7a-4c01-a0c2-2b89de3d7441",
       "DisplayName": "TestWebApi",
       "ColorIndex": 11
+    },
+    "80ae974c-2fa7-4029-a406-5cc4c621d95e": {
+      "ProjectGuid": "80ae974c-2fa7-4029-a406-5cc4c621d95e",
+      "DisplayName": "01_HomeAppliance_Query",
+      "ColorIndex": 12
+    },
+    "26afa10e-8dd4-40e2-93e5-8cfb548c2834": {
+      "ProjectGuid": "26afa10e-8dd4-40e2-93e5-8cfb548c2834",
+      "DisplayName": "DiscountManagement.Domain",
+      "ColorIndex": 13
+    },
+    "fbe5cbf8-d0b4-46d1-8b90-62143354c3b0": {
+      "ProjectGuid": "fbe5cbf8-d0b4-46d1-8b90-62143354c3b0",
+      "DisplayName": "DiscountManagment.Application.Contract",
+      "ColorIndex": 14
+    },
+    "32593f91-af74-4ef2-8c86-4ed4eca5d7b0": {
+      "ProjectGuid": "32593f91-af74-4ef2-8c86-4ed4eca5d7b0",
+      "DisplayName": "DiscountManagement.Application",
+      "ColorIndex": 15
+    },
+    "c25193d6-b8bc-495e-b0ec-4f7e9d54a704": {
+      "ProjectGuid": "c25193d6-b8bc-495e-b0ec-4f7e9d54a704",
+      "DisplayName": "DiscountManagement.Infrastructure",
+      "ColorIndex": 0
+    },
+    "4b1becb1-f342-4a82-9ee7-28e732582d00": {
+      "ProjectGuid": "4b1becb1-f342-4a82-9ee7-28e732582d00",
+      "DisplayName": "DiscountManagement.Configuration",
+      "ColorIndex": 1
+    },
+    "3e5fda92-f5fb-4693-8d44-e391dbf1d5f5": {
+      "ProjectGuid": "3e5fda92-f5fb-4693-8d44-e391dbf1d5f5",
+      "DisplayName": "DiscountManagement.Configuration",
+      "ColorIndex": 2
     }
   },
-  "NextColorIndex": 12
+  "NextColorIndex": 3
 }

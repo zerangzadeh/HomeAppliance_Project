@@ -8,7 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\01_HA_Framework\01_HA_Framework.csproj" />
-    <ProjectReference Include="..\DiscountManagment.Application.Contracts\DiscountManagment.Application.Contract.csproj" />
+    <ProjectReference Include="..\DiscountManagment.Application.Contracts\DiscountManagement.Application.Contract.csproj" />
   </ItemGroup>
 
 </Project>

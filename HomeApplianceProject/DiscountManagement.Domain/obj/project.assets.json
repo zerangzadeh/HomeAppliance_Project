@@ -205,17 +205,17 @@
           "bin/placeholder/01_HA_Framework.dll": {}
         }
       },
-      "DiscountManagment.Application.Contract/1.0.0": {
+      "DiscountManagement.Application.Contract/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "01_HA_Framework": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/DiscountManagment.Application.Contract.dll": {}
+          "bin/placeholder/DiscountManagement.Application.Contract.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DiscountManagment.Application.Contract.dll": {}
+          "bin/placeholder/DiscountManagement.Application.Contract.dll": {}
         }
       }
     }
@@ -548,16 +548,16 @@
       "path": "../01_HA_Framework/01_HA_Framework.csproj",
       "msbuildProject": "../01_HA_Framework/01_HA_Framework.csproj"
     },
-    "DiscountManagment.Application.Contract/1.0.0": {
+    "DiscountManagement.Application.Contract/1.0.0": {
       "type": "project",
-      "path": "../DiscountManagment.Application.Contracts/DiscountManagment.Application.Contract.csproj",
-      "msbuildProject": "../DiscountManagment.Application.Contracts/DiscountManagment.Application.Contract.csproj"
+      "path": "../DiscountManagment.Application.Contracts/DiscountManagement.Application.Contract.csproj",
+      "msbuildProject": "../DiscountManagment.Application.Contracts/DiscountManagement.Application.Contract.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "01_HA_Framework >= 1.0.0",
-      "DiscountManagment.Application.Contract >= 1.0.0"
+      "DiscountManagement.Application.Contract >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -590,8 +590,8 @@
             "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\01_HA_Framework\\01_HA_Framework.csproj": {
               "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\01_HA_Framework\\01_HA_Framework.csproj"
             },
-            "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\DiscountManagment.Application.Contracts\\DiscountManagment.Application.Contract.csproj": {
-              "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\DiscountManagment.Application.Contracts\\DiscountManagment.Application.Contract.csproj"
+            "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\DiscountManagment.Application.Contracts\\DiscountManagement.Application.Contract.csproj": {
+              "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\DiscountManagment.Application.Contracts\\DiscountManagement.Application.Contract.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IMTRDhUUsvkxJ/MlnpVw/cDV/ClCPw4eYdwxP/6vV5bQoCa1PcmbvD8vtbb6rAGZsllIIxiIttpV6NeqHrFbYw==",
+  "dgSpecHash": "lZfEPhGuJbpET3o8es73UjDPFjJyuBAeDz0ZgOwEFTTI9DucGVbhS/3eX9cr3u2EIKbEa/XO8CMLqLOnGZLj5Q==",
   "success": true,
-  "projectFilePath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\DiscountManagment.Application.Contracts\\DiscountManagment.Application.Contract.csproj",
+  "projectFilePath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\DiscountManagment.Application.Contracts\\DiscountManagement.Application.Contract.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\azera\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.1\\microsoft.entityframeworkcore.6.0.1.nupkg.sha512",
     "C:\\Users\\azera\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.1\\microsoft.entityframeworkcore.abstractions.6.0.1.nupkg.sha512",

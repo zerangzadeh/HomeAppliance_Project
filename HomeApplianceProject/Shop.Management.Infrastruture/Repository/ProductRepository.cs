@@ -1,4 +1,5 @@
-﻿using _01_HA_Framework.Infrastructure;
+﻿using _01_HA_Framework.Application;
+using _01_HA_Framework.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 using Shop.Management.Infrastruture;
 using ShopManagement.Application.Contracts.Product;
@@ -58,7 +59,7 @@ namespace ShopManagement.Infrastructure.Repository
                     CategoryId=x.CategoryId,
                     Category = x.Category.Title, 
                     UnitPrice = x.UnitPrice,
-                    CreationDate = x.CreationDate.ToString(),
+                    CreationDate = x.CreationDate.ToFarsi(),
                     IsInStock=x.IsInStock
                 });
             if (!string.IsNullOrWhiteSpace(searchModel.Name))

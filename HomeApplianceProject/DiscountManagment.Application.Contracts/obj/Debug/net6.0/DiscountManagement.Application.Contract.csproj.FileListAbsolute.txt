@@ -1,0 +1,15 @@
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagment.Application.Contracts\bin\Debug\net6.0\DiscountManagement.Application.Contract.deps.json
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagment.Application.Contracts\bin\Debug\net6.0\DiscountManagement.Application.Contract.dll
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagment.Application.Contracts\bin\Debug\net6.0\ref\DiscountManagement.Application.Contract.dll
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagment.Application.Contracts\bin\Debug\net6.0\DiscountManagement.Application.Contract.pdb
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagment.Application.Contracts\bin\Debug\net6.0\01_HA_Framework.dll
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagment.Application.Contracts\bin\Debug\net6.0\01_HA_Framework.pdb
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagment.Application.Contracts\obj\Debug\net6.0\DiscountManagement.Application.Contract.csproj.AssemblyReference.cache
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagment.Application.Contracts\obj\Debug\net6.0\DiscountManagement.Application.Contract.GeneratedMSBuildEditorConfig.editorconfig
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagment.Application.Contracts\obj\Debug\net6.0\DiscountManagement.Application.Contract.AssemblyInfoInputs.cache
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagment.Application.Contracts\obj\Debug\net6.0\DiscountManagement.Application.Contract.AssemblyInfo.cs
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagment.Application.Contracts\obj\Debug\net6.0\DiscountManagement.Application.Contract.csproj.CoreCompileInputs.cache
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagment.Application.Contracts\obj\Debug\net6.0\DiscountManagement.Application.Contract.csproj.CopyComplete
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagment.Application.Contracts\obj\Debug\net6.0\DiscountManagement.Application.Contract.dll
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagment.Application.Contracts\obj\Debug\net6.0\ref\DiscountManagement.Application.Contract.dll
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagment.Application.Contracts\obj\Debug\net6.0\DiscountManagement.Application.Contract.pdb

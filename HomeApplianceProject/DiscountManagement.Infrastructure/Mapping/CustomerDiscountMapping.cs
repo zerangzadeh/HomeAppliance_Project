@@ -21,10 +21,10 @@ namespace Shop.Management.Infrastruture.Mapping
             builder.Property(x => x.EndDate).IsRequired();
             builder.Property(x => x.Reason).HasMaxLength(1000).IsRequired();
             
-            builder.HasOne(x => x.Category)
-                .WithMany(x => x.Products)
-                .HasForeignKey(x => x.CategoryId);
-           builder.HasMany(x=>x.Pictures).WithOne(x => x.Product).HasForeignKey(x => x.ProductID);
+           //builder.HasOne(x => x.)
+           //.WithMany(x => x.Products)
+           //    .HasForeignKey(x => x.CategoryId);
+           //builder.HasMany(x=>x.Pictures).WithOne(x => x.Product).HasForeignKey(x => x.ProductID);
 
         }
     }

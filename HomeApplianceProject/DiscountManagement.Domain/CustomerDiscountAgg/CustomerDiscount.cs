@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DiscountManagement.Domain
+namespace DiscountManagement.Domain.CustomerDiscountAgg
 {
     public class CustomerDiscount : EntityBase<long>
     {
@@ -15,6 +15,7 @@ namespace DiscountManagement.Domain
         public DateTime EndDate { get; set; }
         public string Reason { get; set; }
 
+   
         public CustomerDiscount(long productID, int discountRate,
             DateTime startDate, DateTime endDate, string reason)
         {

@@ -5,13 +5,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DiscountManagment.Application.Contract.CustomerDiscount
+namespace DiscountManagement.Application.Contract.CustomerDiscount
 {
     public interface ICustomerDiscountAppliaction
     {
         OperationResult Create(CreateCustomerDiscount command);
         OperationResult Update(UpdateCustomerDiscount command);
         List<CustomerDiscountViewModel> GetAll();
+        List<CustomerDiscountViewModel> Search(CustomerDiscountSearchModel customerDiscountSearchModel);
+        UpdateCustomerDiscount GetDetails(long ID);
+
      
 
 

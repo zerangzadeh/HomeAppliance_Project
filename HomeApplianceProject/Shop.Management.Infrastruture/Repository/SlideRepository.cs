@@ -1,4 +1,5 @@
-﻿using _01_HA_Framework.Infrastructure;
+﻿using _01_HA_Framework.Application;
+using _01_HA_Framework.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 using Shop.Management.Infrastruture;
 using ShopManagement.Application.Contracts.Product;
@@ -38,7 +39,7 @@ namespace ShopManagement.Infrastructure.Repository
                     Heading=x.Heading,
                     Title=x.Title,
                     IsRemoved=x.IsRemoved,
-                    CreationDate=x.CreationDate.ToString(),
+                    CreationDate=x.CreationDate.ToFarsi(),
                  }).OrderByDescending(x=>x.ID).ToList();
         }
 

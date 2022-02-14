@@ -1,4 +1,5 @@
 ﻿
+using _01_HA_Framework.Application;
 using _01_HA_Framework.Infrastructure;
 using ShopManagement.Application.Contracts.ProductCategory;
 using ShopManagement.Domain.ProductCategoryAgg;
@@ -56,7 +57,7 @@ namespace Shop.Management.Infrastruture.Repository
                 PicSrc = x.PicSrc,
                 PicAlt = x.PicAlt,
                 PicTitle = x.PicTitle,
-                CreationDate = x.CreationDate.ToString(),
+                CreationDate = x.CreationDate.ToFarsi(),
             });
             if (!String.IsNullOrEmpty(searchModel.Title))
             {
