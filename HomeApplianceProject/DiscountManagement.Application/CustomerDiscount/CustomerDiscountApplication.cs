@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace DiscountManagement.Application.CustomerDiscount
 {
-    public class CustomerDiscountApplication : ICustomerDiscountAppliaction
+    public class CustomerDiscountApplication : ICustomerDiscountApplication
     {
         private readonly ICustomerDiscountRepository _customerRepository;
 
@@ -65,6 +65,7 @@ namespace DiscountManagement.Application.CustomerDiscount
                 var Startdate = command.StartDate.ToGeorgianDateTime();
                 var EndDate = command.EndDate.ToGeorgianDateTime();
                 customerDiscount.Update(command.ProductID, command.DiscountRate, Startdate, EndDate, command.Reason);
+                _customerRepository.SaveChanges();
                    return operationResult.Succeeded(messageForOperation.SuccessMessage);
             }
         }

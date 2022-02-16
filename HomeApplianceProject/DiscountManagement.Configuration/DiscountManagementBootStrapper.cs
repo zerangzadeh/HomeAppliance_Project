@@ -12,11 +12,9 @@ namespace DiscountManagement.Configuration
     {
         public static void Configure(IServiceCollection serviceCollection,String connectionString)
         {
-            serviceCollection.AddTransient<ICustomerDiscountAppliaction, CustomerDiscountApplication>();
+            serviceCollection.AddTransient<ICustomerDiscountApplication, CustomerDiscountApplication>();
             serviceCollection.AddTransient<ICustomerDiscountRepository, CustomerDiscountRepository>();
             serviceCollection.AddDbContext<DiscountDBContext>(x => x.UseSqlServer(connectionString));
-
-
         }
 
     }

@@ -17,3 +17,5 @@ E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\Discount
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagement.Application\obj\Debug\net6.0\DiscountManagement.Application.dll
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagement.Application\obj\Debug\net6.0\ref\DiscountManagement.Application.dll
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagement.Application\obj\Debug\net6.0\DiscountManagement.Application.pdb
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagement.Application\bin\Debug\net6.0\ShopManagement.Application.Contracts.dll
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagement.Application\bin\Debug\net6.0\ShopManagement.Application.Contracts.pdb

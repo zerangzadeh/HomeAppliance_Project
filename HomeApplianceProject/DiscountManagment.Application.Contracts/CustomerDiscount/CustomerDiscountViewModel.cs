@@ -11,6 +11,7 @@
         public DateTime StartDateGr { get; set; }
         public DateTime EndDateGr { get; set; }
         public string Reason { get; set; }
+        public string CreationDate { get; set; }
     }
 
 

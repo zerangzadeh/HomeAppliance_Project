@@ -97,7 +97,11 @@ namespace ShopManagement.Application.Product
             return _productRepository.GetAll();
         }
 
-       
+
+        public List<ProductViewModel> GetProducts()
+        {
+            return _productRepository.GetProducts();
+        }
 
         public UpdateProduct GetDetails(long ID)
         {

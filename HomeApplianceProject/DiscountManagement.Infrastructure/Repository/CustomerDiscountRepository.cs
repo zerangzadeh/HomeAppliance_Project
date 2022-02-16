@@ -25,15 +25,15 @@ namespace DiscountManagement.Infrastructure.Repository
         }
 
         
-        public List<CustomerDiscount> GetAll()
-        {
-            throw new NotImplementedException();
-        }
+        //public List<CustomerDiscount> GetAll()
+        //{
+        //    throw new NotImplementedException();
+        //}
 
-        public CustomerDiscount GetBy(long ID)
-        {
-            throw new NotImplementedException();
-        }
+        //public CustomerDiscount GetBy(long ID)
+        //{
+        //    throw new NotImplementedException();
+        //}
 
         public UpdateCustomerDiscount GetDetails(long DiscountID)
         {
@@ -60,7 +60,8 @@ namespace DiscountManagement.Infrastructure.Repository
                 EndDate = x.EndDate.ToFarsi(),
                 StartDateGr = x.StartDate,
                 EndDateGr = x.EndDate,
-                Reason = x.Reason
+                Reason = x.Reason,
+                CreationDate = x.CreationDate.ToFarsi()
             });
             if (searchModel.ProductID>0)
             {

@@ -87,6 +87,16 @@ namespace ShopManagement.Infrastructure.Repository
             _shopDBContext.SaveChanges();
         }
 
+        public List<ProductViewModel> GetProducts()
+        {
+            return _shopDBContext.Products.Select(x => new ProductViewModel
+            {
+                ID = x.ID,
+                Name = x.Name
+
+            }).ToList();
+        }
+
         List<ProductViewModel> IProductRepository.GetAll()
         {
           return  _shopDBContext.Products.Include(x => x.Category)

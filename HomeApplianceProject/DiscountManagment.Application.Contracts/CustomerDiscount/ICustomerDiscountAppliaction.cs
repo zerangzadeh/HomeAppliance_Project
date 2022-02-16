@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DiscountManagement.Application.Contract.CustomerDiscount
 {
-    public interface ICustomerDiscountAppliaction
+    public interface ICustomerDiscountApplication
     {
         OperationResult Create(CreateCustomerDiscount command);
         OperationResult Update(UpdateCustomerDiscount command);

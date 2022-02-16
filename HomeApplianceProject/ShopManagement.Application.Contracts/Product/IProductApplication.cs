@@ -14,6 +14,7 @@ namespace ShopManagement.Application.Contracts.Product
         void Delete(long ID);
         
         List<ProductViewModel> GetAll();
+        List<ProductViewModel> GetProducts();
         UpdateProduct GetDetails(long ID);
         OperationResult SetIsStock(long ID);
         OperationResult SetNotInStock(long ID);
