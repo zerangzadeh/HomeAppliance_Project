@@ -60,7 +60,7 @@ namespace ServiceHost.Areas.Administration.Pages.Discounts.CustomerDiscounts
         }
 
        
-        public JsonResult OnPostUpdate(UpdateCustomerDiscount command)
+        public JsonResult OnPostUpdate(UpdateColleagueDiscount command)
         {
             var result = _customerDiscountApplication.Update(command);
             return new JsonResult(result);

@@ -1,4 +1,5 @@
 ﻿using DiscountManagement.Domain;
+using DiscountManagement.Domain.ColleagueDiscountAgg;
 using DiscountManagement.Domain.CustomerDiscountAgg;
 using Microsoft.EntityFrameworkCore;
 using Shop.Management.Infrastruture.Mapping;
@@ -13,7 +14,7 @@ namespace DiscountManagement.Infrastructure
     public class DiscountDBContext:DbContext
     {
         public DbSet<CustomerDiscount> CustomerDiscounts { get; set; }
-        
+        public DbSet<ColleagueDiscount> ColleagueDiscounts { get; set; }
         public DiscountDBContext(DbContextOptions<DiscountDBContext> options) : base(options)
         {
 

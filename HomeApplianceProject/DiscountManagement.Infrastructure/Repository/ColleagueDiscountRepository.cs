@@ -10,15 +10,17 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
+using DiscountManagement.Domain.ColleagueDiscountAgg;
+using DiscountManagement.Application.Contract.ColleagueDiscount;
 
 namespace DiscountManagement.Infrastructure.Repository
 {
-    public class CustomerDiscountRepository : BaseRepository<long, CustomerDiscount>, ICustomerDiscountRepository
+    public class ColleagueDiscountRepository : BaseRepository<long, ColleagueDiscount>, IColleagueDiscountRepository
     {
         private readonly DiscountDBContext _discountDBContext;
         private readonly ShopDBContext _shopDBContext;
 
-        public CustomerDiscountRepository(DiscountDBContext discountDBContext,ShopDBContext shopDBContext):base(discountDBContext)
+        public ColleagueDiscountRepository(DiscountDBContext discountDBContext,ShopDBContext shopDBContext):base(discountDBContext)
         {
             _discountDBContext = discountDBContext;
             _shopDBContext = shopDBContext;
@@ -35,50 +37,33 @@ namespace DiscountManagement.Infrastructure.Repository
         //    throw new NotImplementedException();
         //}
 
-        public UpdateColleagueDiscount GetDetails(long DiscountID)
+        public Application.Contract.ColleagueDiscount.UpdateColleagueDiscount GetDetails(long DiscountID)
         {
 
-            return _discountDBContext.CustomerDiscounts.Select(x=>new UpdateColleagueDiscount { 
-            ID=x.ID,
-            ProductID=x.ProductID,
-            DiscountRate=x.DiscountRate,
-            StartDate=x.StartDate.ToString(),
-            EndDate=x.EndDate.ToString(),
-            Reason=x.Reason
+            return _discountDBContext.ColleagueDiscounts.Select(x=>new Application.Contract.ColleagueDiscount.UpdateColleagueDiscount(
+                {
+                ID=x.ID,
+                ProductID=x.ProductID,
+                DiscountRate=x.DiscountRate
+
             }).FirstOrDefault(x=>x.ID==DiscountID);
         }
 
-       
-        public List<CustomerDiscountViewModel> Search(CustomerDiscountSearchModel searchModel)
+
+        public List<ColleagueDiscountViewModel> Search(ColleagueDiscountSearchModel searchModel)
         {
             var products=_shopDBContext.Products.Select(x=>new {x.ID , x.Name}).ToList();
-            var query = _discountDBContext.CustomerDiscounts.Select(x => new CustomerDiscountViewModel {
+            var query = _discountDBContext.ColleagueDiscounts.Select(x => new ColleagueDiscountViewModel {
                 ID = x.ID,
                 ProductID = x.ProductID,
                 DiscountRate = x.DiscountRate,
-                StartDate = x.StartDate.ToFarsi(),
-                EndDate = x.EndDate.ToFarsi(),
-                StartDateGr = x.StartDate,
-                EndDateGr = x.EndDate,
-                Reason = x.Reason,
                 CreationDate = x.CreationDate.ToFarsi()
             });
             if (searchModel.ProductID>0)
             {
                 query.Where(x=>x.ProductID==searchModel.ProductID);
             }
-            if (!string.IsNullOrWhiteSpace(searchModel.StartDate))
-            {
-                //var StartDate=DateTime.Now;
-                query=query.Where(x=>x.StartDateGr>searchModel.StartDate.ToGeorgianDateTime());
-
-            }
-            if (!string.IsNullOrWhiteSpace(searchModel.EndDate))
-            {
-                //var EndDate = DateTime.Now;
-                query = query.Where(x => x.EndDateGr > searchModel.EndDate.ToGeorgianDateTime());
-
-            }
+            
 
             var discounts = query.OrderByDescending(x => x.ID).ToList();
             discounts.ForEach(discount => 
@@ -87,6 +72,6 @@ namespace DiscountManagement.Infrastructure.Repository
            return discounts;
         }
 
-       
+    
     }
 }

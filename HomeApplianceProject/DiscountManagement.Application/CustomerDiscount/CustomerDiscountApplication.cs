@@ -41,7 +41,7 @@ namespace DiscountManagement.Application.CustomerDiscount
             throw new NotImplementedException();
         }
 
-        public UpdateCustomerDiscount GetDetails(long ID)
+        public UpdateColleagueDiscount GetDetails(long ID)
         {
           return  _customerRepository.GetDetails(ID);
         }
@@ -51,7 +51,7 @@ namespace DiscountManagement.Application.CustomerDiscount
             return _customerRepository.Search(customerDiscountSearchModel);
         }
 
-        public OperationResult Update(UpdateCustomerDiscount command)
+        public OperationResult Update(UpdateColleagueDiscount command)
         {
             var operationResult = new OperationResult();
             var messageForOperation = new MessageForOpeartion();

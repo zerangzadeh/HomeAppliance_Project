@@ -10,10 +10,10 @@ namespace DiscountManagement.Application.Contract.CustomerDiscount
     public interface ICustomerDiscountApplication
     {
         OperationResult Create(CreateCustomerDiscount command);
-        OperationResult Update(UpdateCustomerDiscount command);
+        OperationResult Update(UpdateColleagueDiscount command);
         List<CustomerDiscountViewModel> GetAll();
         List<CustomerDiscountViewModel> Search(CustomerDiscountSearchModel customerDiscountSearchModel);
-        UpdateCustomerDiscount GetDetails(long ID);
+        UpdateColleagueDiscount GetDetails(long ID);
 
      
 
