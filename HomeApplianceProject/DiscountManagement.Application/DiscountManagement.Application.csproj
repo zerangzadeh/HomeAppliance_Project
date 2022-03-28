@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DiscountManagement.Domain\DiscountManagement.Domain.csproj" />
+    <ProjectReference Include="..\DiscountManagement.Infrastructure\DiscountManagement.Infrastructure.csproj" />
     <ProjectReference Include="..\DiscountManagment.Application.Contracts\DiscountManagement.Application.Contract.csproj" />
   </ItemGroup>
 
