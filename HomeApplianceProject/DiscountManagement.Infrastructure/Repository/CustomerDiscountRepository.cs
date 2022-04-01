@@ -35,10 +35,10 @@ namespace DiscountManagement.Infrastructure.Repository
         //    throw new NotImplementedException();
         //}
 
-        public UpdateColleagueDiscount GetDetails(long DiscountID)
+        public UpdateCustomerDiscount GetDetails(long DiscountID)
         {
 
-            return _discountDBContext.CustomerDiscounts.Select(x=>new UpdateColleagueDiscount { 
+            return _discountDBContext.CustomerDiscounts.Select(x=>new UpdateCustomerDiscount { 
             ID=x.ID,
             ProductID=x.ProductID,
             DiscountRate=x.DiscountRate,
@@ -49,7 +49,7 @@ namespace DiscountManagement.Infrastructure.Repository
         }
 
        
-        public List<CustomerDiscountViewModel> Search(CustomerDiscountSearchModel searchModel)
+        public List<CustomerDiscountViewModel> Search(ColleaueDiscountSearchModel searchModel)
         {
             var products=_shopDBContext.Products.Select(x=>new {x.ID , x.Name}).ToList();
             var query = _discountDBContext.CustomerDiscounts.Select(x => new CustomerDiscountViewModel {

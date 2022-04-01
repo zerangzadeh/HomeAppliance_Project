@@ -1,8 +1,3 @@
-E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagement.Configuration\obj\Debug\net6.0\DiscountManagement.Configuration.csproj.AssemblyReference.cache
-E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagement.Configuration\obj\Debug\net6.0\DiscountManagement.Configuration.GeneratedMSBuildEditorConfig.editorconfig
-E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagement.Configuration\obj\Debug\net6.0\DiscountManagement.Configuration.AssemblyInfoInputs.cache
-E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagement.Configuration\obj\Debug\net6.0\DiscountManagement.Configuration.AssemblyInfo.cs
-E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagement.Configuration\obj\Debug\net6.0\DiscountManagement.Configuration.csproj.CoreCompileInputs.cache
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagement.Configuration\bin\Debug\net6.0\DiscountManagement.Configuration.deps.json
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagement.Configuration\bin\Debug\net6.0\DiscountManagement.Configuration.dll
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagement.Configuration\bin\Debug\net6.0\ref\DiscountManagement.Configuration.dll
@@ -23,6 +18,11 @@ E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\Discount
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagement.Configuration\bin\Debug\net6.0\ShopManagement.Application.Contracts.pdb
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagement.Configuration\bin\Debug\net6.0\ShopManagement.Domain.pdb
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagement.Configuration\bin\Debug\net6.0\ShopManagement.Infrastructure.pdb
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagement.Configuration\obj\Debug\net6.0\DiscountManagement.Configuration.csproj.AssemblyReference.cache
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagement.Configuration\obj\Debug\net6.0\DiscountManagement.Configuration.GeneratedMSBuildEditorConfig.editorconfig
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagement.Configuration\obj\Debug\net6.0\DiscountManagement.Configuration.AssemblyInfoInputs.cache
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagement.Configuration\obj\Debug\net6.0\DiscountManagement.Configuration.AssemblyInfo.cs
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagement.Configuration\obj\Debug\net6.0\DiscountManagement.Configuration.csproj.CoreCompileInputs.cache
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagement.Configuration\obj\Debug\net6.0\DiscountManagement.Configuration.csproj.CopyComplete
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagement.Configuration\obj\Debug\net6.0\DiscountManagement.Configuration.dll
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagement.Configuration\obj\Debug\net6.0\ref\DiscountManagement.Configuration.dll

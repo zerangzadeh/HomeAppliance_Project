@@ -40,7 +40,7 @@ namespace DiscountManagement.Infrastructure.Repository
         public Application.Contract.ColleagueDiscount.UpdateColleagueDiscount GetDetails(long DiscountID)
         {
 
-            return _discountDBContext.ColleagueDiscounts.Select(x=>new Application.Contract.ColleagueDiscount.UpdateColleagueDiscount(
+            return _discountDBContext.ColleagueDiscounts.Select(x=>new Application.Contract.ColleagueDiscount.UpdateColleagueDiscount
                 {
                 ID=x.ID,
                 ProductID=x.ProductID,
@@ -57,7 +57,8 @@ namespace DiscountManagement.Infrastructure.Repository
                 ID = x.ID,
                 ProductID = x.ProductID,
                 DiscountRate = x.DiscountRate,
-                CreationDate = x.CreationDate.ToFarsi()
+                CreationDate = x.CreationDate.ToFarsi(),
+                IsRemoved = x.IsRemoved
             });
             if (searchModel.ProductID>0)
             {

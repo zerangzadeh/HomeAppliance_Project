@@ -41,17 +41,17 @@ namespace DiscountManagement.Application.CustomerDiscount
             throw new NotImplementedException();
         }
 
-        public UpdateColleagueDiscount GetDetails(long ID)
+        public UpdateCustomerDiscount GetDetails(long ID)
         {
           return  _customerRepository.GetDetails(ID);
         }
 
-        public List<CustomerDiscountViewModel> Search(CustomerDiscountSearchModel customerDiscountSearchModel)
+        public List<CustomerDiscountViewModel> Search(ColleaueDiscountSearchModel customerDiscountSearchModel)
         {
             return _customerRepository.Search(customerDiscountSearchModel);
         }
 
-        public OperationResult Update(UpdateColleagueDiscount command)
+        public OperationResult Update(UpdateCustomerDiscount command)
         {
             var operationResult = new OperationResult();
             var messageForOperation = new MessageForOpeartion();

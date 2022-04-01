@@ -10,8 +10,8 @@ namespace DiscountManagement.Domain.CustomerDiscountAgg
 {
     public interface ICustomerDiscountRepository:IBaseRepository<long,CustomerDiscount>
     {
-        UpdateColleagueDiscount GetDetails(long DiscountID);
-        List<CustomerDiscountViewModel> Search(CustomerDiscountSearchModel searchModel);
+        UpdateCustomerDiscount GetDetails(long DiscountID);
+        List<CustomerDiscountViewModel> Search(ColleaueDiscountSearchModel searchModel);
 
     }
 }

@@ -98,4 +98,4 @@ namespace DiscountManagement.Application.ColleagueDiscount
         }
     }
     }
-}
+

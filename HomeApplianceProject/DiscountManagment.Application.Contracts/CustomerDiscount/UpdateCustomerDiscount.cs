@@ -1,6 +1,6 @@
 ﻿namespace DiscountManagement.Application.Contract.CustomerDiscount
 {
-    public class UpdateColleagueDiscount:CreateCustomerDiscount
+    public class UpdateCustomerDiscount:CreateCustomerDiscount
     {
         public long ID { get; set; }
     }

@@ -13,7 +13,7 @@ namespace ServiceHost.Areas.Administration.Pages.Discounts.CustomerDiscounts
     {
        
         string Message { get; set; }    
-        public CustomerDiscountSearchModel SearchModel { get; set; }
+        public ColleaueDiscountSearchModel SearchModel { get; set; }
         public List<CustomerDiscountViewModel> CustomerDiscounts;
         public SelectList Products;
 
@@ -27,7 +27,7 @@ namespace ServiceHost.Areas.Administration.Pages.Discounts.CustomerDiscounts
             _productApplication = productApplication;
         }
 
-        public void OnGet(CustomerDiscountSearchModel searchModel)
+        public void OnGet(ColleaueDiscountSearchModel searchModel)
         {
             Products = new SelectList(_productApplication.GetProducts(), "ID", "Name");
             CustomerDiscounts = _customerDiscountApplication.Search(searchModel);
@@ -60,7 +60,7 @@ namespace ServiceHost.Areas.Administration.Pages.Discounts.CustomerDiscounts
         }
 
        
-        public JsonResult OnPostUpdate(UpdateColleagueDiscount command)
+        public JsonResult OnPostUpdate(UpdateCustomerDiscount command)
         {
             var result = _customerDiscountApplication.Update(command);
             return new JsonResult(result);

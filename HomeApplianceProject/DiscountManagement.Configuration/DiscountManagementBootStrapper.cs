@@ -6,8 +6,9 @@ using DiscountManagement.Application.Contract.CustomerDiscount;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using DiscountManagement.Application.Contract.ColleagueDiscount;
-using DiscountManagement.Application.ColleagueDiscount;
+//using DiscountManagement.Application.ColleagueDiscount;
 using DiscountManagement.Domain.ColleagueDiscountAgg;
+using DiscountManagement.Application.ColleagueDiscount;
 
 namespace DiscountManagement.Configuration
 {

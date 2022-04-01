@@ -1240,7 +1240,8 @@
       "DiscountManagement.Application/1.0.0": {
         "dependencies": {
           "DiscountManagement.Application.Contract": "1.0.0",
-          "DiscountManagement.Domain": "1.0.0"
+          "DiscountManagement.Domain": "1.0.0",
+          "DiscountManagement.Infrastructure": "1.0.0"
         },
         "runtime": {
           "DiscountManagement.Application.dll": {}
