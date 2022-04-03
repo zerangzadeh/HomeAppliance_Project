@@ -1,0 +1,5 @@
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\InventoryManagment.Domain\obj\Debug\net6.0\InventoryManagment.Domain.csproj.AssemblyReference.cache
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\InventoryManagment.Domain\obj\Debug\net6.0\InventoryManagment.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\InventoryManagment.Domain\obj\Debug\net6.0\InventoryManagment.Domain.AssemblyInfoInputs.cache
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\InventoryManagment.Domain\obj\Debug\net6.0\InventoryManagment.Domain.AssemblyInfo.cs
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\InventoryManagment.Domain\obj\Debug\net6.0\InventoryManagment.Domain.csproj.CoreCompileInputs.cache

@@ -204,19 +204,6 @@
         "runtime": {
           "bin/placeholder/01_HA_Framework.dll": {}
         }
-      },
-      "InvenroryManagment.Application.Contracts/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "01_HA_Framework": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/InvenroryManagment.Application.Contracts.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/InvenroryManagment.Application.Contracts.dll": {}
-        }
       }
     }
   },
@@ -547,17 +534,11 @@
       "type": "project",
       "path": "../01_HA_Framework/01_HA_Framework.csproj",
       "msbuildProject": "../01_HA_Framework/01_HA_Framework.csproj"
-    },
-    "InvenroryManagment.Application.Contracts/1.0.0": {
-      "type": "project",
-      "path": "../InvenroryManagment.Application.Contracts/InvenroryManagment.Application.Contracts.csproj",
-      "msbuildProject": "../InvenroryManagment.Application.Contracts/InvenroryManagment.Application.Contracts.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "01_HA_Framework >= 1.0.0",
-      "InvenroryManagment.Application.Contracts >= 1.0.0"
+      "01_HA_Framework >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -566,11 +547,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\InventoryManagment.Domain\\InventoryManagment.Domain.csproj",
-      "projectName": "InventoryManagment.Domain",
-      "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\InventoryManagment.Domain\\InventoryManagment.Domain.csproj",
+      "projectUniqueName": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\InvenroryManagment.Application.Contracts\\InvenroryManagment.Application.Contracts.csproj",
+      "projectName": "InvenroryManagment.Application.Contracts",
+      "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\InvenroryManagment.Application.Contracts\\InvenroryManagment.Application.Contracts.csproj",
       "packagesPath": "C:\\Users\\azera\\.nuget\\packages\\",
-      "outputPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\InventoryManagment.Domain\\obj\\",
+      "outputPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\InvenroryManagment.Application.Contracts\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\azera\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -589,9 +570,6 @@
           "projectReferences": {
             "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\01_HA_Framework\\01_HA_Framework.csproj": {
               "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\01_HA_Framework\\01_HA_Framework.csproj"
-            },
-            "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\InvenroryManagment.Application.Contracts\\InvenroryManagment.Application.Contracts.csproj": {
-              "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\InvenroryManagment.Application.Contracts\\InvenroryManagment.Application.Contracts.csproj"
             }
           }
         }

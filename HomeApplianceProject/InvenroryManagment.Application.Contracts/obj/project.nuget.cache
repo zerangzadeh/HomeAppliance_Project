@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wZkMviSS0VcjQHYpurQxprxQcK0omGRw0CIldZrOx3XqvnFJOaElRG5x0bWXmSBSiO9t7pAg4r4G5sZkVHTpQg==",
+  "dgSpecHash": "LXsSKFdNLCqJcupv+hCf6/OZdyhLs0MN9On/orhlXOXBwKox5Qz8AxAH3FfYe9vpztdsVfsruRKioX1QRljSZw==",
   "success": true,
-  "projectFilePath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\InventoryManagment.Domain\\InventoryManagment.Domain.csproj",
+  "projectFilePath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\InvenroryManagment.Application.Contracts\\InvenroryManagment.Application.Contracts.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\azera\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.1\\microsoft.entityframeworkcore.6.0.1.nupkg.sha512",
     "C:\\Users\\azera\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.1\\microsoft.entityframeworkcore.abstractions.6.0.1.nupkg.sha512",
