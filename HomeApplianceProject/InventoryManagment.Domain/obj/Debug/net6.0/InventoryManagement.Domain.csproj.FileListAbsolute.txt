@@ -1,0 +1,17 @@
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\InventoryManagment.Domain\bin\Debug\net6.0\InventoryManagement.Domain.deps.json
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\InventoryManagment.Domain\bin\Debug\net6.0\InventoryManagement.Domain.dll
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\InventoryManagment.Domain\bin\Debug\net6.0\ref\InventoryManagement.Domain.dll
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\InventoryManagment.Domain\bin\Debug\net6.0\InventoryManagement.Domain.pdb
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\InventoryManagment.Domain\bin\Debug\net6.0\01_HA_Framework.dll
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\InventoryManagment.Domain\bin\Debug\net6.0\InventoryManagement.Application.Contracts.dll
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\InventoryManagment.Domain\bin\Debug\net6.0\01_HA_Framework.pdb
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\InventoryManagment.Domain\bin\Debug\net6.0\InventoryManagement.Application.Contracts.pdb
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\InventoryManagment.Domain\obj\Debug\net6.0\InventoryManagement.Domain.csproj.AssemblyReference.cache
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\InventoryManagment.Domain\obj\Debug\net6.0\InventoryManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\InventoryManagment.Domain\obj\Debug\net6.0\InventoryManagement.Domain.AssemblyInfoInputs.cache
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\InventoryManagment.Domain\obj\Debug\net6.0\InventoryManagement.Domain.AssemblyInfo.cs
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\InventoryManagment.Domain\obj\Debug\net6.0\InventoryManagement.Domain.csproj.CoreCompileInputs.cache
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\InventoryManagment.Domain\obj\Debug\net6.0\InventoryManagement.Domain.csproj.CopyComplete
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\InventoryManagment.Domain\obj\Debug\net6.0\InventoryManagement.Domain.dll
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\InventoryManagment.Domain\obj\Debug\net6.0\ref\InventoryManagement.Domain.dll
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\InventoryManagment.Domain\obj\Debug\net6.0\InventoryManagement.Domain.pdb

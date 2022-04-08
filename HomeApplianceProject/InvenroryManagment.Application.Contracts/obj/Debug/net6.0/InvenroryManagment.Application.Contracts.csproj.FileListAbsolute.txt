@@ -1,0 +1,15 @@
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\InvenroryManagment.Application.Contracts\bin\Debug\net6.0\InvenroryManagment.Application.Contracts.deps.json
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\InvenroryManagment.Application.Contracts\bin\Debug\net6.0\InvenroryManagment.Application.Contracts.dll
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\InvenroryManagment.Application.Contracts\bin\Debug\net6.0\ref\InvenroryManagment.Application.Contracts.dll
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\InvenroryManagment.Application.Contracts\bin\Debug\net6.0\InvenroryManagment.Application.Contracts.pdb
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\InvenroryManagment.Application.Contracts\bin\Debug\net6.0\01_HA_Framework.dll
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\InvenroryManagment.Application.Contracts\bin\Debug\net6.0\01_HA_Framework.pdb
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\InvenroryManagment.Application.Contracts\obj\Debug\net6.0\InvenroryManagment.Application.Contracts.csproj.AssemblyReference.cache
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\InvenroryManagment.Application.Contracts\obj\Debug\net6.0\InvenroryManagment.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\InvenroryManagment.Application.Contracts\obj\Debug\net6.0\InvenroryManagment.Application.Contracts.AssemblyInfoInputs.cache
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\InvenroryManagment.Application.Contracts\obj\Debug\net6.0\InvenroryManagment.Application.Contracts.AssemblyInfo.cs
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\InvenroryManagment.Application.Contracts\obj\Debug\net6.0\InvenroryManagment.Application.Contracts.csproj.CoreCompileInputs.cache
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\InvenroryManagment.Application.Contracts\obj\Debug\net6.0\InvenroryManagment.Application.Contracts.csproj.CopyComplete
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\InvenroryManagment.Application.Contracts\obj\Debug\net6.0\InvenroryManagment.Application.Contracts.dll
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\InvenroryManagment.Application.Contracts\obj\Debug\net6.0\ref\InvenroryManagment.Application.Contracts.dll
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\InvenroryManagment.Application.Contracts\obj\Debug\net6.0\InvenroryManagment.Application.Contracts.pdb

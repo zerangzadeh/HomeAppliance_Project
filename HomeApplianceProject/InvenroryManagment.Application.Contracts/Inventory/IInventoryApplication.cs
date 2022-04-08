@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace InvenroryManagment.Application.Contracts
+namespace InventoryManagement.Application.Contracts
 {
     public interface IInventoryApplication
     {

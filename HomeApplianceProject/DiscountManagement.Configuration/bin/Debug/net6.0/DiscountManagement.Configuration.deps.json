@@ -9,7 +9,6 @@
       "DiscountManagement.Configuration/1.0.0": {
         "dependencies": {
           "DiscountManagement.Application": "1.0.0",
-          "DiscountManagement.Application.Contract": "1.0.0",
           "DiscountManagement.Infrastructure": "1.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
         },

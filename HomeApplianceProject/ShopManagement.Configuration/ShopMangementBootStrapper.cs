@@ -22,7 +22,7 @@ using _01_HomeAppliance_Query.Contracts.ProductCategory;
 
 namespace ShopManagement.Configuration
 {
-    public class ShopMangementBootStrapper
+    public class ShopManagementBootStrapper
     {
 
         public  static void Configure(IServiceCollection serviceCollection,string connectionString)

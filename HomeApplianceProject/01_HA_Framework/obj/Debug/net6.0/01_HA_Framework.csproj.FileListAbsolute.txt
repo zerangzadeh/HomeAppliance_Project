@@ -2,6 +2,7 @@ E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\01_HA_Fr
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\01_HA_Framework\bin\Debug\net6.0\01_HA_Framework.dll
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\01_HA_Framework\bin\Debug\net6.0\ref\01_HA_Framework.dll
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\01_HA_Framework\bin\Debug\net6.0\01_HA_Framework.pdb
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\01_HA_Framework\obj\Debug\net6.0\01_HA_Framework.csproj.AssemblyReference.cache
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\01_HA_Framework\obj\Debug\net6.0\01_HA_Framework.GeneratedMSBuildEditorConfig.editorconfig
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\01_HA_Framework\obj\Debug\net6.0\01_HA_Framework.AssemblyInfoInputs.cache
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\01_HA_Framework\obj\Debug\net6.0\01_HA_Framework.AssemblyInfo.cs
