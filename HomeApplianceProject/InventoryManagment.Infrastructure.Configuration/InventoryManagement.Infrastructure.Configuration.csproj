@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\InventoryManagement.Application\InventoryManagement.Application.csproj" />
     <ProjectReference Include="..\InventoryManagment.Domain\InventoryManagement.Domain.csproj" />
     <ProjectReference Include="..\InventoryManagment.Infrastructure\InventoryManagement.Infrastructure.csproj" />
   </ItemGroup>

@@ -48,5 +48,12 @@ namespace InventoryManagement.Domain.InventoryAgg
 
 
         }
+
+        public void Update(long productID, double unitPrice)
+        {
+            ProductID = productID;
+            UnitPrice = unitPrice;
+        }
+
     }
 }

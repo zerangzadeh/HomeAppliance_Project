@@ -25,3 +25,5 @@ E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\Inventor
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\InventoryManagment.Infrastructure.Configuration\obj\Debug\net6.0\InventoryManagement.Infrastructure.Configuration.dll
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\InventoryManagment.Infrastructure.Configuration\obj\Debug\net6.0\ref\InventoryManagement.Infrastructure.Configuration.dll
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\InventoryManagment.Infrastructure.Configuration\obj\Debug\net6.0\InventoryManagement.Infrastructure.Configuration.pdb
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\InventoryManagment.Infrastructure.Configuration\bin\Debug\net6.0\InventoryManagement.Application.dll
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\InventoryManagment.Infrastructure.Configuration\bin\Debug\net6.0\InventoryManagement.Application.pdb

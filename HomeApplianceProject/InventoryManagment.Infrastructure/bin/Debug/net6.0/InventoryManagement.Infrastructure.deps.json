@@ -1265,7 +1265,8 @@
       },
       "InventoryManagement.Application.Contracts/1.0.0": {
         "dependencies": {
-          "01_HA_Framework": "1.0.0"
+          "01_HA_Framework": "1.0.0",
+          "ShopManagement.Application.Contracts": "1.0.0"
         },
         "runtime": {
           "InventoryManagement.Application.Contracts.dll": {}

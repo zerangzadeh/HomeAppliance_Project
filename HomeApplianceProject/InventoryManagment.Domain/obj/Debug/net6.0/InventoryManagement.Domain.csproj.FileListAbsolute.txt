@@ -15,3 +15,5 @@ E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\Inventor
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\InventoryManagment.Domain\obj\Debug\net6.0\InventoryManagement.Domain.dll
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\InventoryManagment.Domain\obj\Debug\net6.0\ref\InventoryManagement.Domain.dll
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\InventoryManagment.Domain\obj\Debug\net6.0\InventoryManagement.Domain.pdb
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\InventoryManagment.Domain\bin\Debug\net6.0\ShopManagement.Application.Contracts.dll
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\InventoryManagment.Domain\bin\Debug\net6.0\ShopManagement.Application.Contracts.pdb
