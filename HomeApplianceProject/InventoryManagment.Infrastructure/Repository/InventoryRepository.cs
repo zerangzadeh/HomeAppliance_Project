@@ -48,7 +48,7 @@ namespace InventoryManagement.Infrastructure.Repository
                 query=query.Where(x=>x.ProductID==searchModel.ProductID);   
             }
 
-            if (!searchModel.InStock)
+            if (searchModel.InStock)
             {
                 query = query.Where(x => !x.InStock);
             }

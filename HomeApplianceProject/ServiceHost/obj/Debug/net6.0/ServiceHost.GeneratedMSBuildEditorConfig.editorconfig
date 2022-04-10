@@ -47,8 +47,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcSW52ZW50b3J5XENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/IT Studies/Asp.Net Sample/HomeAppliance_Project/HomeApplianceProject/ServiceHost/Areas/Administration/Pages/Inventory/Increase.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcSW52ZW50b3J5XEluY3JlYXNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/IT Studies/Asp.Net Sample/HomeAppliance_Project/HomeApplianceProject/ServiceHost/Areas/Administration/Pages/Inventory/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcSW52ZW50b3J5XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/IT Studies/Asp.Net Sample/HomeAppliance_Project/HomeApplianceProject/ServiceHost/Areas/Administration/Pages/Inventory/Reduce.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5pc3RyYXRpb25cUGFnZXNcSW52ZW50b3J5XFJlZHVjZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/IT Studies/Asp.Net Sample/HomeAppliance_Project/HomeApplianceProject/ServiceHost/Areas/Administration/Pages/Inventory/Update.cshtml]
