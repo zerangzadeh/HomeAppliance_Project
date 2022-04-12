@@ -108,6 +108,11 @@ namespace ServiceHost.Areas.Administration.Pages.Inventory
             return new JsonResult(result);
         }
 
+        public IActionResult OnGetLog(long ID)
+        {
+            var log = _inventoryApplication.GetOperationLog(ID);
+            return Partial("OperationLog", log);
+        }
 
     }
 }

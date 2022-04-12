@@ -27,6 +27,7 @@
             Description = description;
             OrederID = orederID;
             InventoryID = inventoryID;
+            OperationDate = DateTime.Now;
         }
     }
 }

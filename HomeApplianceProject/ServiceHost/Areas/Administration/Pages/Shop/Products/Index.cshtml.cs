@@ -33,24 +33,7 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.Products
             Products = _productApplication.Search(searchModel);
         }
 
-        public IActionResult OnGetNotInStock(long ID)
-        {
-            var result=_productApplication.SetNotInStock(ID);
-            if (result.IsSucceeded)
-                return RedirectToAction("Index");
-            Message = result.Message;
-            return RedirectToAction("Index");
-
-        }
-
-        public IActionResult OnGetIsInStock(long ID)
-        {
-            var result = _productApplication.SetIsStock(ID);
-            if (result.IsSucceeded)
-                return RedirectToAction("Index");
-            Message = result.Message;
-            return RedirectToAction("Index");
-        }
+       
 
 
         public IActionResult OnGetCreate()

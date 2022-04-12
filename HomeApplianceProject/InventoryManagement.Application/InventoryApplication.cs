@@ -1,5 +1,6 @@
 ﻿using _01_HA_Framework.Application;
 using InventoryManagement.Application.Contracts;
+using InventoryManagement.Application.Contracts.Inventory;
 using InventoryManagement.Domain.InventoryAgg;
 using InventoryManagement.Infrastructure.Repository;
 
@@ -39,6 +40,11 @@ namespace InventoryManagement.Application
         public UpdateInventory GetDetails(long ID)
         {
           return _inventoryRepository.GetDetails(ID);
+        }
+
+        public List<InventoryOperationViewModel> GetOperationLog(long inventoryId)
+        {
+            return _inventoryRepository.GetOperationLog(inventoryId);
         }
 
         public OperationResult Increase(IncreaseInventory command)

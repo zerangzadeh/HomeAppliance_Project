@@ -16,8 +16,8 @@ namespace ShopManagement.Application.Contracts.Product
         List<ProductViewModel> GetAll();
         List<ProductViewModel> GetProducts();
         UpdateProduct GetDetails(long ID);
-        OperationResult SetIsStock(long ID);
-        OperationResult SetNotInStock(long ID);
+        //OperationResult SetIsStock(long ID);
+        //OperationResult SetNotInStock(long ID);
         List<ProductViewModel> Search(ProductSearchModel searchModel);
     }
 }

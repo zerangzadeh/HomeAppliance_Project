@@ -17,7 +17,7 @@ namespace Shop.Management.Infrastruture.Mapping
             builder.HasKey(x => x.ID);
             builder.Property(x => x.Name).HasMaxLength(255).IsRequired();
             builder.Property(x => x.Code).HasMaxLength(255).IsRequired();
-            builder.Property(x => x.UnitPrice).IsRequired();
+          
             builder.Property(x => x.ShortDESC).HasMaxLength(255);
             builder.Property(x => x.Description).HasMaxLength(255);
             builder.Property(x => x.PicSrc).HasMaxLength(1000);

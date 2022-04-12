@@ -1,4 +1,5 @@
 ﻿using _01_HA_Framework.Application;
+using InventoryManagement.Application.Contracts.Inventory;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,5 +18,6 @@ namespace InventoryManagement.Application.Contracts
         OperationResult Reduce(List<ReduceInventory> command);
         OperationResult Reduce(ReduceInventory command);
         List<InventoryViewModel> Search(InventorySearchModel searchModel);
+        List<InventoryOperationViewModel> GetOperationLog(long inventoryId);
     }
 }

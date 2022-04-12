@@ -30,8 +30,7 @@ namespace ShopManagement.Infrastructure.Repository
                 ID = x.ID,
                 Name = x.Name,
                 Code = x.Code,
-                UnitPrice = x.UnitPrice,
-                IsInStock = x.IsInStock,
+              
                 ShortDESC = x.ShortDESC,
                 Description = x.Description,
                 PicSrc = x.PicSrc,
@@ -58,9 +57,9 @@ namespace ShopManagement.Infrastructure.Repository
                     PicSrc = x.PicSrc,
                     CategoryId=x.CategoryId,
                     Category = x.Category.Title, 
-                    UnitPrice = x.UnitPrice,
+                   
                     CreationDate = x.CreationDate.ToFarsi(),
-                    IsInStock=x.IsInStock
+                    
                 });
             if (!string.IsNullOrWhiteSpace(searchModel.Name))
                 query = query.Where(x => x.Name.Contains(searchModel.Name));
@@ -75,17 +74,17 @@ namespace ShopManagement.Infrastructure.Repository
 
         }
 
-        public void SetIsInStock(long ID)
-        {
-            _shopDBContext.Products.FirstOrDefault(x => x.ID == ID).IsInStock = true;
-            _shopDBContext.SaveChanges();
-        }
+        //public void SetIsInStock(long ID)
+        //{
+        //    _shopDBContext.Products.FirstOrDefault(x => x.ID == ID).IsInStock = true;
+        //    _shopDBContext.SaveChanges();
+        //}
 
-        public void SetNotInStock(long ID)
-        {
-            _shopDBContext.Products.FirstOrDefault(x => x.ID == ID).IsInStock = false;
-            _shopDBContext.SaveChanges();
-        }
+        //public void SetNotInStock(long ID)
+        //{
+        //    _shopDBContext.Products.FirstOrDefault(x => x.ID == ID).IsInStock = false;
+        //    _shopDBContext.SaveChanges();
+        //}
 
         public List<ProductViewModel> GetProducts()
         {

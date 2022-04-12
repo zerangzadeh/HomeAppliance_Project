@@ -29,7 +29,7 @@ namespace ShopManagement.Application.Product
                 else
                 {
                     var slug = command.Slug.GenerateSlug();
-                    var product = new ShopManagement.Domain.ProductAgg.Product(command.Name, command.Code, command.UnitPrice,
+                    var product = new ShopManagement.Domain.ProductAgg.Product(command.Name, command.Code, 
                 command.ShortDESC, command.Description, command.PicSrc,
                 command.PicAlt, command.PicTitle, command.CategoryId, slug,
                 command.Keywords, command.MetaDESC);
@@ -63,13 +63,13 @@ namespace ShopManagement.Application.Product
                 //To Fix
                 product.Name = command.Name;
                 product.Code = command.Code;
-                product.UnitPrice = command.UnitPrice;
+                
                 product.ShortDESC = command.ShortDESC;
                 product.Description = command.Description;
                 product.PicSrc = command.PicSrc;
                 product.PicAlt = command.PicAlt;
                 product.PicTitle = command.PicTitle;
-                product.IsInStock = command.IsInStock;
+               
                 product.CategoryId = command.CategoryId;
                 product.Slug = slug;
                 product.Keywords = command.Keywords;
@@ -108,41 +108,41 @@ namespace ShopManagement.Application.Product
             return _productRepository.GetDetails(ID);
         }
 
-        public OperationResult SetIsStock(long ID)
-        {
-            var operationResult = new OperationResult();
-            var messageForOperation = new MessageForOpeartion();
-            var product = _productRepository.GetBy(ID);
-            if (product != null)
-            {
-                _productRepository.SetIsInStock(ID);
-                return operationResult.Succeeded(messageForOperation.SuccessMessage);
-            }
+        //public OperationResult SetIsStock(long ID)
+        //{
+        //    var operationResult = new OperationResult();
+        //    var messageForOperation = new MessageForOpeartion();
+        //    var product = _productRepository.GetBy(ID);
+        //    if (product != null)
+        //    {
+        //        _productRepository.SetIsInStock(ID);
+        //        return operationResult.Succeeded(messageForOperation.SuccessMessage);
+        //    }
 
 
-            else
-            {
-                return operationResult.Failed(messageForOperation.NotFoundMessage);
-            }
-        }
+        //    else
+        //    {
+        //        return operationResult.Failed(messageForOperation.NotFoundMessage);
+        //    }
+        //}
 
-        public OperationResult SetNotInStock(long ID)
-        {
-            var operationResult = new OperationResult();
-            var messageForOperation = new MessageForOpeartion();
-            var product = _productRepository.GetBy(ID);
-            if (product != null)
-            {
-                _productRepository.SetNotInStock(ID);
-                return operationResult.Succeeded(messageForOperation.SuccessMessage);
+        //public OperationResult SetNotInStock(long ID)
+        //{
+        //    var operationResult = new OperationResult();
+        //    var messageForOperation = new MessageForOpeartion();
+        //    var product = _productRepository.GetBy(ID);
+        //    if (product != null)
+        //    {
+        //        _productRepository.SetNotInStock(ID);
+        //        return operationResult.Succeeded(messageForOperation.SuccessMessage);
 
-            }
+        //    }
 
-            else
-            {
-                return operationResult.Failed(messageForOperation.NotFoundMessage);
-            }
-        }
+        //    else
+        //    {
+        //        return operationResult.Failed(messageForOperation.NotFoundMessage);
+        //    }
+        //}
 
         public List<ProductViewModel> Search(ProductSearchModel searchModel)
         {
