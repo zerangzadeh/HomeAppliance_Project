@@ -10,5 +10,6 @@ namespace _01_HomeAppliance_Query.Contracts.ProductCategory
 
     {
         List<ProductCategoryQueryModel> GetProductCategories();
+        List<ProductCategoryQueryModel> GetProductCategoriesWithProducts();
     }
 }

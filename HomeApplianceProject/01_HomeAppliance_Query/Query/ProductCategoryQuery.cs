@@ -1,6 +1,9 @@
-﻿using _01_HomeAppliance_Query.Contracts.ProductCategory;
+﻿using _01_HomeAppliance_Query.Contracts.Product;
+using _01_HomeAppliance_Query.Contracts.ProductCategory;
 using _01_HomeAppliance_Query.Contracts.Slide;
+using Microsoft.EntityFrameworkCore;
 using Shop.Management.Infrastruture;
+using ShopManagement.Domain.ProductAgg;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -33,7 +36,42 @@ namespace _01_HomeAppliance_Query.Query
                Slug=x.Slug
 
 
-            }).ToList();
+            }).Take(5).ToList();
+        }
+
+        public List<ProductCategoryQueryModel> GetProductCategoriesWithProducts()
+        {
+           return _shopDBContex.ProductCatrgories.Include(x=>x.Products).ThenInclude(x=>x.Category).
+                Select(x=>new ProductCategoryQueryModel {
+           
+           ID = x.ID,
+           Title=x.Title,
+           Products = MapProducts(x.Products)
+   
+           }).ToList();
+        }
+
+        private static  List<ProductQueryModel> MapProducts(List<Product> products)
+        {
+            var result=new List<ProductQueryModel>();
+            foreach (var product in products)
+            {
+                var item = new ProductQueryModel
+                {
+                    ID = product.ID,
+                    Category = product.Category.Title,
+                    Name = product.Name,
+                    PicSrc = product.PicSrc,
+                    PicAlt = product.PicAlt,
+                    PicTitle = product.PicTitle,
+                    Slug = product.Slug
+                };
+                result.Add(item);
+
+            }
+            return result;
+
+           
         }
     }
 }
