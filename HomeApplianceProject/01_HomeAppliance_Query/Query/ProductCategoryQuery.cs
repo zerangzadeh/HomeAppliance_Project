@@ -1,6 +1,8 @@
-﻿using _01_HomeAppliance_Query.Contracts.Product;
+﻿using _01_HA_Framework.Application;
+using _01_HomeAppliance_Query.Contracts.Product;
 using _01_HomeAppliance_Query.Contracts.ProductCategory;
 using _01_HomeAppliance_Query.Contracts.Slide;
+using InventoryManagement.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 using Shop.Management.Infrastruture;
 using ShopManagement.Domain.ProductAgg;
@@ -14,16 +16,18 @@ namespace _01_HomeAppliance_Query.Query
 {
     public class ProductCategoryQuery : IProductCategoryQuery
     {
-        private readonly ShopDBContext _shopDBContex;
+        private readonly ShopDBContext _shopDBContext;
+        private readonly InventoryDBContext _inventoryDBContext;
 
-        public ProductCategoryQuery(ShopDBContext shopDBContex)
+        public ProductCategoryQuery(ShopDBContext shopDBContext, InventoryDBContext inventoryDBContext)
         {
-            _shopDBContex = shopDBContex;
+            _shopDBContext = shopDBContext;
+            _inventoryDBContext = inventoryDBContext;
         }
 
         public List<ProductCategoryQueryModel> GetProductCategories()
         {
-            return _shopDBContex.ProductCatrgories.Select(x => new ProductCategoryQueryModel
+            return _shopDBContext.ProductCatrgories.Select(x => new ProductCategoryQueryModel
             {
                ID = x.ID,
                Title = x.Title, 
@@ -41,37 +45,65 @@ namespace _01_HomeAppliance_Query.Query
 
         public List<ProductCategoryQueryModel> GetProductCategoriesWithProducts()
         {
-           return _shopDBContex.ProductCatrgories.Include(x=>x.Products).ThenInclude(x=>x.Category).
-                Select(x=>new ProductCategoryQueryModel {
-           
-           ID = x.ID,
-           Title=x.Title,
-           Products = MapProducts(x.Products)
-   
-           }).ToList();
+            var inventory = _inventoryDBContext.Inventory.Select(x =>
+                 new { x.ProductID, x.UnitPrice }).ToList();
+            //var discounts = _discountDBContext.CustomerDiscounts
+            //    .Where(x => x.StartDate < DateTime.Now && x.EndDate > DateTime.Now)
+            //    .Select(x => new { x.DiscountRate, x.ProductId, x.EndDate }).ToList();
+
+            var catetories = _shopDBContext.ProductCatrgories
+                .Include(a => a.Products)
+                .ThenInclude(x => x.Category)
+                .Select(x => new ProductCategoryQueryModel
+                {
+                    ID = x.ID,
+                    Title = x.Title,
+                    Description = x.Description,
+                    MetaDesc = x.MetaDesc,
+                     KeyWord = x.KeyWord,
+                   
+                    Slug = x.Slug,
+                    Products = MapProducts(x.Products)
+                }).ToList();
+            foreach (var category in catetories)
+            {
+                foreach (var product in category.Products)
+                {
+                    var productInventory = inventory.FirstOrDefault(x => x.ProductID == product.ID);
+                    if (productInventory != null)
+                    {
+                        var price = productInventory.UnitPrice;
+                        product.Price = price.ToMoney();
+                        //var discount = discounts.FirstOrDefault(x => x.ProductId == product.Id);
+                        //if (discount != null)
+                        //{
+                        //    int discountRate = discount.DiscountRate;
+                        //    product.DiscountRate = discountRate;
+                        //    product.DiscountExpireDate = discount.EndDate.ToDiscountFormat();
+                        //    product.HasDiscount = discountRate > 0;
+                        //    var discountAmount = Math.Round((price * discountRate) / 100);
+                        //    product.PriceWithDiscount = (price - discountAmount).ToMoney();
+                        //}
+                    }
+                }
+            }
+
+            return catetories;
         }
 
         private static  List<ProductQueryModel> MapProducts(List<Product> products)
         {
-            var result=new List<ProductQueryModel>();
-            foreach (var product in products)
+            return products.Select(product => new ProductQueryModel
             {
-                var item = new ProductQueryModel
-                {
-                    ID = product.ID,
-                    Category = product.Category.Title,
-                    Name = product.Name,
-                    PicSrc = product.PicSrc,
-                    PicAlt = product.PicAlt,
-                    PicTitle = product.PicTitle,
-                    Slug = product.Slug
-                };
-                result.Add(item);
+                ID = product.ID,
+                Category = product.Category.Title,
+                Name = product.Name,
+                PicSrc = product.PicSrc,
+                PicAlt = product.PicAlt,
+                PicTitle = product.PicTitle,
+                Slug = product.Slug
+            }).ToList();
 
-            }
-            return result;
-
-           
         }
     }
 }

@@ -19,3 +19,9 @@ E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\01_HomeA
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\01_HomeAppliance_Query\obj\Debug\net6.0\01_HomeAppliance_Query.dll
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\01_HomeAppliance_Query\obj\Debug\net6.0\ref\01_HomeAppliance_Query.dll
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\01_HomeAppliance_Query\obj\Debug\net6.0\01_HomeAppliance_Query.pdb
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\01_HomeAppliance_Query\bin\Debug\net6.0\InventoryManagement.Application.Contracts.dll
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\01_HomeAppliance_Query\bin\Debug\net6.0\InventoryManagement.Domain.dll
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\01_HomeAppliance_Query\bin\Debug\net6.0\InventoryManagement.Infrastructure.dll
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\01_HomeAppliance_Query\bin\Debug\net6.0\InventoryManagement.Infrastructure.pdb
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\01_HomeAppliance_Query\bin\Debug\net6.0\InventoryManagement.Application.Contracts.pdb
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\01_HomeAppliance_Query\bin\Debug\net6.0\InventoryManagement.Domain.pdb

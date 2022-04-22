@@ -1776,6 +1776,50 @@
           "bin/placeholder/01_HA_Framework.dll": {}
         }
       },
+      "InventoryManagement.Application.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "01_HA_Framework": "1.0.0",
+          "ShopManagement.Application.Contracts": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/InventoryManagement.Application.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InventoryManagement.Application.Contracts.dll": {}
+        }
+      },
+      "InventoryManagement.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "01_HA_Framework": "1.0.0",
+          "InventoryManagement.Application.Contracts": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/InventoryManagement.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InventoryManagement.Domain.dll": {}
+        }
+      },
+      "InventoryManagement.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "InventoryManagement.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "6.0.1",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.1",
+          "ShopManagement.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/InventoryManagement.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InventoryManagement.Infrastructure.dll": {}
+        }
+      },
       "ShopManagement.Application.Contracts/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -5853,6 +5897,21 @@
       "path": "../01_HA_Framework/01_HA_Framework.csproj",
       "msbuildProject": "../01_HA_Framework/01_HA_Framework.csproj"
     },
+    "InventoryManagement.Application.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../InvenroryManagment.Application.Contracts/InventoryManagement.Application.Contracts.csproj",
+      "msbuildProject": "../InvenroryManagment.Application.Contracts/InventoryManagement.Application.Contracts.csproj"
+    },
+    "InventoryManagement.Domain/1.0.0": {
+      "type": "project",
+      "path": "../InventoryManagment.Domain/InventoryManagement.Domain.csproj",
+      "msbuildProject": "../InventoryManagment.Domain/InventoryManagement.Domain.csproj"
+    },
+    "InventoryManagement.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../InventoryManagment.Infrastructure/InventoryManagement.Infrastructure.csproj",
+      "msbuildProject": "../InventoryManagment.Infrastructure/InventoryManagement.Infrastructure.csproj"
+    },
     "ShopManagement.Application.Contracts/1.0.0": {
       "type": "project",
       "path": "../ShopManagement.Application.Contracts/ShopManagement.Application.Contracts.csproj",
@@ -5871,6 +5930,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "InventoryManagement.Infrastructure >= 1.0.0",
       "ShopManagement.Infrastructure >= 1.0.0"
     ]
   },
@@ -5901,6 +5961,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\InventoryManagment.Infrastructure\\InventoryManagement.Infrastructure.csproj": {
+              "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\InventoryManagment.Infrastructure\\InventoryManagement.Infrastructure.csproj"
+            },
             "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\Shop.Management.Infrastruture\\ShopManagement.Infrastructure.csproj": {
               "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\Shop.Management.Infrastruture\\ShopManagement.Infrastructure.csproj"
             }

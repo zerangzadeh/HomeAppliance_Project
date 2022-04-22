@@ -1805,6 +1805,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "InventoryManagement.Infrastructure": "1.0.0",
           "ShopManagement.Infrastructure": "1.0.0"
         },
         "compile": {
@@ -1812,6 +1813,50 @@
         },
         "runtime": {
           "bin/placeholder/01_HomeAppliance_Query.dll": {}
+        }
+      },
+      "InventoryManagement.Application.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "01_HA_Framework": "1.0.0",
+          "ShopManagement.Application.Contracts": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/InventoryManagement.Application.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InventoryManagement.Application.Contracts.dll": {}
+        }
+      },
+      "InventoryManagement.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "01_HA_Framework": "1.0.0",
+          "InventoryManagement.Application.Contracts": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/InventoryManagement.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InventoryManagement.Domain.dll": {}
+        }
+      },
+      "InventoryManagement.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "InventoryManagement.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "6.0.1",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.1",
+          "ShopManagement.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/InventoryManagement.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InventoryManagement.Infrastructure.dll": {}
         }
       },
       "ShopManagement.Application/1.0.0": {
@@ -5941,6 +5986,21 @@
       "type": "project",
       "path": "../01_HomeAppliance_Query/01_HomeAppliance_Query.csproj",
       "msbuildProject": "../01_HomeAppliance_Query/01_HomeAppliance_Query.csproj"
+    },
+    "InventoryManagement.Application.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../InvenroryManagment.Application.Contracts/InventoryManagement.Application.Contracts.csproj",
+      "msbuildProject": "../InvenroryManagment.Application.Contracts/InventoryManagement.Application.Contracts.csproj"
+    },
+    "InventoryManagement.Domain/1.0.0": {
+      "type": "project",
+      "path": "../InventoryManagment.Domain/InventoryManagement.Domain.csproj",
+      "msbuildProject": "../InventoryManagment.Domain/InventoryManagement.Domain.csproj"
+    },
+    "InventoryManagement.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../InventoryManagment.Infrastructure/InventoryManagement.Infrastructure.csproj",
+      "msbuildProject": "../InventoryManagment.Infrastructure/InventoryManagement.Infrastructure.csproj"
     },
     "ShopManagement.Application/1.0.0": {
       "type": "project",

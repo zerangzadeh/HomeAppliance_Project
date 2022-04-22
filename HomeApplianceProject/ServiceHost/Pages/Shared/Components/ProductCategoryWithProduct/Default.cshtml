@@ -68,7 +68,7 @@
                                                     <div class="single-grid-product__content">
                                                         <div class="single-grid-product__category-rating">
                                                             <span class="category">
-                                                                <a asp-page="/ProductCategory" asp-route-id="@category.Slug">@product.</a>
+                                                                <a asp-page="/ProductCategory" asp-route-id="@category.Slug">@product.Slug</a>
                                                             </span>
                                                             <span class="rating">
                                                                 <i class="ion-android-star active"></i>
@@ -91,9 +91,9 @@
                                                                 <span class="main-price discounted">@product.Price تومان</span>
                                                             }
                                                             else
-                                                            {
+                                                            {*@
                                                                 <span class="main-price">@product.Price تومان</span>
-                                                            }*@
+                                                           @* }*@
                                                         </p>
                                                     </div>
                                                 </div>
