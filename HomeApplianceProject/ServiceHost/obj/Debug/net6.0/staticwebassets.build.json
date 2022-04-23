@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "R5XuLJw8PbczdwzFvidMPC99+g1ylxZdTEMZjEU2PGY=",
+  "Hash": "JOw9QaeyTIinZ6YbhYJf3xSdb/0kttLiIBDvVpydaxk=",
   "Source": "ServiceHost",
   "BasePath": "_content/ServiceHost",
   "Mode": "Default",
@@ -7157,12 +7157,12 @@
       "OriginalItemSpec": "wwwroot\\Theme\\assets\\img\\category\\cat2.jpg"
     },
     {
-      "Identity": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\ServiceHost\\wwwroot\\Theme\\assets\\img\\category\\cat3.png",
+      "Identity": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\ServiceHost\\wwwroot\\Theme\\assets\\img\\category\\cat3.jpg",
       "SourceId": "ServiceHost",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\ServiceHost\\wwwroot\\",
       "BasePath": "_content/ServiceHost",
-      "RelativePath": "Theme/assets/img/category/cat3.png",
+      "RelativePath": "Theme/assets/img/category/cat3.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -7171,7 +7171,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Theme\\assets\\img\\category\\cat3.png"
+      "OriginalItemSpec": "wwwroot\\Theme\\assets\\img\\category\\cat3.jpg"
     },
     {
       "Identity": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\ServiceHost\\wwwroot\\Theme\\assets\\img\\category\\cat4.jpg",

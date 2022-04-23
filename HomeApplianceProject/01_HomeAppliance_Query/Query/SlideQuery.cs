@@ -29,7 +29,7 @@ namespace _01_HomeAppliance_Query.Query
                 Text = x.Text,
                 BtnText = x.BtnText,
                 Link = x.Link
-            }).Take(5).ToList();
+            }).ToList();
         }
     }
 }

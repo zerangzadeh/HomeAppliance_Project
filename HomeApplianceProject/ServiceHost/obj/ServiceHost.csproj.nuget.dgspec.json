@@ -88,6 +88,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\DiscountManagement.Infrastructure\\DiscountManagement.Infrastructure.csproj": {
+                "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\DiscountManagement.Infrastructure\\DiscountManagement.Infrastructure.csproj"
+              },
               "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\InventoryManagment.Infrastructure\\InventoryManagement.Infrastructure.csproj": {
                 "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\InventoryManagment.Infrastructure\\InventoryManagement.Infrastructure.csproj"
               },
@@ -871,7 +874,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.104\\RuntimeIdentifierGraph.json"
         }
       }
     },

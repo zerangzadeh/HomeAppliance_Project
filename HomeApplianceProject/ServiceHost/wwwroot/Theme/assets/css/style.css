@@ -904,10 +904,10 @@ select {
 	border: none;
 }
 
-.mini-cart .cart-calculation table tbody tr td:last-child {
+/*.mini-cart .cart-calculation table tbody tr td:last-child {
 	font-family: 'Karla', sans-serif;
 	font-weight: 700;
-}
+}*/
 
 .mini-cart .cart-buttons a {
 	font-size: 12px;

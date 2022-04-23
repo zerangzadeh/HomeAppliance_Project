@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "01_HomeAppliance_Query/1.0.0": {
         "dependencies": {
+          "DiscountManagement.Infrastructure": "1.0.0",
           "InventoryManagement.Infrastructure": "1.0.0",
           "ShopManagement.Infrastructure": "1.0.0"
         },
@@ -1235,6 +1236,37 @@
           "01_HA_Framework.dll": {}
         }
       },
+      "DiscountManagement.Application.Contract/1.0.0": {
+        "dependencies": {
+          "01_HA_Framework": "1.0.0",
+          "Microsoft.AspNetCore.Mvc.ViewFeatures": "2.2.0",
+          "ShopManagement.Application.Contracts": "1.0.0"
+        },
+        "runtime": {
+          "DiscountManagement.Application.Contract.dll": {}
+        }
+      },
+      "DiscountManagement.Domain/1.0.0": {
+        "dependencies": {
+          "01_HA_Framework": "1.0.0",
+          "DiscountManagement.Application.Contract": "1.0.0"
+        },
+        "runtime": {
+          "DiscountManagement.Domain.dll": {}
+        }
+      },
+      "DiscountManagement.Infrastructure/1.0.0": {
+        "dependencies": {
+          "01_HA_Framework": "1.0.0",
+          "DiscountManagement.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "6.0.1",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.1",
+          "ShopManagement.Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "DiscountManagement.Infrastructure.dll": {}
+        }
+      },
       "InventoryManagement.Application.Contracts/1.0.0": {
         "dependencies": {
           "01_HA_Framework": "1.0.0",
@@ -2121,6 +2153,21 @@
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
     },
     "01_HA_Framework/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DiscountManagement.Application.Contract/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DiscountManagement.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DiscountManagement.Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

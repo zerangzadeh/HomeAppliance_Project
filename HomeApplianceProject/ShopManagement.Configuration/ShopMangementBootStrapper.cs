@@ -19,6 +19,7 @@ using ShopManagement.Domain.SlideAgg;
 using _01_HomeAppliance_Query.Query;
 using _01_HomeAppliance_Query.Contracts.Slide;
 using _01_HomeAppliance_Query.Contracts.ProductCategory;
+using _01_HomeAppliance_Query.Contracts.Product;
 
 namespace ShopManagement.Configuration
 {
@@ -37,6 +38,7 @@ namespace ShopManagement.Configuration
             serviceCollection.AddTransient<ISlideRepository, SlideRepository>();
             serviceCollection.AddTransient<ISlideQuery, SlideQuery>();
             serviceCollection.AddTransient<IProductCategoryQuery, ProductCategoryQuery>();
+            serviceCollection.AddTransient<IProductQuery, ProductQuery>();
             serviceCollection.AddDbContext<ShopDBContext>(x => x.UseSqlServer(connectionString));
          }
 

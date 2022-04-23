@@ -1830,6 +1830,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "DiscountManagement.Infrastructure": "1.0.0",
           "InventoryManagement.Infrastructure": "1.0.0",
           "ShopManagement.Infrastructure": "1.0.0"
         },
@@ -6325,7 +6326,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.104\\RuntimeIdentifierGraph.json"
       }
     }
   }

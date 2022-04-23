@@ -1009,6 +1009,7 @@
       },
       "01_HomeAppliance_Query/1.0.0": {
         "dependencies": {
+          "DiscountManagement.Infrastructure": "1.0.0",
           "InventoryManagement.Infrastructure": "1.0.0",
           "ShopManagement.Infrastructure": "1.0.0"
         },

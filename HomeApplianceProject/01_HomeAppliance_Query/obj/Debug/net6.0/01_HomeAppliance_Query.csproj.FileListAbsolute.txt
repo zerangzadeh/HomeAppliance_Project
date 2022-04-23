@@ -25,3 +25,9 @@ E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\01_HomeA
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\01_HomeAppliance_Query\bin\Debug\net6.0\InventoryManagement.Infrastructure.pdb
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\01_HomeAppliance_Query\bin\Debug\net6.0\InventoryManagement.Application.Contracts.pdb
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\01_HomeAppliance_Query\bin\Debug\net6.0\InventoryManagement.Domain.pdb
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\01_HomeAppliance_Query\bin\Debug\net6.0\DiscountManagement.Application.Contract.dll
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\01_HomeAppliance_Query\bin\Debug\net6.0\DiscountManagement.Domain.dll
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\01_HomeAppliance_Query\bin\Debug\net6.0\DiscountManagement.Infrastructure.dll
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\01_HomeAppliance_Query\bin\Debug\net6.0\DiscountManagement.Infrastructure.pdb
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\01_HomeAppliance_Query\bin\Debug\net6.0\DiscountManagement.Application.Contract.pdb
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\01_HomeAppliance_Query\bin\Debug\net6.0\DiscountManagement.Domain.pdb

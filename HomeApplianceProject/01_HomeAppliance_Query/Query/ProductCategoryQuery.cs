@@ -2,6 +2,7 @@
 using _01_HomeAppliance_Query.Contracts.Product;
 using _01_HomeAppliance_Query.Contracts.ProductCategory;
 using _01_HomeAppliance_Query.Contracts.Slide;
+using DiscountManagement.Infrastructure;
 using InventoryManagement.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 using Shop.Management.Infrastruture;
@@ -18,11 +19,13 @@ namespace _01_HomeAppliance_Query.Query
     {
         private readonly ShopDBContext _shopDBContext;
         private readonly InventoryDBContext _inventoryDBContext;
+        private readonly DiscountDBContext _discountDBContext;
 
-        public ProductCategoryQuery(ShopDBContext shopDBContext, InventoryDBContext inventoryDBContext)
+        public ProductCategoryQuery(ShopDBContext shopDBContext, InventoryDBContext inventoryDBContext, DiscountDBContext discountDBContext)
         {
             _shopDBContext = shopDBContext;
             _inventoryDBContext = inventoryDBContext;
+            _discountDBContext = discountDBContext;
         }
 
         public List<ProductCategoryQueryModel> GetProductCategories()
@@ -40,16 +43,16 @@ namespace _01_HomeAppliance_Query.Query
                Slug=x.Slug
 
 
-            }).Take(5).ToList();
+            }).ToList();
         }
 
         public List<ProductCategoryQueryModel> GetProductCategoriesWithProducts()
         {
             var inventory = _inventoryDBContext.Inventory.Select(x =>
                  new { x.ProductID, x.UnitPrice }).ToList();
-            //var discounts = _discountDBContext.CustomerDiscounts
-            //    .Where(x => x.StartDate < DateTime.Now && x.EndDate > DateTime.Now)
-            //    .Select(x => new { x.DiscountRate, x.ProductId, x.EndDate }).ToList();
+            var discounts = _discountDBContext.CustomerDiscounts
+               .Where(x => x.StartDate < DateTime.Now && x.EndDate > DateTime.Now)
+               .Select(x => new { x.DiscountRate, x.ProductID, x.EndDate }).ToList();
 
             var catetories = _shopDBContext.ProductCatrgories
                 .Include(a => a.Products)
@@ -74,16 +77,16 @@ namespace _01_HomeAppliance_Query.Query
                     {
                         var price = productInventory.UnitPrice;
                         product.Price = price.ToMoney();
-                        //var discount = discounts.FirstOrDefault(x => x.ProductId == product.Id);
-                        //if (discount != null)
-                        //{
-                        //    int discountRate = discount.DiscountRate;
-                        //    product.DiscountRate = discountRate;
-                        //    product.DiscountExpireDate = discount.EndDate.ToDiscountFormat();
-                        //    product.HasDiscount = discountRate > 0;
-                        //    var discountAmount = Math.Round((price * discountRate) / 100);
-                        //    product.PriceWithDiscount = (price - discountAmount).ToMoney();
-                        //}
+                        var discount = discounts.FirstOrDefault(x => x.ProductID == product.ID);
+                        if (discount != null)
+                        {
+                            int discountRate = discount.DiscountRate;
+                            product.DiscountRate = discountRate;
+                            product.DiscountExpireDate = discount.EndDate.ToDiscountFormat();
+                            product.HasDiscount = discountRate > 0;
+                            var discountAmount = Math.Round((price * discountRate) / 100);
+                            product.PriceWithDiscount = (price - discountAmount).ToMoney();
+                        }
                     }
                 }
             }
@@ -101,9 +104,55 @@ namespace _01_HomeAppliance_Query.Query
                 PicSrc = product.PicSrc,
                 PicAlt = product.PicAlt,
                 PicTitle = product.PicTitle,
-                Slug = product.Slug
-            }).ToList();
+                Slug = product.Slug,
+             }).ToList();
 
+        }
+
+        public ProductCategoryQueryModel GetProductCategoryWithProducstsBy(string slug)
+        {
+            var inventory = _inventoryDBContext.Inventory.Select(x =>
+                 new { x.ProductID, x.UnitPrice }).ToList();
+            var discounts = _discountDBContext.CustomerDiscounts
+               .Where(x => x.StartDate < DateTime.Now && x.EndDate > DateTime.Now)
+               .Select(x => new { x.DiscountRate, x.ProductID, x.EndDate }).ToList();
+
+            var category = _shopDBContext.ProductCatrgories
+                .Include(a => a.Products)
+                .ThenInclude(x => x.Category)
+                .Select(x => new ProductCategoryQueryModel
+                {
+                    ID = x.ID,
+                    Title = x.Title,
+                    Description = x.Description,
+                    MetaDesc = x.MetaDesc,
+                    KeyWord = x.KeyWord,
+                    Slug = x.Slug,
+                    Products = MapProducts(x.Products)
+                }).FirstOrDefault(x=>x.Slug==slug);
+           
+                foreach (var product in category.Products)
+                {
+                    var productInventory = inventory.FirstOrDefault(x => x.ProductID == product.ID);
+                    if (productInventory != null)
+                    {
+                        var price = productInventory.UnitPrice;
+                        product.Price = price.ToMoney();
+                        var discount = discounts.FirstOrDefault(x => x.ProductID == product.ID);
+                        if (discount != null)
+                        {
+                            int discountRate = discount.DiscountRate;
+                            product.DiscountRate = discountRate;
+                            product.DiscountExpireDate = discount.EndDate.ToDiscountFormat();
+                            product.HasDiscount = discountRate > 0;
+                            var discountAmount = Math.Round((price * discountRate) / 100);
+                            product.PriceWithDiscount = (price - discountAmount).ToMoney();
+                        }
+                    }
+                }
+            
+
+            return category;
         }
     }
 }
