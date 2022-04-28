@@ -43,7 +43,7 @@ namespace _01_HomeAppliance_Query.Query
                Slug=x.Slug
 
 
-            }).ToList();
+            }).AsNoTracking().ToList();
         }
 
         public List<ProductCategoryQueryModel> GetProductCategoriesWithProducts()
@@ -67,7 +67,7 @@ namespace _01_HomeAppliance_Query.Query
                    
                     Slug = x.Slug,
                     Products = MapProducts(x.Products)
-                }).ToList();
+                }).AsNoTracking().ToList();
             foreach (var category in catetories)
             {
                 foreach (var product in category.Products)
