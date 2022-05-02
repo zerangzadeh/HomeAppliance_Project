@@ -3,6 +3,7 @@ using _01_HomeAppliance_Query.Contracts.Product;
 //using CommnetManagement.Infrastructure.EFCore;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using ShopManagement.Application.Contracts.Comment;
 
 namespace ServiceHost.Pages
 {
@@ -10,12 +11,12 @@ namespace ServiceHost.Pages
     {
         public ProductQueryModel Product;
         private readonly IProductQuery _productQuery;
-        //private readonly ICommentApplication _commentApplication;
+        private readonly ICommentApplication _commentApplication;
 
-        public ProductModel(IProductQuery productQuery)
+        public ProductModel(IProductQuery productQuery,ICommentApplication commentApplication)
         {
             _productQuery = productQuery;
-            //_commentApplication = commentApplication;
+            _commentApplication = commentApplication;
         }
 
         public void OnGet(string id)
@@ -23,11 +24,11 @@ namespace ServiceHost.Pages
             Product = _productQuery.GetProductDetails(id);
         }
 
-        //public IActionResult OnPost(AddComment command, string productSlug)
-        //{
-        //    command.Type = CommentType.Product;
-        //    var result = _commentApplication.Add(command);
-        //    return RedirectToPage("/Product", new { Id = productSlug });
-        //}
+        public IActionResult OnPost(AddComment command, string productSlug)
+        {
+            //command.Type = CommentType.Product;
+            var result = _commentApplication.Add(command);
+            return RedirectToPage("/Product", new { Id = productSlug });
+        }
     }
 }

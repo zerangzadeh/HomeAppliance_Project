@@ -1,4 +1,5 @@
-﻿using _01_LampshadeQuery.Contracts.Product;
+﻿using _01_HomeAppliance_Query.Contracts.Comment;
+using _01_HomeAppliance_Query.Contracts.Product;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -28,8 +29,9 @@ namespace _01_HomeAppliance_Query.Contracts.Product
         public string Description { get; set; }
         public string Keywords { get; set; }
         public string MetaDesc { get; set; }
-        //public bool IsInStock { get; set; }
+        public bool IsInStock { get; set; }
         public List<ProductPictureQueryModel> Pictures { get; set; }
+        public List<CommentQueryModel> Comments { get; set; }
 
     }
 }

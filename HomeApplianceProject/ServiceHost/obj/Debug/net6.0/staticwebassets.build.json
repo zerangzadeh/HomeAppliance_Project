@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "JOw9QaeyTIinZ6YbhYJf3xSdb/0kttLiIBDvVpydaxk=",
+  "Hash": "4Tb+ryyOAKYA5A/luSvyw/enB5F/ah2pkpGND1K/rjA=",
   "Source": "ServiceHost",
   "BasePath": "_content/ServiceHost",
   "Mode": "Default",
@@ -7988,6 +7988,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Theme\\assets\\img\\products\\6-100x133.jpg"
+    },
+    {
+      "Identity": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\ServiceHost\\wwwroot\\Theme\\assets\\img\\products\\640x530.jpg",
+      "SourceId": "ServiceHost",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\ServiceHost\\wwwroot\\",
+      "BasePath": "_content/ServiceHost",
+      "RelativePath": "Theme/assets/img/products/640x530.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Theme\\assets\\img\\products\\640x530.jpg"
     },
     {
       "Identity": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\ServiceHost\\wwwroot\\Theme\\assets\\img\\products\\6-600x800.jpg",

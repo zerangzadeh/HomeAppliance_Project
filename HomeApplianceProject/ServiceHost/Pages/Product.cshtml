@@ -59,11 +59,13 @@
                                                     {"breakpoint":575, "settings": {"slidesToShow": 1, "arrows": false, "slidesToScroll": 1} },
                                                     {"breakpoint":479, "settings": {"slidesToShow": 1, "arrows": false, "slidesToScroll": 1} }
                                                 ]'>
+<!----one part-->
 
-                                                @*<div class="single-image">
+                                                <div class="single-image">
                                                     <img src="~/Theme/assets/img/products/@Model.Product.PicSrc" class="img-fluid"
                                                          alt="@Model.Product.PicSrc">
-                                                </div>*@
+                                                </div>
+                                                <!----one part-->
                                                 @foreach (var picture in Model.Product.Pictures)
                                                 {
                                                     <div class="single-image">
@@ -71,6 +73,7 @@
                                                              alt="@picture.PictureAlt" title="@picture.PictureAlt">
                                                     </div>
                                                 }
+                                                <!----one part-->
                                             </div>
                                         </div>
 
@@ -100,13 +103,16 @@
                                                 <img src="~/Theme/assets/img/products/@Model.Product.Pictures" class="img-fluid"
                                                      alt="@Model.Product.Pictures">
                                             </div>
-                                            @foreach (var picture in Model.Product.Pictures)
+                                            @if (Model.Product.Pictures.Count>0)
+                                            { @foreach (var picture in Model.Product.Pictures)
                                             {
                                                 <div class="single-image">
                                                     <img src="~/Theme/assets/img/products/@picture.PictureSource" class="img-fluid"
                                                          alt="@picture.PictureAlt" title="@picture.PictureTitle">
                                                 </div>
                                             }
+                                            }
+                                           
                                         </div>
                                     </div>
                                 </div>
@@ -145,14 +151,14 @@
 
                                         <p class="single-info">کد محصول: <span class="value">@Model.Product.Code</span> </p>
                                         <p class="single-info">
-                                            @*@if (Model.Product.IsInStock)
+                                            @if (Model.Product.IsInStock)
                                             {
                                                 <span class="text-success">موجود در انبار</span>
                                             }
                                             else
                                             {
                                                 <span class="text-danger">محصول ناموجود</span>
-                                            }*@
+                                            }
                                         </p>
 
                                         <p class="product-description">
@@ -217,8 +223,8 @@
                                                 <a class="nav-item nav-link active" id="description-tab"
                                                    data-toggle="tab" href="#product-description" role="tab"
                                                    aria-selected="true">توضیحات</a>
-                                               @* <a class="nav-item nav-link" id="review-tab" data-toggle="tab"
-                                                   href="#review" role="tab" aria-selected="false">نظرات (@Model.Product.Comments.Count)</a>*@
+                                                <a class="nav-item nav-link" id="review-tab" data-toggle="tab"
+                                                   href="#review" role="tab" aria-selected="false">نظرات (@Model.Product.Comments.Count)</a>
                                             </div>
                                         </nav>
                                         <div class="tab-content" id="nav-tabContent">
@@ -274,7 +280,7 @@
                                                             </div>
                                                         </div>*@
                                                    
-                                                      @* @foreach (var comment in Model.Product.Comments)
+                                                       @foreach (var comment in Model.Product.Comments)
                                                     {
                                                         <div class="ratings-wrapper">
                                                             <div class="sin-ratings">
@@ -285,7 +291,7 @@
                                                                 <p>@comment.Message</p>
                                                             </div>
                                                         </div>
-                                                    }*@
+                                                    }
                                                    
 
                                                     <div class="rating-form-wrapper fix">
@@ -304,9 +310,10 @@
                                                                     <label for="your-review">نظر شما:</label>
                                                                     <textarea name="message" id="message" placeholder="نظر خود را بنویسید ..."></textarea>
                                                                 </div>
-                                                                <input type="hidden" name="ownerRecordId" value="@Model.Product.ID />
+                                                                <input type="hidden" name="productID"  value="@Model.Product.ID" />
+                                                                 <input type="hidden" name="productSlug" value="@Model.Product.Slug" />
                                                                 @*<input type="hidden" name="type" value="@CommnetManagement.Infrastructure.EFCore.CommentType.Product" />*@
-                                                                <input type="hidden" name="productSlug" value="@Model.Product.Slug" />
+                                                               
                                                                 <div class="col-12">
                                                                     <input value="ارسال" type="submit">
                                                                 </div>

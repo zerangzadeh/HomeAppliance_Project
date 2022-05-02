@@ -1,4 +1,4 @@
-﻿namespace _01_LampshadeQuery.Contracts.Product
+﻿namespace _01_HomeAppliance_Query.Contracts.Product
 {
     public class ProductPictureQueryModel
     {

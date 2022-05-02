@@ -1,11 +1,13 @@
 ﻿using _01_HA_Framework.Application;
+using _01_HomeAppliance_Query.Contracts.Comment;
 using _01_HomeAppliance_Query.Contracts.Product;
 using _01_HomeAppliance_Query.Contracts.ProductCategory;
-using _01_LampshadeQuery.Contracts.Product;
+
 using DiscountManagement.Infrastructure;
 using InventoryManagement.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 using Shop.Management.Infrastruture;
+using ShopManagement.Domain.CommentAgg;
 using ShopManagement.Domain.ProductAgg;
 using ShopManagement.Domain.ProductPictureAgg;
 using System;
@@ -84,6 +86,7 @@ namespace _01_HomeAppliance_Query.Query
             var product = _shopDBContext.Products
                 .Include(x => x.Category)
                 .Include(x => x.Pictures)
+                .Include(x=>x.Comments)
                 .Select(x => new ProductQueryModel
                 {
                     ID = x.ID,
@@ -99,6 +102,7 @@ namespace _01_HomeAppliance_Query.Query
                     Keywords = x.Keywords,
                     MetaDesc = x.MetaDESC,
                     ShortDesc = x.ShortDESC,
+                    Comments = MapComment(x.Comments),
                     Pictures = MapProductPictures(x.Pictures)
                 }).AsNoTracking().FirstOrDefault(x => x.Slug == slug);
 
@@ -108,10 +112,12 @@ namespace _01_HomeAppliance_Query.Query
             var productInventory = inventory.FirstOrDefault(x => x.ProductID == product.ID);
             if (productInventory != null)
             {
-               // product. = productInventory.InStock;
+                product.IsInStock = productInventory.InStock;
                 var price = productInventory.UnitPrice;
                 product.Price = price.ToMoney();
                 product.DoublePrice = price;
+                
+               
                 var discount = discounts.FirstOrDefault(x => x.ProductID == product.ID);
                 if (discount != null)
                 {
@@ -139,6 +145,19 @@ namespace _01_HomeAppliance_Query.Query
 
             return product;
         }
+
+        private static List<CommentQueryModel> MapComment(List<Comment> comments)
+        {
+            return comments
+                .Where(x=>x.IsConfirmed)
+                .Where(x=>!x.IsCanceled)
+                .Select(x => new CommentQueryModel {
+                    ID=x.ID,
+                    Message = x.Message,
+                    Name=x.Name,    
+            }).OrderByDescending(x=>x.ID).ToList();
+        }
+
         private static List<ProductPictureQueryModel> MapProductPictures(List<ProductPicture> pictures)
         {
             return pictures.Select(x => new ProductPictureQueryModel
