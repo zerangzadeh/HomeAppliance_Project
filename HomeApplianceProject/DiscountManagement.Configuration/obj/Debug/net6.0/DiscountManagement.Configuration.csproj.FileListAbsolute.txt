@@ -3,6 +3,8 @@ E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\Discount
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagement.Configuration\bin\Debug\net6.0\ref\DiscountManagement.Configuration.dll
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagement.Configuration\bin\Debug\net6.0\DiscountManagement.Configuration.pdb
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagement.Configuration\bin\Debug\net6.0\01_HA_Framework.dll
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagement.Configuration\bin\Debug\net6.0\CommentManagement.Application.Contracts.dll
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagement.Configuration\bin\Debug\net6.0\CommentManagement.Domain.dll
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagement.Configuration\bin\Debug\net6.0\DiscountManagement.Application.Contract.dll
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagement.Configuration\bin\Debug\net6.0\DiscountManagement.Application.dll
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagement.Configuration\bin\Debug\net6.0\DiscountManagement.Domain.dll
@@ -13,6 +15,8 @@ E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\Discount
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagement.Configuration\bin\Debug\net6.0\DiscountManagement.Application.pdb
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagement.Configuration\bin\Debug\net6.0\DiscountManagement.Infrastructure.pdb
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagement.Configuration\bin\Debug\net6.0\01_HA_Framework.pdb
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagement.Configuration\bin\Debug\net6.0\CommentManagement.Application.Contracts.pdb
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagement.Configuration\bin\Debug\net6.0\CommentManagement.Domain.pdb
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagement.Configuration\bin\Debug\net6.0\DiscountManagement.Application.Contract.pdb
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagement.Configuration\bin\Debug\net6.0\DiscountManagement.Domain.pdb
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\DiscountManagement.Configuration\bin\Debug\net6.0\ShopManagement.Application.Contracts.pdb

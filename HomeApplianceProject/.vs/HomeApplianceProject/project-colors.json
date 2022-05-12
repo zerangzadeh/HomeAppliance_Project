@@ -125,7 +125,37 @@
       "ProjectGuid": "b312c24a-cbd2-4243-9c46-1c02b38f4134",
       "DisplayName": "InventoryManagement.Application",
       "ColorIndex": 7
+    },
+    "5ae8df0a-e693-4cbd-afba-d34cbf3cb7bd": {
+      "ProjectGuid": "5ae8df0a-e693-4cbd-afba-d34cbf3cb7bd",
+      "DisplayName": "CommentManagement.Domain",
+      "ColorIndex": 8
+    },
+    "b41e4837-8e9f-4a4f-94af-13f9289ba5e5": {
+      "ProjectGuid": "b41e4837-8e9f-4a4f-94af-13f9289ba5e5",
+      "DisplayName": "CommmentManagement.Application",
+      "ColorIndex": 9
+    },
+    "7ba1990f-087b-4fb8-ab93-a133673b3764": {
+      "ProjectGuid": "7ba1990f-087b-4fb8-ab93-a133673b3764",
+      "DisplayName": "CommentManagement.Application.Contracts",
+      "ColorIndex": 10
+    },
+    "86db1d47-cdef-4a64-bf80-b5b4ab01b9f2": {
+      "ProjectGuid": "86db1d47-cdef-4a64-bf80-b5b4ab01b9f2",
+      "DisplayName": "CommentManagement.Infrastructure",
+      "ColorIndex": 11
+    },
+    "a8923057-3fcc-469f-bf3b-a7af1f97ba57": {
+      "ProjectGuid": "a8923057-3fcc-469f-bf3b-a7af1f97ba57",
+      "DisplayName": "CommentManagment.Configuration",
+      "ColorIndex": 12
+    },
+    "0be89721-41e8-47ef-9e5e-7f6cd2543aae": {
+      "ProjectGuid": "0be89721-41e8-47ef-9e5e-7f6cd2543aae",
+      "DisplayName": "GetAmvalNo",
+      "ColorIndex": 13
     }
   },
-  "NextColorIndex": 8
+  "NextColorIndex": 14
 }

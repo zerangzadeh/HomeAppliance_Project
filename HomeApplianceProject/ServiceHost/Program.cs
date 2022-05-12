@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 using DiscountManagement.Configuration;
 using InventoryManagement.Infrastructure.Configuration;
+using CommentManagement.Infrastructure.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,6 +12,7 @@ builder.Services.AddRazorPages();
 ShopManagementBootStrapper.Configure(builder.Services, builder.Configuration.GetConnectionString("HomeApplianceDB"));
 DiscountManagementBootStrapper.Configure(builder.Services, builder.Configuration.GetConnectionString("HomeApplianceDB"));
 InventoryManagementBootStrapper.Configure(builder.Services, builder.Configuration.GetConnectionString("HomeApplianceDB"));
+CommentManagementBootstrapper.Configure(builder.Services, builder.Configuration.GetConnectionString("HomeApplianceDB"));
 
 var app = builder.Build();
 

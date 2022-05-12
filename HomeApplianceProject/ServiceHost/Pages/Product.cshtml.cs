@@ -1,9 +1,11 @@
 using _01_HomeAppliance_Query.Contracts.Product;
+using CommentManagement.Application.Contracts.Comment;
+using CommentManagement.Infrastructure;
 //using CommentManagement.Application.Contracts.Comment;
 //using CommnetManagement.Infrastructure.EFCore;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using ShopManagement.Application.Contracts.Comment;
+//using ShopManagement.Application.Contracts.Comment;
 
 namespace ServiceHost.Pages
 {
@@ -26,7 +28,7 @@ namespace ServiceHost.Pages
 
         public IActionResult OnPost(AddComment command, string productSlug)
         {
-            //command.Type = CommentType.Product;
+            command.Type = CommentType.Product;
             var result = _commentApplication.Add(command);
             return RedirectToPage("/Product", new { Id = productSlug });
         }

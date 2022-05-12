@@ -1,4 +1,5 @@
 ﻿using _01_HA_Framework;
+using Microsoft.AspNetCore.Http;
 using ShopManagement.Domain.ProductAgg;
 using System;
 using System.Collections.Generic;
@@ -13,7 +14,7 @@ namespace ShopManagement.Domain.ProductCategoryAgg
     {
         public string Title { get; set; }
         public string Description { get; set; }
-        public string PicSrc { get; set; }
+        public IFormFile PicSrc { get; set; }
         public string PicAlt { get; set; }
         public string PicTitle { get; set; }
         public string KeyWord { get; set; }

@@ -4,10 +4,14 @@ E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\Shop.Man
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\Shop.Management.Infrastruture\bin\Debug\net6.0\ref\ShopManagement.Infrastructure.dll
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\Shop.Management.Infrastruture\bin\Debug\net6.0\ShopManagement.Infrastructure.pdb
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\Shop.Management.Infrastruture\bin\Debug\net6.0\01_HA_Framework.dll
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\Shop.Management.Infrastruture\bin\Debug\net6.0\CommentManagement.Application.Contracts.dll
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\Shop.Management.Infrastruture\bin\Debug\net6.0\CommentManagement.Domain.dll
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\Shop.Management.Infrastruture\bin\Debug\net6.0\ShopManagement.Application.Contracts.dll
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\Shop.Management.Infrastruture\bin\Debug\net6.0\ShopManagement.Domain.dll
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\Shop.Management.Infrastruture\bin\Debug\net6.0\CommentManagement.Domain.pdb
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\Shop.Management.Infrastruture\bin\Debug\net6.0\ShopManagement.Domain.pdb
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\Shop.Management.Infrastruture\bin\Debug\net6.0\01_HA_Framework.pdb
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\Shop.Management.Infrastruture\bin\Debug\net6.0\CommentManagement.Application.Contracts.pdb
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\Shop.Management.Infrastruture\bin\Debug\net6.0\ShopManagement.Application.Contracts.pdb
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\Shop.Management.Infrastruture\obj\Debug\net6.0\ShopManagement.Infrastructure.csproj.AssemblyReference.cache
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\Shop.Management.Infrastruture\obj\Debug\net6.0\ShopManagement.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig

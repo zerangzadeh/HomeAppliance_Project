@@ -1,5 +1,5 @@
 ﻿using _01_HA_Framework;
-using ShopManagement.Domain.CommentAgg;
+
 using ShopManagement.Domain.ProductCategoryAgg;
 using ShopManagement.Domain.ProductPictureAgg;
 using System;
@@ -25,7 +25,7 @@ namespace ShopManagement.Domain.ProductAgg
         public string MetaDESC { get;  set; }
         public ProductCategory Category { get;  set; }
         public List<ProductPicture> Pictures { get; set; }
-        public List<Comment> Comments { get; set; }
+        
 
         public Product(string name, string code,  string shortDESC,
             string description, string picSrc, string picAlt, string picTitle,

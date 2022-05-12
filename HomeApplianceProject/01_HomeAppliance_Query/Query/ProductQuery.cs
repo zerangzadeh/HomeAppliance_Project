@@ -2,12 +2,12 @@
 using _01_HomeAppliance_Query.Contracts.Comment;
 using _01_HomeAppliance_Query.Contracts.Product;
 using _01_HomeAppliance_Query.Contracts.ProductCategory;
-
+using CommentManagement.Infrastructure;
+using CommentManagement.Infrastruture;
 using DiscountManagement.Infrastructure;
 using InventoryManagement.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 using Shop.Management.Infrastruture;
-using ShopManagement.Domain.CommentAgg;
 using ShopManagement.Domain.ProductAgg;
 using ShopManagement.Domain.ProductPictureAgg;
 using System;
@@ -23,12 +23,15 @@ namespace _01_HomeAppliance_Query.Query
         private readonly ShopDBContext _shopDBContext;
         private readonly InventoryDBContext _inventoryDBContext;
         private readonly DiscountDBContext _discountDBContext;
+        private readonly CommentDBContext _commentDBContext;
 
-        public ProductQuery(ShopDBContext shopDBContext, InventoryDBContext inventoryDBContext, DiscountDBContext discountDBContext)
+        public ProductQuery(ShopDBContext shopDBContext, InventoryDBContext inventoryDBContext, 
+            DiscountDBContext discountDBContext,CommentDBContext commentDBContext)
         {
             _shopDBContext = shopDBContext;
             _inventoryDBContext = inventoryDBContext;
             _discountDBContext = discountDBContext;
+            _commentDBContext = commentDBContext; 
         }
 
         public List<ProductQueryModel> GetLatestArrivals()
@@ -86,7 +89,7 @@ namespace _01_HomeAppliance_Query.Query
             var product = _shopDBContext.Products
                 .Include(x => x.Category)
                 .Include(x => x.Pictures)
-                .Include(x=>x.Comments)
+              
                 .Select(x => new ProductQueryModel
                 {
                     ID = x.ID,
@@ -102,7 +105,6 @@ namespace _01_HomeAppliance_Query.Query
                     Keywords = x.Keywords,
                     MetaDesc = x.MetaDESC,
                     ShortDesc = x.ShortDESC,
-                    Comments = MapComment(x.Comments),
                     Pictures = MapProductPictures(x.Pictures)
                 }).AsNoTracking().FirstOrDefault(x => x.Slug == slug);
 
@@ -130,33 +132,33 @@ namespace _01_HomeAppliance_Query.Query
                 }
             }
 
-            //product.Comments = _commentContext.Comments
-            //    .Where(x => !x.IsCanceled)
-            //    .Where(x => x.IsConfirmed)
-            //    .Where(x => x.Type == CommentType.Product)
-            //    .Where(x => x.OwnerRecordId == product.Id)
-            //    .Select(x => new CommentQueryModel
-            //    {
-            //        Id = x.Id,
-            //        Message = x.Message,
-            //        Name = x.Name,
-            //        CreationDate = x.CreationDate.ToFarsi()
-            //    }).OrderByDescending(x => x.Id).ToList();
+            product.Comments = _commentDBContext.Comments
+                .Where(x => !x.IsCanceled)
+                .Where(x => x.IsConfirmed)
+                .Where(x => x.Type == CommentType.Product)
+                .Where(x => x.OwnerRecordId == product.ID)
+                .Select(x => new CommentQueryModel
+                {
+                    ID = x.ID ,
+                    Message = x.Message,
+                    Name = x.Name,
+                    CreationDate = x.CreationDate.ToFarsi()
+                }).OrderByDescending(x => x.ID).ToList();
 
             return product;
         }
 
-        private static List<CommentQueryModel> MapComment(List<Comment> comments)
-        {
-            return comments
-                .Where(x=>x.IsConfirmed)
-                .Where(x=>!x.IsCanceled)
-                .Select(x => new CommentQueryModel {
-                    ID=x.ID,
-                    Message = x.Message,
-                    Name=x.Name,    
-            }).OrderByDescending(x=>x.ID).ToList();
-        }
+        //private static List<CommentQueryModel> MapComment(List<Comment> comments)
+        //{
+        //    return comments
+        //        .Where(x=>x.IsConfirmed)
+        //        .Where(x=>!x.IsCanceled)
+        //        .Select(x => new CommentQueryModel {
+        //            ID=x.ID,
+        //            Message = x.Message,
+        //            Name=x.Name,    
+        //    }).OrderByDescending(x=>x.ID).ToList();
+        //}
 
         private static List<ProductPictureQueryModel> MapProductPictures(List<ProductPicture> pictures)
         {

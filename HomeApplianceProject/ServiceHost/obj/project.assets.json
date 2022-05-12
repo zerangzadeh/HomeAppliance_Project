@@ -1830,6 +1830,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "CommentManagement.Infrastructure": "1.0.0",
           "DiscountManagement.Infrastructure": "1.0.0",
           "InventoryManagement.Infrastructure": "1.0.0",
           "ShopManagement.Infrastructure": "1.0.0"
@@ -1839,6 +1840,82 @@
         },
         "runtime": {
           "bin/placeholder/01_HomeAppliance_Query.dll": {}
+        }
+      },
+      "CommentManagement.Application.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "01_HA_Framework": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CommentManagement.Application.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CommentManagement.Application.Contracts.dll": {}
+        }
+      },
+      "CommentManagement.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "01_HA_Framework": "1.0.0",
+          "CommentManagement.Application.Contracts": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CommentManagement.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CommentManagement.Domain.dll": {}
+        }
+      },
+      "CommentManagement.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "CommentManagement.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.1",
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "ShopManagement.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CommentManagement.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CommentManagement.Infrastructure.dll": {}
+        }
+      },
+      "CommentManagment.Configuration/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "CommentManagement.Domain": "1.0.0",
+          "CommentManagement.Infrastructure": "1.0.0",
+          "CommmentManagement.Application": "1.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.1",
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CommentManagment.Configuration.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CommentManagment.Configuration.dll": {}
+        }
+      },
+      "CommmentManagement.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "CommentManagement.Application.Contracts": "1.0.0",
+          "CommentManagement.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CommmentManagement.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CommmentManagement.Application.dll": {}
         }
       },
       "DiscountManagement.Application/1.0.0": {
@@ -2059,6 +2136,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "CommentManagement.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.1",
           "Microsoft.NETCore.App": "2.2.8",
@@ -6170,6 +6248,31 @@
       "path": "../01_HomeAppliance_Query/01_HomeAppliance_Query.csproj",
       "msbuildProject": "../01_HomeAppliance_Query/01_HomeAppliance_Query.csproj"
     },
+    "CommentManagement.Application.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../CommentManagement.Application.Contracts/CommentManagement.Application.Contracts.csproj",
+      "msbuildProject": "../CommentManagement.Application.Contracts/CommentManagement.Application.Contracts.csproj"
+    },
+    "CommentManagement.Domain/1.0.0": {
+      "type": "project",
+      "path": "../CommentManagement.Domain/CommentManagement.Domain.csproj",
+      "msbuildProject": "../CommentManagement.Domain/CommentManagement.Domain.csproj"
+    },
+    "CommentManagement.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../CommentManagement.Infrastructure/CommentManagement.Infrastructure.csproj",
+      "msbuildProject": "../CommentManagement.Infrastructure/CommentManagement.Infrastructure.csproj"
+    },
+    "CommentManagment.Configuration/1.0.0": {
+      "type": "project",
+      "path": "../CommentManagment.Configuration/CommentManagment.Configuration.csproj",
+      "msbuildProject": "../CommentManagment.Configuration/CommentManagment.Configuration.csproj"
+    },
+    "CommmentManagement.Application/1.0.0": {
+      "type": "project",
+      "path": "../CommmentManagement.Application/CommmentManagement.Application.csproj",
+      "msbuildProject": "../CommmentManagement.Application/CommmentManagement.Application.csproj"
+    },
     "DiscountManagement.Application/1.0.0": {
       "type": "project",
       "path": "../DiscountManagement.Application/DiscountManagement.Application.csproj",
@@ -6248,6 +6351,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "CommentManagment.Configuration >= 1.0.0",
       "DiscountManagement.Configuration >= 1.0.0",
       "InventoryManagement.Infrastructure.Configuration >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.1",
@@ -6281,6 +6385,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\CommentManagment.Configuration\\CommentManagment.Configuration.csproj": {
+              "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\CommentManagment.Configuration\\CommentManagment.Configuration.csproj"
+            },
             "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\DiscountManagement.Configuration\\DiscountManagement.Configuration.csproj": {
               "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\DiscountManagement.Configuration\\DiscountManagement.Configuration.csproj"
             },

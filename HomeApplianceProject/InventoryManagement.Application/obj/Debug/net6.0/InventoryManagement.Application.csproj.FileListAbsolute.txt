@@ -3,6 +3,8 @@ E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\Inventor
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\InventoryManagement.Application\bin\Debug\net6.0\ref\InventoryManagement.Application.dll
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\InventoryManagement.Application\bin\Debug\net6.0\InventoryManagement.Application.pdb
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\InventoryManagement.Application\bin\Debug\net6.0\01_HA_Framework.dll
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\InventoryManagement.Application\bin\Debug\net6.0\CommentManagement.Application.Contracts.dll
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\InventoryManagement.Application\bin\Debug\net6.0\CommentManagement.Domain.dll
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\InventoryManagement.Application\bin\Debug\net6.0\InventoryManagement.Application.Contracts.dll
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\InventoryManagement.Application\bin\Debug\net6.0\InventoryManagement.Domain.dll
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\InventoryManagement.Application\bin\Debug\net6.0\InventoryManagement.Infrastructure.dll
@@ -12,6 +14,8 @@ E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\Inventor
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\InventoryManagement.Application\bin\Debug\net6.0\InventoryManagement.Application.Contracts.pdb
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\InventoryManagement.Application\bin\Debug\net6.0\InventoryManagement.Infrastructure.pdb
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\InventoryManagement.Application\bin\Debug\net6.0\01_HA_Framework.pdb
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\InventoryManagement.Application\bin\Debug\net6.0\CommentManagement.Application.Contracts.pdb
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\InventoryManagement.Application\bin\Debug\net6.0\CommentManagement.Domain.pdb
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\InventoryManagement.Application\bin\Debug\net6.0\InventoryManagement.Domain.pdb
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\InventoryManagement.Application\bin\Debug\net6.0\ShopManagement.Application.Contracts.pdb
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\InventoryManagement.Application\bin\Debug\net6.0\ShopManagement.Domain.pdb

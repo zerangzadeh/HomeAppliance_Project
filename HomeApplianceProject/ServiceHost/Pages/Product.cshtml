@@ -310,9 +310,9 @@
                                                                     <label for="your-review">نظر شما:</label>
                                                                     <textarea name="message" id="message" placeholder="نظر خود را بنویسید ..."></textarea>
                                                                 </div>
-                                                                <input type="hidden" name="productID"  value="@Model.Product.ID" />
-                                                                 <input type="hidden" name="productSlug" value="@Model.Product.Slug" />
-                                                                @*<input type="hidden" name="type" value="@CommnetManagement.Infrastructure.EFCore.CommentType.Product" />*@
+                                                                <input type="hidden" name="ownerRecordID"  value="@Model.Product.ID" />
+                                                                <input type="hidden" name="productSlug" value="@Model.Product.Slug" />
+                                                                @*<input type="hidden" name="type" value="CommentType.Product" />*@
                                                                
                                                                 <div class="col-12">
                                                                     <input value="ارسال" type="submit">
