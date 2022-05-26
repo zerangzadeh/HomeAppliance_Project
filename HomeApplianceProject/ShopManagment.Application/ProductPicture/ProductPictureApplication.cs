@@ -8,25 +8,35 @@ using System.Text;
 using System.Threading.Tasks;
 using ShopManagement.Application.Contracts.ProductPicture;
 using ShopManagement.Domain.ProductPictureAgg;
+using ShopManagement.Domain.ProductAgg;
+using _0_Framework.Application;
 
 namespace ShopManagement.Application.ProductPicture
 {
     public class ProductPictureApplication : IProductPictureApplication
     {
         private readonly IProductPictureRepository _productPictureRepository;
+        private readonly IProductRepository _productRepository;
+        private readonly IFileUploader _fileUploader;
 
-        public ProductPictureApplication(IProductPictureRepository productPicturRepository)
+        public ProductPictureApplication(IProductPictureRepository productPicturRepository, IProductRepository productRepository, IFileUploader fileUploader)
         {
             _productPictureRepository = productPicturRepository;
+            _productRepository = productRepository;
+            _fileUploader = fileUploader;
         }
 
         public OperationResult Create(CreateProductPicture command)
         {
             var operationResult = new OperationResult();
             var messageForOperation = new MessageForOpeartion();
+            var product = _productRepository.GetProductWithCategory(command.ProductID);
+            var path = $"{product.Category.Slug}//{product.Slug}";
+            var picturePath = _fileUploader.Upload(command.PictureSource, path);
             if (command != null)
             {
-                  var productPicture =new ShopManagement.Domain.ProductPictureAgg.ProductPicture(command.ProductID, command.PictureSource, command.PictureTitle, command.PictureAlt);     
+                  var productPicture =new ShopManagement.Domain.ProductPictureAgg.ProductPicture(
+                      command.ProductID, picturePath, command.PictureTitle, command.PictureAlt);     
                   
                     _productPictureRepository.Create(productPicture);
 
@@ -84,18 +94,21 @@ namespace ShopManagement.Application.ProductPicture
         {
             var operationResult = new OperationResult();
             var messageForOperation = new MessageForOpeartion();
-            var productPicture = _productPictureRepository.GetBy(command.ID);
+            var productPicture = _productPictureRepository.GetWithProductAndCategory(command.ID);
             if (productPicture == null)
             {
                 return operationResult.Failed(messageForOperation.NotFoundMessage);
             }
-            if (_productPictureRepository.Exists(x => x.PictureTitle == command.PictureTitle && x.ID != command.ID && x.ProductID!=command.ProductID))
+            //if (_productPictureRepository.Exists(x => x.PictureTitle == command.PictureTitle && x.ID != command.ID && x.ProductID!=command.ProductID))
+            //{
+            //    return operationResult.Failed(messageForOperation.ExistMessage);
+            //}
+           // else
             {
-                return operationResult.Failed(messageForOperation.ExistMessage);
-            }
-            else
-            {
-                productPicture.Update(command.ProductID,command.PictureSource,command.PictureTitle,command.PictureAlt);
+                // var product = _productRepository.GetProductWithCategory(command.ProductID);
+                var path = $"{productPicture.Product.Category.Slug}//{productPicture.Product.Slug}";
+                var picturePath = _fileUploader.Upload(command.PictureSource, path);
+                productPicture.Update(command.ProductID,picturePath,command.PictureTitle,command.PictureAlt);
                 _productPictureRepository.SaveChanges(); 
                 return operationResult.Succeeded(messageForOperation.SuccessMessage);
 

@@ -14,6 +14,7 @@ namespace ServiceHost.Pages
         public ProductQueryModel Product;
         private readonly IProductQuery _productQuery;
         private readonly ICommentApplication _commentApplication;
+        
 
         public ProductModel(IProductQuery productQuery,ICommentApplication commentApplication)
         {

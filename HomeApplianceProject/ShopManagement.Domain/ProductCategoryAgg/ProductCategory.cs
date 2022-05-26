@@ -14,7 +14,7 @@ namespace ShopManagement.Domain.ProductCategoryAgg
     {
         public string Title { get; set; }
         public string Description { get; set; }
-        public IFormFile PicSrc { get; set; }
+        public string PicSrc { get; set; }
         public string PicAlt { get; set; }
         public string PicTitle { get; set; }
         public string KeyWord { get; set; }

@@ -28,7 +28,7 @@ namespace Shop.Management.Infrastruture.Repository
                 ID = x.ID,
                 Title = x.Title,
                 Description = x.Description,
-                PicSrc = x.PicSrc,
+               // PicSrc = x.PicSrc,
                 PicAlt = x.PicAlt,
                 PicTitle = x.PicTitle,
                 KeyWord = x.KeyWord,
@@ -45,6 +45,11 @@ namespace Shop.Management.Infrastruture.Repository
                 Title = x.Title
 
             }).ToList();
+        }
+
+        public string GetSlugByID(long ID)
+        {
+            return _shopDBContext.ProductCatrgories.Select(x=>new {x.ID,x.Slug}).FirstOrDefault(x => x.ID == ID).Slug;
         }
 
         public List<ProductCategoryViewModel> Search(ProductCategorySearchModel searchModel)

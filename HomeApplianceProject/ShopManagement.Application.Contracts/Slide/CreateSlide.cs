@@ -11,7 +11,7 @@ namespace ShopManagement.Application.Contracts.Slide
 {
     public class CreateSlide
     {
-        public string PictureSource { get; set; }
+        public IFormFile PictureSource { get; set; }
 
         [Required(ErrorMessage = ValidationMessages.IsRequired)]
         public string PictureAlt { get; set; }

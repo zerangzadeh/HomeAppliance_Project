@@ -17,7 +17,7 @@
                 <div class="form-group">
                      <input type="hidden" asp-for="ID" value="@Model.ID" />
                     <label asp-for="PictureSource" class="control-label">عکس</label>
-                    <input type="text" class="form-control" asp-for="PictureSource" accept="image/*">
+                    <input type="file" class="form-control" asp-for="PictureSource" accept="image/*">
                     @*<span asp-validation-for="PictureSource" class="error"></span>*@
                 </div>
             </div>

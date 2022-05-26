@@ -1,4 +1,5 @@
-﻿using _01_HA_Framework.Application;
+﻿using _0_Framework.Application;
+using _01_HA_Framework.Application;
 using ShopManagement.Application.Contracts.Slide;
 using ShopManagement.Domain.ProductAgg;
 using ShopManagement.Domain.SlideAgg;
@@ -13,10 +14,11 @@ namespace ShopManagement.Application
     public class SlideApplication : ISlideApplication
     {
         private readonly ISlideRepository _slideRepository;
-
-        public SlideApplication(ISlideRepository slideRepository)
+        private readonly IFileUploader _fileUploader;
+        public SlideApplication(ISlideRepository slideRepository, IFileUploader fileUploader)
         {
             _slideRepository = slideRepository;
+            _fileUploader = fileUploader;
         }
 
         public OperationResult Create(CreateSlide command)
@@ -25,8 +27,9 @@ namespace ShopManagement.Application
             var messageForOperation = new MessageForOpeartion();
             if (command != null)
             {
+                var pictureName = _fileUploader.Upload(command.PictureSource, "slides");
                 var slide = new ShopManagement.Domain.SlideAgg.Slide
-                    (command.PictureSource, command.PictureAlt, command.PictureTitle,
+                    (pictureName, command.PictureAlt, command.PictureTitle,
                 command.Heading, command.Title, command.Text, command.Link, command.BtnText);
 
                 _slideRepository.Create(slide);
@@ -51,8 +54,8 @@ namespace ShopManagement.Application
 
             else
             {
-                
-                slide.Update(command.PictureSource, command.PictureAlt,
+                var pictureName = _fileUploader.Upload(command.PictureSource, "slides");
+                slide.Update(pictureName, command.PictureAlt,
                     command.PictureTitle, command.Heading, command.Title, command.Text,
                  command.Link, command.BtnText);
                 _slideRepository.SaveChanges();

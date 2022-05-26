@@ -1,4 +1,5 @@
-﻿using _01_HA_Framework.Application;
+﻿using _0_Framework.Application;
+using _01_HA_Framework.Application;
 using ShopManagement.Application.Contracts.ProductCategory;
 using ShopManagement.Domain.ProductCategoryAgg;
 using System;
@@ -12,10 +13,12 @@ namespace ShopManagement.Application.ProductCategory
     public class ProductCategoryApplication : IProductCategoryApplication
     {
         private readonly IProductCategoryRepository _productCategoryRepository;
+        private readonly IFileUploader _fileUploader;
 
-        public ProductCategoryApplication(IProductCategoryRepository productCategoryRepository)
+        public ProductCategoryApplication(IProductCategoryRepository productCategoryRepository, IFileUploader fileUploader)
         {
             _productCategoryRepository = productCategoryRepository;
+            _fileUploader = fileUploader;
         }
 
         public OperationResult Create(CreateProductCategory command)
@@ -29,8 +32,10 @@ namespace ShopManagement.Application.ProductCategory
                 else
                 {
                     var slug = command.Slug.GenerateSlug();
+                    var picturePath = $"{command.Slug}";
+                    var pictureName = _fileUploader.Upload(command.PicSrc, picturePath);
                     var productCategory = new ShopManagement.Domain.ProductCategoryAgg.ProductCategory(command.Title,
-                        command.Description, command.PicSrc, command.PicAlt,command.PicTitle,
+                        command.Description, pictureName, command.PicAlt,command.PicTitle,
                         command.KeyWord, command.MetaDesc, slug);
                     _productCategoryRepository.Create(productCategory);
                   
@@ -93,11 +98,14 @@ namespace ShopManagement.Application.ProductCategory
             else
             {
                 var slug = command.Slug.GenerateSlug();
-                //To Fix
+                var picturePath = $"{command.Slug}"; 
+                var filename = _fileUploader.Upload(command.PicSrc,picturePath);
+              
 
                 productCategory.Title = command.Title;
                 productCategory.Description = command.Description;
-                productCategory.PicSrc = command.PicSrc;
+                if (!string.IsNullOrWhiteSpace(command.PicSrc.FileName))
+                      productCategory.PicSrc = filename;
                 productCategory.PicAlt=command.PicAlt;
                 productCategory.PicTitle=command.PicTitle;
                 productCategory.KeyWord = command.KeyWord;

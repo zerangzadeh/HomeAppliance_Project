@@ -62,17 +62,17 @@
 <!----one part-->
 
                                                 <div class="single-image">
-                                                    <img src="~/Theme/assets/img/products/@Model.Product.PicSrc" class="img-fluid"
+                                                    <img src="~/ProductPictures/@Model.Product.PicSrc" class="img-fluid"
                                                          alt="@Model.Product.PicSrc">
                                                 </div>
                                                 <!----one part-->
-                                                @foreach (var picture in Model.Product.Pictures)
+                                                @*@foreach (var picture in Model.Product.Pictures)
                                                 {
                                                     <div class="single-image">
-                                                        <img src="~/Theme/assets/img/products/@picture.PictureSource" class="img-fluid"
+                                                        <img src="~/ProductPictures/@picture.PictureSource" class="img-fluid"
                                                              alt="@picture.PictureAlt" title="@picture.PictureAlt">
                                                     </div>
-                                                }
+                                                }*@
                                                 <!----one part-->
                                             </div>
                                         </div>
@@ -100,14 +100,14 @@
                                                     {"breakpoint":479, "settings": {"slidesToShow": 2, "arrows": false, "slidesToScroll": 1} }
                                                 ]'>
                                             <div class="single-image">
-                                                <img src="~/Theme/assets/img/products/@Model.Product.Pictures" class="img-fluid"
+                                                <img src="~/ProductPictures/@Model.Product.Pictures" class="img-fluid"
                                                      alt="@Model.Product.Pictures">
                                             </div>
                                             @if (Model.Product.Pictures.Count>0)
                                             { @foreach (var picture in Model.Product.Pictures)
                                             {
                                                 <div class="single-image">
-                                                    <img src="~/Theme/assets/img/products/@picture.PictureSource" class="img-fluid"
+                                                    <img src="~/ProductPictures/@picture.PictureSource" class="img-fluid"
                                                          alt="@picture.PictureAlt" title="@picture.PictureTitle">
                                                 </div>
                                             }

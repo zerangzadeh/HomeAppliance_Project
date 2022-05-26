@@ -41,6 +41,9 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.ProductCategories
 
         public JsonResult OnPostUpdate(UpdateProductCategory command)
         {
+            if (ModelState.IsValid)
+            {
+            }
             var result = _productCategoryApplication.Update(command);
             return new JsonResult(result);
         }

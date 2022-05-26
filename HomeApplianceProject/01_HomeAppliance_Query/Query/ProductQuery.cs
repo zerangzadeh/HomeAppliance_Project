@@ -169,7 +169,9 @@ namespace _01_HomeAppliance_Query.Query
                 PictureAlt = x.PictureAlt,
                 PictureTitle = x.PictureTitle,
                 ProductID = x.ProductID
-            }).Where(x => !x.IsRemoved).ToList();
+            }).Where(x => !x.IsRemoved).Take(1).ToList();
+
+          
         }
 
 

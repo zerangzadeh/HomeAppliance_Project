@@ -25,8 +25,14 @@ namespace ShopManagement.Infrastructure.Repository
             _shopDBContext = shopDBContext;
         }
 
-      
-        
+        public ProductPicture GetWithProductAndCategory(long ID)
+        {
+            return _shopDBContext.ProductPictures
+               .Include(x => x.Product)
+               .ThenInclude(x => x.Category)
+               .FirstOrDefault(x => x.ID == ID);
+        }
+
         public List<ProductPictureViewModel> Search(ProductPictureSearchModel productPictureSearchModel)
         {
             var query = _shopDBContext.ProductPictures.Include(x => x.Product).
@@ -52,9 +58,9 @@ namespace ShopManagement.Infrastructure.Repository
         {
             return _shopDBContext.ProductPictures.Select(x => new UpdateProductPicture
             {
-                ID = x.ID,
+                ID = x.ID,  
                 ProductID = x.ProductID,
-                PictureSource = x.PictureSource,
+                //PictureSource = x.PictureSource,
                 PictureTitle = x.PictureTitle,
                 PictureAlt = x.PictureAlt
             })

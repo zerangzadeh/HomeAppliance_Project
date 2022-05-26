@@ -1,4 +1,6 @@
-﻿using _01_HA_Framework.Application;
+﻿using _0_Framework.Application;
+using _01_HA_Framework.Application;
+using Microsoft.AspNetCore.Http;
 using ShopManagement.Application.Contracts.Product;
 using System;
 using System.Collections.Generic;
@@ -11,10 +13,11 @@ namespace ShopManagement.Application.Contracts.ProductPicture
 {
     public class CreateProductPicture
     {
-        [Range(1,10000,ErrorMessage=ValidationMessages.IsRequired)]
+      //  [Range(1,10000,ErrorMessage=ValidationMessages.IsRequired)]
         public long ProductID { get; set; }
-        [Required(ErrorMessage = ValidationMessages.IsRequired)]
-        public string PictureSource { get; set; }
+        
+        [MaxFileSize(1*1024*1024, ErrorMessage = ValidationMessages.MaxFileSize)]
+        public IFormFile PictureSource { get; set; }
         [Required(ErrorMessage = ValidationMessages.IsRequired)]
         public string PictureTitle { get; set; }
         [Required(ErrorMessage = ValidationMessages.IsRequired)]

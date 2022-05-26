@@ -1,6 +1,8 @@
-﻿using _01_HA_Framework.Application;
+﻿using _0_Framework.Application;
+using _01_HA_Framework.Application;
 using ShopManagement.Application.Contracts.Product;
 using ShopManagement.Domain.ProductAgg;
+using ShopManagement.Domain.ProductCategoryAgg;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,10 +14,14 @@ namespace ShopManagement.Application.Product
     public class ProductApplication : IProductApplication
     {
         private readonly IProductRepository _productRepository;
+        private readonly IFileUploader _fileUploader;
+        private readonly IProductCategoryRepository _productCategoryRepository;
 
-        public ProductApplication(IProductRepository productRepository)
+        public ProductApplication(IProductRepository productRepository, IFileUploader fileUploader, IProductCategoryRepository productCategoryRepository)
         {
             _productRepository = productRepository;
+            _fileUploader = fileUploader;
+            _productCategoryRepository = productCategoryRepository;
         }
 
         public OperationResult Create(CreateProduct command)
@@ -29,8 +35,11 @@ namespace ShopManagement.Application.Product
                 else
                 {
                     var slug = command.Slug.GenerateSlug();
+                    var categorySlug=_productCategoryRepository.GetSlugByID(command.CategoryId);
+                    var path = $"{categorySlug}//{slug}";
+                    var picturePath = _fileUploader.Upload(command.PicSrc, path);
                     var product = new ShopManagement.Domain.ProductAgg.Product(command.Name, command.Code, 
-                command.ShortDESC, command.Description, command.PicSrc,
+                command.ShortDESC, command.Description, picturePath ,
                 command.PicAlt, command.PicTitle, command.CategoryId, slug,
                 command.Keywords, command.MetaDESC);
                     _productRepository.Create(product);
@@ -61,12 +70,16 @@ namespace ShopManagement.Application.Product
             {
                 var slug = command.Slug.GenerateSlug();
                 //To Fix
+                var categorySlug = _productCategoryRepository.GetSlugByID(command.CategoryId);
+                var path = $"{categorySlug}/{slug}";
+                var picturePath = _fileUploader.Upload(command.PicSrc, path);
                 product.Name = command.Name;
                 product.Code = command.Code;
                 
                 product.ShortDESC = command.ShortDESC;
                 product.Description = command.Description;
-                product.PicSrc = command.PicSrc;
+                if (!string.IsNullOrWhiteSpace(command.PicSrc.FileName))
+                product.PicSrc = picturePath;
                 product.PicAlt = command.PicAlt;
                 product.PicTitle = command.PicTitle;
                

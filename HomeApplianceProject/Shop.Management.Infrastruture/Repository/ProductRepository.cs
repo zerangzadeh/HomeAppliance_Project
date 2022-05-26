@@ -33,7 +33,7 @@ namespace ShopManagement.Infrastructure.Repository
               
                 ShortDESC = x.ShortDESC,
                 Description = x.Description,
-                PicSrc = x.PicSrc,
+                //PicSrc = x.PicSrc.,
                 PicAlt = x.PicAlt,
                 PicTitle = x.PicTitle,
                 CategoryId = x.CategoryId,
@@ -107,5 +107,16 @@ namespace ShopManagement.Infrastructure.Repository
                    
                 }).OrderByDescending(x => x.ID).ToList();
            }
+
+
+
+        public Product GetProductWithCategory(long ID)
+        {
+            return _shopDBContext.Products.Include(x => x.Category).FirstOrDefault(x => x.ID == ID);
+        }
+
+
+
+
     }
 }

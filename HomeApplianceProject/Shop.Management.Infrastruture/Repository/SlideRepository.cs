@@ -48,7 +48,7 @@ namespace ShopManagement.Infrastructure.Repository
             return _shopDBContext.Slides.Select(x => new UpdateSlide
             {
                 ID = x.ID,
-                PictureSource = x.PictureSource,
+                //PictureSource = x.PictureSource,
                 PictureTitle = x.PictureTitle,
                 PictureAlt = x.PictureAlt,
                 Heading = x.Heading,

@@ -1,5 +1,6 @@
 ﻿
 using _01_HA_Framework.Application;
+using Microsoft.AspNetCore.Http;
 using ShopManagement.Application.Contracts.ProductCategory;
 using System;
 using System.Collections.Generic;
@@ -21,7 +22,7 @@ namespace ShopManagement.Application.Contracts.Product
         
         public string ShortDESC { get; set; }
         public string Description { get; set; }
-        public string PicSrc { get; set; }
+        public IFormFile PicSrc { get; set; }
         public string PicAlt { get; set; }
         public string PicTitle { get; set; }
         [Range(1,1000000,ErrorMessage = ValidationMessages.IsRequired)]

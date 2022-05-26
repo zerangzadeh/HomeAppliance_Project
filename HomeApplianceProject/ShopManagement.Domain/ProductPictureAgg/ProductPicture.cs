@@ -39,7 +39,8 @@ namespace ShopManagement.Domain.ProductPictureAgg
         public void Update(long productID, string pictureSource, string pictureTitle, string pictureAlt)
         { 
             ProductID = productID;
-            PictureSource = pictureSource;
+            if (!string.IsNullOrWhiteSpace(pictureSource))
+                 PictureSource = pictureSource;
             PictureTitle = pictureTitle;
             PictureAlt = pictureAlt;
             IsRemoved = false;

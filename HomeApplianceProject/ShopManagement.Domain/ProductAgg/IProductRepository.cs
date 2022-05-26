@@ -17,6 +17,7 @@ namespace ShopManagement.Domain.ProductAgg
         List<ProductViewModel> Search(ProductSearchModel searchModel);
         List<ProductViewModel> GetAll();
         List<ProductViewModel> GetProducts();
+        Product GetProductWithCategory(long ID);
         //public void SetNotInStock(long ID);
         //public void SetIsInStock(long ID);
     }
