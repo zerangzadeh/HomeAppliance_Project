@@ -1,10 +1,11 @@
-﻿using _0_Framework.Domain;
+﻿
+using _01_HA_Framework.Infrastructure;
 using BlogManagement.Application.Contracts.ArticleCategory;
 using System.Collections.Generic;
 
 namespace BlogManagement.Domain.ArticleCategoryAgg
 {
-    public interface IArticleCategoryRepository : IRepository<long, ArticleCategory>
+    public interface IArticleCategoryRepository : IBaseRepository<long, ArticleCategory>
     {
         string GetSlugBy(long id);
         EditArticleCategory GetDetails(long id);

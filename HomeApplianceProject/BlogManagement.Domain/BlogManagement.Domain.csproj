@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\01_HA_Framework\01_HA_Framework.csproj" />
+    <ProjectReference Include="..\BlogManagement.Application.Contracts\BlogManagement.Application.Contracts.csproj" />
   </ItemGroup>
 
 </Project>

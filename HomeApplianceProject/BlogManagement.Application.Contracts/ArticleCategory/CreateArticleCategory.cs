@@ -1,5 +1,6 @@
 ﻿
 using _01_HA_Framework.Application;
+using Microsoft.AspNetCore.Http;
 //using Microsoft.AspNetCore.Http;
 using System.ComponentModel.DataAnnotations;
 
@@ -10,7 +11,7 @@ namespace BlogManagement.Application.Contracts.ArticleCategory
         [Required(ErrorMessage = ValidationMessages.IsRequired)]
         public string Name { get; set; }
         
-        //public IFormFile Picture { get; set; }
+        public IFormFile Picture { get; set; }
 
         [Required(ErrorMessage = ValidationMessages.IsRequired)]
         public string PictureAlt { get; set; }
