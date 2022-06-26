@@ -7,6 +7,8 @@
     <h4 class="modal-title">@Model.Title ویرایش گروه محصول جدید</h4>
 </div>
 
+
+
 <form asp-page="./Index" asp-page-handler="Update"
       method="post"
       data-ajax="true"
@@ -33,7 +35,7 @@
             <div class="col-md-12">
                 <div class="form-group">
                     <label asp-for="PicSrc" class="control-label">عکس</label>
-                    <input type="file" class="form-control" asp-for="PicSrc" accept="image/*">
+                    <input type="file" class="form-control" asp-for="PicSrc">
                     <span asp-validation-for="PicSrc" class="error"></span>
                 </div>
             </div>
@@ -88,5 +90,6 @@
     <div class="modal-footer">
         <button type="button" class="btn btn-default waves-effect" data-dismiss="modal">بستن</button>
         <button type="submit" class="btn btn-info waves-effect waves-light">ویرایش</button>
+        
     </div>
 </form>

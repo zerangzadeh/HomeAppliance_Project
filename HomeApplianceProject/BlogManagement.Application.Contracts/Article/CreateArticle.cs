@@ -1,4 +1,5 @@
-﻿using _0_Framework.Application;
+﻿
+using _01_HA_Framework.Application;
 using Microsoft.AspNetCore.Http;
 using System.ComponentModel.DataAnnotations;
 
@@ -45,6 +46,6 @@ namespace BlogManagement.Application.Contracts.Article
         public string CanonicalAddress { get; set; }
 
         [Range(1, long.MaxValue, ErrorMessage = ValidationMessages.IsRequired)]
-        public long CategoryId { get; set; }
+        public long CategoryID { get; set; }
     }
 }

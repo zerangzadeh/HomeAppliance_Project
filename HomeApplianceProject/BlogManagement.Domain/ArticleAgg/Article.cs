@@ -1,5 +1,4 @@
 ﻿
-
 using _01_HA_Framework;
 using BlogManagement.Domain.ArticleCategoryAgg;
 using System;
@@ -19,9 +18,14 @@ namespace BlogManagement.Domain.ArticleAgg
         public string Keywords { get; private set; }
         public string MetaDescription { get; private set; }
         public string CanonicalAddress { get; private set; }
-        public long CategoryId { get; private set; }
+        public long CategoryID { get; private set; }
         public ArticleCategory Category { get; private set; }
 
+
+        public Article()
+        {
+            
+        }
         public Article(string title, string shortDescription, string description,
             string picture, string pictureAlt, string pictureTitle, DateTime publishDate, string slug,
             string keywords, string metaDescription, string canonicalAddress, long categoryId)
@@ -37,10 +41,10 @@ namespace BlogManagement.Domain.ArticleAgg
             Keywords = keywords;
             MetaDescription = metaDescription;
             CanonicalAddress = canonicalAddress;
-            CategoryId = categoryId;
-        }
+            CategoryID = categoryId;
+        }  
 
-        public void Edit(string title, string shortDescription, string description,
+        public void Update(string title, string shortDescription, string description,
             string picture, string pictureAlt, string pictureTitle, DateTime publishDate, string slug,
             string keywords, string metaDescription, string canonicalAddress, long categoryId)
         {
@@ -58,7 +62,7 @@ namespace BlogManagement.Domain.ArticleAgg
             Keywords = keywords;
             MetaDescription = metaDescription;
             CanonicalAddress = canonicalAddress;
-            CategoryId = categoryId;
+            CategoryID = categoryId;
         }
     }
 }

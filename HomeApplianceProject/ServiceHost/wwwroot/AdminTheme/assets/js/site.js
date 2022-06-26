@@ -144,10 +144,10 @@ function checkSlugDuplication(url, dist) {
     });
 }
 
-function fillField(source, dist) {
-    const value = $('#' + source).val();
-    $('#' + dist).val(value);
-}
+//function fillField(source, dist) {
+//    const value = $('#' + source).val();
+//    $('#' + dist).val(value);
+//}
 
 $(document).on("click",
     'button[data-ajax="true"]',
@@ -199,44 +199,44 @@ jQuery.validator.unobtrusive.adapters.addBool("maxFileSize");
 
 
 
-jQuery.validator.addMethod("fileExtentionLimit",
-    function (value, element, params) {
+//jQuery.validator.addMethod("fileExtentionLimit",
+//    function (value, element, params) {
 
-        var extension = element.files[0].filename.replace(/^.*\./, '');
+//        var extension = element.files[0].filename.replace(/^.*\./, '');
 
-        // Iff there is no dot anywhere in filename, we would have extension == filename,
-        // so we account for this possibility now
-        if (extension == element.files[0].filename) {
-            extension = '';
-        }
-        else {
-            // if there is an extension, we convert to lower case
-            // (N.B. this conversion will not effect the value of the extension
-            // on the file upload.)
-            extension = extension.toLowerCase();
-        }
-        debugger;
+//        // Iff there is no dot anywhere in filename, we would have extension == filename,
+//        // so we account for this possibility now
+//        if (extension == element.files[0].filename) {
+//            extension = '';
+//        }
+//        else {
+//            // if there is an extension, we convert to lower case
+//            // (N.B. this conversion will not effect the value of the extension
+//            // on the file upload.)
+//            extension = extension.toLowerCase();
+//        }
+//        debugger;
 
-        if (extension == 'jpg')
-            return true;
-        else return false;
-        //switch (extension) {
-        //    case 'jpg':
-        //    case 'jpeg':
-        //    case 'png':
-        //        alert("it's got an extension which suggests it's a PNG or JPG image (but N.B. that's only its name, so let's be sure that we, say, check the mime-type server-side!)");
+//        if (extension == 'jpg')
+//            return true;
+//        else return false;
+//        //switch (extension) {
+//        //    case 'jpg':
+//        //    case 'jpeg':
+//        //    case 'png':
+//        //        alert("it's got an extension which suggests it's a PNG or JPG image (but N.B. that's only its name, so let's be sure that we, say, check the mime-type server-side!)");
 
-        //    // uncomment the next line to allow the form to submitted in this case:
-        //    //          break;
+//        //    // uncomment the next line to allow the form to submitted in this case:
+//        //    //          break;
 
-        //    default:
-        //        // Cancel the form submission
-        //        submitEvent.preventDefault();
-    });
-
-
+//        //    default:
+//        //        // Cancel the form submission
+//        //        submitEvent.preventDefault();
+//    });
 
 
 
 
-   jQuery.validator.unobtrusive.adapters.addBool("fileExtentionLimit");
+
+
+//   jQuery.validator.unobtrusive.adapters.addBool("fileExtentionLimit");

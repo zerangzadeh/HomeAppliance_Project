@@ -28,7 +28,7 @@ namespace Shop.Management.Infrastruture.Repository
                 ID = x.ID,
                 Title = x.Title,
                 Description = x.Description,
-               // PicSrc = x.PicSrc,
+                //PicSrc = x.PicSrc,
                 PicAlt = x.PicAlt,
                 PicTitle = x.PicTitle,
                 KeyWord = x.KeyWord,

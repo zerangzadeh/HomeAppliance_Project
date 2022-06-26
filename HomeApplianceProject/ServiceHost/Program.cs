@@ -6,6 +6,7 @@ using InventoryManagement.Infrastructure.Configuration;
 using CommentManagement.Infrastructure.Configuration;
 using _0_Framework.Application;
 using ServiceHost;
+using BlogManagement.Infrastructure.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,6 +16,8 @@ ShopManagementBootStrapper.Configure(builder.Services, builder.Configuration.Get
 DiscountManagementBootStrapper.Configure(builder.Services, builder.Configuration.GetConnectionString("HomeApplianceDB"));
 InventoryManagementBootStrapper.Configure(builder.Services, builder.Configuration.GetConnectionString("HomeApplianceDB"));
 CommentManagementBootstrapper.Configure(builder.Services, builder.Configuration.GetConnectionString("HomeApplianceDB"));
+BlogManagementBootstrapper.Configure(builder.Services, builder.Configuration.GetConnectionString("HomeApplianceDB"));
+
 builder.Services.AddTransient<IFileUploader, FileUploader>();
 var app = builder.Build();
 

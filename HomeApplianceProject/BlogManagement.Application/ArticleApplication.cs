@@ -1,4 +1,6 @@
-﻿using _0_Framework.Application;
+﻿
+using _0_Framework.Application;
+using _01_HA_Framework.Application;
 using BlogManagement.Application.Contracts.Article;
 using BlogManagement.Domain.ArticleAgg;
 using BlogManagement.Domain.ArticleCategoryAgg;
@@ -22,52 +24,55 @@ namespace BlogManagement.Application
 
         public OperationResult Create(CreateArticle command)
         {
-            var operation = new OperationResult();
+          
+            var operationResult = new OperationResult();
+            var messageForOperation = new MessageForOpeartion();
             if (_articleRepository.Exists(x => x.Title == command.Title))
-                return operation.Failed(ApplicationMessages.DuplicatedRecord);
+                return operationResult.Failed(messageForOperation.DoubleMessage);
 
-            var slug = command.Slug.Slugify();
-            var categorySlug = _articleCategoryRepository.GetSlugBy(command.CategoryId);
+            var slug = command.Slug.GenerateSlug();
+            var categorySlug = _articleCategoryRepository.GetSlugBy(command.CategoryID);
             var path = $"{categorySlug}/{slug}";
             var pictureName = _fileUploader.Upload(command.Picture, path);
             var publishDate = command.PublishDate.ToGeorgianDateTime();
 
             var article = new Article(command.Title, command.ShortDescription, command.Description, pictureName,
                 command.PictureAlt, command.PictureTitle, publishDate, slug, command.Keywords, command.MetaDescription,
-                command.CanonicalAddress, command.CategoryId);
+                command.CanonicalAddress, command.CategoryID);
 
             _articleRepository.Create(article);
             _articleRepository.SaveChanges();
-            return operation.Succedded();
+            return operationResult.Succeeded(messageForOperation.SuccessMessage);
         }
 
-        public OperationResult Edit(EditArticle command)
+        public OperationResult Update(UpdateArticle command)
         {
-            var operation = new OperationResult();
-            var article = _articleRepository.GetWithCategory(command.Id);
+            var operationResult = new OperationResult();
+            var messageForOperation = new MessageForOpeartion();
+            var article = _articleRepository.GetWithCategory(command.ID);
 
             if (article == null)
-                return operation.Failed(ApplicationMessages.RecordNotFound);
+                return operationResult.Failed(messageForOperation.NotFoundMessage);
 
-            if (_articleRepository.Exists(x => x.Title == command.Title && x.Id != command.Id))
-                return operation.Failed(ApplicationMessages.DuplicatedRecord);
+            if (_articleRepository.Exists(x => x.Title == command.Title && x.ID != command.ID))
+                return operationResult.Failed(messageForOperation.ExistMessage);
 
-            var slug = command.Slug.Slugify();
+            var slug = command.Slug.GenerateSlug();
             var path = $"{article.Category.Slug}/{slug}";
             var pictureName = _fileUploader.Upload(command.Picture, path);
             var publishDate = command.PublishDate.ToGeorgianDateTime();
 
-            article.Edit(command.Title, command.ShortDescription, command.Description, pictureName,
+            article.Update(command.Title, command.ShortDescription, command.Description, pictureName,
                 command.PictureAlt, command.PictureTitle, publishDate, slug, command.Keywords, command.MetaDescription,
-                command.CanonicalAddress, command.CategoryId);
+                command.CanonicalAddress, command.CategoryID);
 
             _articleRepository.SaveChanges();
-            return operation.Succedded();
+            return operationResult.Succeeded(messageForOperation.SuccessMessage);
         }
 
-        public EditArticle GetDetails(long id)
+        public UpdateArticle GetDetails(long ID)
         {
-            return _articleRepository.GetDetails(id);
+            return _articleRepository.GetDetails(ID);
         }
 
         public List<ArticleViewModel> Search(ArticleSearchModel searchModel)

@@ -87,13 +87,22 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BlogMangement", "BlogMangem
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BM.Domain", "BM.Domain", "{01657331-A7EE-4F8F-A571-E77033712D61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogManagement.Domain", "BlogManagement.Domain\BlogManagement.Domain.csproj", "{76C5461F-17DA-4338-AA69-C1C39F558836}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogManagement.Domain", "BlogManagement.Domain\BlogManagement.Domain.csproj", "{76C5461F-17DA-4338-AA69-C1C39F558836}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BM.Application", "BM.Application", "{AC5DE850-C33E-41EA-98F9-238BD75AA8D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogManagement.Application", "BlogManagement.Application\BlogManagement.Application.csproj", "{EBFB363A-7262-4678-95BA-AE8B084FF410}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogManagement.Application", "BlogManagement.Application\BlogManagement.Application.csproj", "{EBFB363A-7262-4678-95BA-AE8B084FF410}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogManagement.Application.Contracts", "BlogManagement.Application.Contracts\BlogManagement.Application.Contracts.csproj", "{41151A4B-5BA7-4262-9A77-9D5E59675BFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogManagement.Application.Contracts", "BlogManagement.Application.Contracts\BlogManagement.Application.Contracts.csproj", "{41151A4B-5BA7-4262-9A77-9D5E59675BFA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BM.Infrastructure", "BM.Infrastructure", "{E1203324-717A-4404-97EF-21D0F222CDA6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogMangement.Infrastructure", "BlogMangement.Infrastrcture\BlogMangement.Infrastructure.csproj", "{49CA088F-A8D4-4739-BBFE-02E9570D5F13}"
+	ProjectSection(ProjectDependencies) = postProject
+		{76C5461F-17DA-4338-AA69-C1C39F558836} = {76C5461F-17DA-4338-AA69-C1C39F558836}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogMangement.Infrastracture.Configuration", "BlogMangement.Infrastracture.Configuration\BlogMangement.Infrastracture.Configuration.csproj", "{4413C0D1-A460-40F6-AD39-A68A8733E49B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -205,6 +214,14 @@ Global
 		{41151A4B-5BA7-4262-9A77-9D5E59675BFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{41151A4B-5BA7-4262-9A77-9D5E59675BFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{41151A4B-5BA7-4262-9A77-9D5E59675BFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49CA088F-A8D4-4739-BBFE-02E9570D5F13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49CA088F-A8D4-4739-BBFE-02E9570D5F13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49CA088F-A8D4-4739-BBFE-02E9570D5F13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49CA088F-A8D4-4739-BBFE-02E9570D5F13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4413C0D1-A460-40F6-AD39-A68A8733E49B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4413C0D1-A460-40F6-AD39-A68A8733E49B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4413C0D1-A460-40F6-AD39-A68A8733E49B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4413C0D1-A460-40F6-AD39-A68A8733E49B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -248,6 +265,9 @@ Global
 		{AC5DE850-C33E-41EA-98F9-238BD75AA8D7} = {6D2C1F7B-4288-4E01-9966-E88B31E1CBC9}
 		{EBFB363A-7262-4678-95BA-AE8B084FF410} = {AC5DE850-C33E-41EA-98F9-238BD75AA8D7}
 		{41151A4B-5BA7-4262-9A77-9D5E59675BFA} = {AC5DE850-C33E-41EA-98F9-238BD75AA8D7}
+		{E1203324-717A-4404-97EF-21D0F222CDA6} = {6D2C1F7B-4288-4E01-9966-E88B31E1CBC9}
+		{49CA088F-A8D4-4739-BBFE-02E9570D5F13} = {E1203324-717A-4404-97EF-21D0F222CDA6}
+		{4413C0D1-A460-40F6-AD39-A68A8733E49B} = {E1203324-717A-4404-97EF-21D0F222CDA6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {66F31A42-A507-4A75-BC39-ADBC44EEA340}

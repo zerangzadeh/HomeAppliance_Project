@@ -155,7 +155,32 @@
       "ProjectGuid": "0be89721-41e8-47ef-9e5e-7f6cd2543aae",
       "DisplayName": "GetAmvalNo",
       "ColorIndex": 13
+    },
+    "76c5461f-17da-4338-aa69-c1c39f558836": {
+      "ProjectGuid": "76c5461f-17da-4338-aa69-c1c39f558836",
+      "DisplayName": "BlogManagement.Domain",
+      "ColorIndex": 14
+    },
+    "ebfb363a-7262-4678-95ba-ae8b084ff410": {
+      "ProjectGuid": "ebfb363a-7262-4678-95ba-ae8b084ff410",
+      "DisplayName": "BlogManagement.Application",
+      "ColorIndex": 15
+    },
+    "41151a4b-5ba7-4262-9a77-9d5e59675bfa": {
+      "ProjectGuid": "41151a4b-5ba7-4262-9a77-9d5e59675bfa",
+      "DisplayName": "BlogManagement.Application.Contracts",
+      "ColorIndex": 0
+    },
+    "49ca088f-a8d4-4739-bbfe-02e9570d5f13": {
+      "ProjectGuid": "49ca088f-a8d4-4739-bbfe-02e9570d5f13",
+      "DisplayName": "BlogMangement.Infrastructure",
+      "ColorIndex": 1
+    },
+    "4413c0d1-a460-40f6-ad39-a68a8733e49b": {
+      "ProjectGuid": "4413c0d1-a460-40f6-ad39-a68a8733e49b",
+      "DisplayName": "BlogMangement.Infrastracture.Configuration",
+      "ColorIndex": 2
     }
   },
-  "NextColorIndex": 14
+  "NextColorIndex": 3
 }

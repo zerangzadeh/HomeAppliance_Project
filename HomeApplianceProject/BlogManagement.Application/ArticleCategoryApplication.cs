@@ -36,16 +36,16 @@ namespace BlogManagement.Application
             return operation.Succeeded(messageForOperation.SuccessMessage);
         }
 
-        public OperationResult Edit(EditArticleCategory command)
+        public OperationResult Update(UpdateArticleCategory command)
         {
             var operation = new OperationResult();
             var messageForOperation = new MessageForOpeartion();
-            var articleCategory = _articleCategoryRepository.GetBy(command.Id);
+            var articleCategory = _articleCategoryRepository.GetBy(command.ID);
 
             if (articleCategory == null)
-                return operation.Failed(messageForOperation.);
+                return operation.Failed(messageForOperation.FailMessage);
 
-            if (_articleCategoryRepository.Exists(x => x.Name == command.Name && x.ID != command.Id))
+            if (_articleCategoryRepository.Exists(x => x.Name == command.Name && x.ID != command.ID))
                 return operation.Failed(messageForOperation.DoubleMessage);
 
             var slug = command.Slug.GenerateSlug();
@@ -63,14 +63,17 @@ namespace BlogManagement.Application
             return _articleCategoryRepository.GetArticleCategories();
         }
 
-        public EditArticleCategory GetDetails(long id)
+        public UpdateArticleCategory GetDetails(long ID)
         {
-            return _articleCategoryRepository.GetDetails(id);
+            return _articleCategoryRepository.GetDetails(ID);
         }
 
         public List<ArticleCategoryViewModel> Search(ArticleCategorySearchModel searchModel)
         {
             return _articleCategoryRepository.Search(searchModel);
         }
+
+        
+       
     }
 }

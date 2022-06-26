@@ -5,6 +5,7 @@ E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\01_HomeA
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\01_HomeAppliance_Query\bin\Debug\net6.0\01_HA_Framework.dll
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\01_HomeAppliance_Query\bin\Debug\net6.0\CommentManagement.Application.Contracts.dll
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\01_HomeAppliance_Query\bin\Debug\net6.0\CommentManagement.Domain.dll
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\01_HomeAppliance_Query\bin\Debug\net6.0\CommentManagement.Infrastructure.dll
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\01_HomeAppliance_Query\bin\Debug\net6.0\DiscountManagement.Application.Contract.dll
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\01_HomeAppliance_Query\bin\Debug\net6.0\DiscountManagement.Domain.dll
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\01_HomeAppliance_Query\bin\Debug\net6.0\DiscountManagement.Infrastructure.dll
@@ -14,6 +15,7 @@ E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\01_HomeA
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\01_HomeAppliance_Query\bin\Debug\net6.0\ShopManagement.Application.Contracts.dll
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\01_HomeAppliance_Query\bin\Debug\net6.0\ShopManagement.Domain.dll
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\01_HomeAppliance_Query\bin\Debug\net6.0\ShopManagement.Infrastructure.dll
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\01_HomeAppliance_Query\bin\Debug\net6.0\CommentManagement.Infrastructure.pdb
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\01_HomeAppliance_Query\bin\Debug\net6.0\DiscountManagement.Infrastructure.pdb
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\01_HomeAppliance_Query\bin\Debug\net6.0\InventoryManagement.Infrastructure.pdb
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\01_HomeAppliance_Query\bin\Debug\net6.0\ShopManagement.Infrastructure.pdb
@@ -35,5 +37,3 @@ E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\01_HomeA
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\01_HomeAppliance_Query\obj\Debug\net6.0\01_HomeAppliance_Query.dll
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\01_HomeAppliance_Query\obj\Debug\net6.0\ref\01_HomeAppliance_Query.dll
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\01_HomeAppliance_Query\obj\Debug\net6.0\01_HomeAppliance_Query.pdb
-E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\01_HomeAppliance_Query\bin\Debug\net6.0\CommentManagement.Infrastructure.dll
-E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\01_HomeAppliance_Query\bin\Debug\net6.0\CommentManagement.Infrastructure.pdb
