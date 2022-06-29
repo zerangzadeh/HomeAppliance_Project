@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ULY+sMG/YWbVe0fryJTdwvZfqbwkWBm8lz3vkETLlfI=",
+  "Hash": "yzLb8sEWGlxexM1UFWYPkfI9ukjPiGGiv18DfRDXdDU=",
   "Source": "ServiceHost",
   "BasePath": "_content/ServiceHost",
   "Mode": "Default",
@@ -7053,6 +7053,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\ProductPictures\\گلدان-چوبی\\2022-06-11-20-33-28-WodenVase.jpg"
+    },
+    {
+      "Identity": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\ServiceHost\\wwwroot\\ProductPictures\\گلدان-چوبی\\مقاله۱\\2022-06-28-21-07-05-clock1.jpg",
+      "SourceId": "ServiceHost",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\ServiceHost\\wwwroot\\",
+      "BasePath": "_content/ServiceHost",
+      "RelativePath": "ProductPictures/گلدان-چوبی/مقاله۱/2022-06-28-21-07-05-clock1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ProductPictures\\گلدان-چوبی\\مقاله۱\\2022-06-28-21-07-05-clock1.jpg"
     },
     {
       "Identity": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\ServiceHost\\wwwroot\\Theme\\assets\\css\\Custom.css",
