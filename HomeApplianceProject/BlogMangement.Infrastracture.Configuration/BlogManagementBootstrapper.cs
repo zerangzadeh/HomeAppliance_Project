@@ -1,5 +1,8 @@
 ﻿
 
+using _01_HomeAppliance_Query.Contracts.Article;
+using _01_HomeAppliance_Query.Contracts.ArticleCategory;
+using _01_HomeAppliance_Query.Query;
 using BlogManagement.Application;
 using BlogManagement.Application.Contracts.Article;
 using BlogManagement.Application.Contracts.ArticleCategory;
@@ -19,10 +22,10 @@ namespace BlogManagement.Infrastructure.Configuration
             services.AddTransient<IArticleCategoryRepository, ArticleCategoryRepository>();
 
             services.AddTransient<IArticleApplication, ArticleApplication>();
-            services.AddTransient<IArticleRepository, ArticleRepository>();
+            services.AddTransient<IArticleRepository, ArticleRepository>();   
 
-            //services.AddTransient<IArticleQuery, ArticleQuery>();
-            //services.AddTransient<IArticleCategoryQuery, ArticleCategoryQuery>();
+            services.AddTransient<IArticleQuery, ArticleQuery>();
+            services.AddTransient<IArticleCategoryQuery, ArticleCategoryQuery>();
 
             services.AddDbContext<BlogDBContext>(x => x.UseSqlServer(connectionString));
         }

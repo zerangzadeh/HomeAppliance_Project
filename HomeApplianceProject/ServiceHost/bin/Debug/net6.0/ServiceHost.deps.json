@@ -1012,6 +1012,7 @@
       },
       "01_HomeAppliance_Query/1.0.0": {
         "dependencies": {
+          "BlogMangement.Infrastructure": "1.0.0",
           "CommentManagement.Infrastructure": "1.0.0",
           "DiscountManagement.Infrastructure": "1.0.0",
           "InventoryManagement.Infrastructure": "1.0.0",
@@ -1050,6 +1051,7 @@
       },
       "BlogMangement.Infrastracture.Configuration/1.0.0": {
         "dependencies": {
+          "01_HomeAppliance_Query": "1.0.0",
           "BlogManagement.Application": "1.0.0",
           "BlogManagement.Application.Contracts": "1.0.0",
           "BlogManagement.Domain": "1.0.0",

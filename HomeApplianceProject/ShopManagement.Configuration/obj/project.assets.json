@@ -1806,6 +1806,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "BlogMangement.Infrastructure": "1.0.0",
           "CommentManagement.Infrastructure": "1.0.0",
           "DiscountManagement.Infrastructure": "1.0.0",
           "InventoryManagement.Infrastructure": "1.0.0",
@@ -1816,6 +1817,49 @@
         },
         "runtime": {
           "bin/placeholder/01_HomeAppliance_Query.dll": {}
+        }
+      },
+      "BlogManagement.Application.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "01_HA_Framework": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BlogManagement.Application.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BlogManagement.Application.Contracts.dll": {}
+        }
+      },
+      "BlogManagement.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "01_HA_Framework": "1.0.0",
+          "BlogManagement.Application.Contracts": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BlogManagement.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BlogManagement.Domain.dll": {}
+        }
+      },
+      "BlogMangement.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "BlogManagement.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.1",
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BlogMangement.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BlogMangement.Infrastructure.dll": {}
         }
       },
       "CommentManagement.Application.Contracts/1.0.0": {
@@ -6081,6 +6125,21 @@
       "path": "../01_HomeAppliance_Query/01_HomeAppliance_Query.csproj",
       "msbuildProject": "../01_HomeAppliance_Query/01_HomeAppliance_Query.csproj"
     },
+    "BlogManagement.Application.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../BlogManagement.Application.Contracts/BlogManagement.Application.Contracts.csproj",
+      "msbuildProject": "../BlogManagement.Application.Contracts/BlogManagement.Application.Contracts.csproj"
+    },
+    "BlogManagement.Domain/1.0.0": {
+      "type": "project",
+      "path": "../BlogManagement.Domain/BlogManagement.Domain.csproj",
+      "msbuildProject": "../BlogManagement.Domain/BlogManagement.Domain.csproj"
+    },
+    "BlogMangement.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../BlogMangement.Infrastrcture/BlogMangement.Infrastructure.csproj",
+      "msbuildProject": "../BlogMangement.Infrastrcture/BlogMangement.Infrastructure.csproj"
+    },
     "CommentManagement.Application.Contracts/1.0.0": {
       "type": "project",
       "path": "../CommentManagement.Application.Contracts/CommentManagement.Application.Contracts.csproj",
@@ -6234,7 +6293,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.105\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.106\\RuntimeIdentifierGraph.json"
       }
     }
   }

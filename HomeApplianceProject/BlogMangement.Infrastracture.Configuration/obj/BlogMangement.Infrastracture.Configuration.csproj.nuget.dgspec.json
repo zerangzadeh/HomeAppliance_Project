@@ -68,6 +68,76 @@
         }
       }
     },
+    "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\01_HomeAppliance_Query\\01_HomeAppliance_Query.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\01_HomeAppliance_Query\\01_HomeAppliance_Query.csproj",
+        "projectName": "01_HomeAppliance_Query",
+        "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\01_HomeAppliance_Query\\01_HomeAppliance_Query.csproj",
+        "packagesPath": "C:\\Users\\azera\\.nuget\\packages\\",
+        "outputPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\01_HomeAppliance_Query\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\azera\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\BlogMangement.Infrastrcture\\BlogMangement.Infrastructure.csproj": {
+                "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\BlogMangement.Infrastrcture\\BlogMangement.Infrastructure.csproj"
+              },
+              "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\CommentManagement.Infrastructure\\CommentManagement.Infrastructure.csproj": {
+                "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\CommentManagement.Infrastructure\\CommentManagement.Infrastructure.csproj"
+              },
+              "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\DiscountManagement.Infrastructure\\DiscountManagement.Infrastructure.csproj": {
+                "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\DiscountManagement.Infrastructure\\DiscountManagement.Infrastructure.csproj"
+              },
+              "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\InventoryManagment.Infrastructure\\InventoryManagement.Infrastructure.csproj": {
+                "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\InventoryManagment.Infrastructure\\InventoryManagement.Infrastructure.csproj"
+              },
+              "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\Shop.Management.Infrastruture\\ShopManagement.Infrastructure.csproj": {
+                "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\Shop.Management.Infrastruture\\ShopManagement.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.106\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\BlogManagement.Application.Contracts\\BlogManagement.Application.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -275,6 +345,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\01_HomeAppliance_Query\\01_HomeAppliance_Query.csproj": {
+                "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\01_HomeAppliance_Query\\01_HomeAppliance_Query.csproj"
+              },
               "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\BlogManagement.Application.Contracts\\BlogManagement.Application.Contracts.csproj": {
                 "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\BlogManagement.Application.Contracts\\BlogManagement.Application.Contracts.csproj"
               },
@@ -320,7 +393,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.105\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.106\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -393,6 +466,819 @@
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.106\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\CommentManagement.Application.Contracts\\CommentManagement.Application.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\CommentManagement.Application.Contracts\\CommentManagement.Application.Contracts.csproj",
+        "projectName": "CommentManagement.Application.Contracts",
+        "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\CommentManagement.Application.Contracts\\CommentManagement.Application.Contracts.csproj",
+        "packagesPath": "C:\\Users\\azera\\.nuget\\packages\\",
+        "outputPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\CommentManagement.Application.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\azera\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\01_HA_Framework\\01_HA_Framework.csproj": {
+                "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\01_HA_Framework\\01_HA_Framework.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.105\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\CommentManagement.Domain\\CommentManagement.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\CommentManagement.Domain\\CommentManagement.Domain.csproj",
+        "projectName": "CommentManagement.Domain",
+        "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\CommentManagement.Domain\\CommentManagement.Domain.csproj",
+        "packagesPath": "C:\\Users\\azera\\.nuget\\packages\\",
+        "outputPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\CommentManagement.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\azera\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\01_HA_Framework\\01_HA_Framework.csproj": {
+                "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\01_HA_Framework\\01_HA_Framework.csproj"
+              },
+              "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\CommentManagement.Application.Contracts\\CommentManagement.Application.Contracts.csproj": {
+                "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\CommentManagement.Application.Contracts\\CommentManagement.Application.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.105\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\CommentManagement.Infrastructure\\CommentManagement.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\CommentManagement.Infrastructure\\CommentManagement.Infrastructure.csproj",
+        "projectName": "CommentManagement.Infrastructure",
+        "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\CommentManagement.Infrastructure\\CommentManagement.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\azera\\.nuget\\packages\\",
+        "outputPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\CommentManagement.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\azera\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\CommentManagement.Domain\\CommentManagement.Domain.csproj": {
+                "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\CommentManagement.Domain\\CommentManagement.Domain.csproj"
+              },
+              "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\Shop.Management.Infrastruture\\ShopManagement.Infrastructure.csproj": {
+                "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\Shop.Management.Infrastruture\\ShopManagement.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.105\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj",
+        "projectName": "DiscountManagement.Domain",
+        "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj",
+        "packagesPath": "C:\\Users\\azera\\.nuget\\packages\\",
+        "outputPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\DiscountManagement.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\azera\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\01_HA_Framework\\01_HA_Framework.csproj": {
+                "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\01_HA_Framework\\01_HA_Framework.csproj"
+              },
+              "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\DiscountManagment.Application.Contracts\\DiscountManagement.Application.Contract.csproj": {
+                "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\DiscountManagment.Application.Contracts\\DiscountManagement.Application.Contract.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.105\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\DiscountManagement.Infrastructure\\DiscountManagement.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\DiscountManagement.Infrastructure\\DiscountManagement.Infrastructure.csproj",
+        "projectName": "DiscountManagement.Infrastructure",
+        "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\DiscountManagement.Infrastructure\\DiscountManagement.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\azera\\.nuget\\packages\\",
+        "outputPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\DiscountManagement.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\azera\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\01_HA_Framework\\01_HA_Framework.csproj": {
+                "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\01_HA_Framework\\01_HA_Framework.csproj"
+              },
+              "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj": {
+                "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\DiscountManagement.Domain\\DiscountManagement.Domain.csproj"
+              },
+              "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\Shop.Management.Infrastruture\\ShopManagement.Infrastructure.csproj": {
+                "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\Shop.Management.Infrastruture\\ShopManagement.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.105\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\DiscountManagment.Application.Contracts\\DiscountManagement.Application.Contract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\DiscountManagment.Application.Contracts\\DiscountManagement.Application.Contract.csproj",
+        "projectName": "DiscountManagement.Application.Contract",
+        "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\DiscountManagment.Application.Contracts\\DiscountManagement.Application.Contract.csproj",
+        "packagesPath": "C:\\Users\\azera\\.nuget\\packages\\",
+        "outputPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\DiscountManagment.Application.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\azera\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\01_HA_Framework\\01_HA_Framework.csproj": {
+                "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\01_HA_Framework\\01_HA_Framework.csproj"
+              },
+              "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
+                "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.ViewFeatures": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.105\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\InvenroryManagment.Application.Contracts\\InventoryManagement.Application.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\InvenroryManagment.Application.Contracts\\InventoryManagement.Application.Contracts.csproj",
+        "projectName": "InventoryManagement.Application.Contracts",
+        "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\InvenroryManagment.Application.Contracts\\InventoryManagement.Application.Contracts.csproj",
+        "packagesPath": "C:\\Users\\azera\\.nuget\\packages\\",
+        "outputPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\InvenroryManagment.Application.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\azera\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\01_HA_Framework\\01_HA_Framework.csproj": {
+                "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\01_HA_Framework\\01_HA_Framework.csproj"
+              },
+              "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
+                "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.105\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\InventoryManagment.Domain\\InventoryManagement.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\InventoryManagment.Domain\\InventoryManagement.Domain.csproj",
+        "projectName": "InventoryManagement.Domain",
+        "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\InventoryManagment.Domain\\InventoryManagement.Domain.csproj",
+        "packagesPath": "C:\\Users\\azera\\.nuget\\packages\\",
+        "outputPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\InventoryManagment.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\azera\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\01_HA_Framework\\01_HA_Framework.csproj": {
+                "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\01_HA_Framework\\01_HA_Framework.csproj"
+              },
+              "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\InvenroryManagment.Application.Contracts\\InventoryManagement.Application.Contracts.csproj": {
+                "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\InvenroryManagment.Application.Contracts\\InventoryManagement.Application.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.105\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\InventoryManagment.Infrastructure\\InventoryManagement.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\InventoryManagment.Infrastructure\\InventoryManagement.Infrastructure.csproj",
+        "projectName": "InventoryManagement.Infrastructure",
+        "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\InventoryManagment.Infrastructure\\InventoryManagement.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\azera\\.nuget\\packages\\",
+        "outputPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\InventoryManagment.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\azera\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\InventoryManagment.Domain\\InventoryManagement.Domain.csproj": {
+                "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\InventoryManagment.Domain\\InventoryManagement.Domain.csproj"
+              },
+              "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\Shop.Management.Infrastruture\\ShopManagement.Infrastructure.csproj": {
+                "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\Shop.Management.Infrastruture\\ShopManagement.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.105\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\Shop.Management.Infrastruture\\ShopManagement.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\Shop.Management.Infrastruture\\ShopManagement.Infrastructure.csproj",
+        "projectName": "ShopManagement.Infrastructure",
+        "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\Shop.Management.Infrastruture\\ShopManagement.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\azera\\.nuget\\packages\\",
+        "outputPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\Shop.Management.Infrastruture\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\azera\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\CommentManagement.Domain\\CommentManagement.Domain.csproj": {
+                "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\CommentManagement.Domain\\CommentManagement.Domain.csproj"
+              },
+              "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
+                "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.2.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.105\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj",
+        "projectName": "ShopManagement.Application.Contracts",
+        "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj",
+        "packagesPath": "C:\\Users\\azera\\.nuget\\packages\\",
+        "outputPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\ShopManagement.Application.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\azera\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\01_HA_Framework\\01_HA_Framework.csproj": {
+                "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\01_HA_Framework\\01_HA_Framework.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.ViewFeatures": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.105\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\ShopManagement.Domain\\ShopManagement.Domain.csproj",
+        "projectName": "ShopManagement.Domain",
+        "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\ShopManagement.Domain\\ShopManagement.Domain.csproj",
+        "packagesPath": "C:\\Users\\azera\\.nuget\\packages\\",
+        "outputPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\ShopManagement.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\azera\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\01_HA_Framework\\01_HA_Framework.csproj": {
+                "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\01_HA_Framework\\01_HA_Framework.csproj"
+              },
+              "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
+                "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.105\\RuntimeIdentifierGraph.json"
         }
       }
     }

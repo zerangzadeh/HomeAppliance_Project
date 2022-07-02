@@ -37,3 +37,9 @@ E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\01_HomeA
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\01_HomeAppliance_Query\obj\Debug\net6.0\01_HomeAppliance_Query.dll
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\01_HomeAppliance_Query\obj\Debug\net6.0\ref\01_HomeAppliance_Query.dll
 E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\01_HomeAppliance_Query\obj\Debug\net6.0\01_HomeAppliance_Query.pdb
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\01_HomeAppliance_Query\bin\Debug\net6.0\BlogManagement.Application.Contracts.dll
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\01_HomeAppliance_Query\bin\Debug\net6.0\BlogManagement.Domain.dll
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\01_HomeAppliance_Query\bin\Debug\net6.0\BlogMangement.Infrastructure.dll
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\01_HomeAppliance_Query\bin\Debug\net6.0\BlogMangement.Infrastructure.pdb
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\01_HomeAppliance_Query\bin\Debug\net6.0\BlogManagement.Application.Contracts.pdb
+E:\IT Studies\Asp.Net Sample\HomeAppliance_Project\HomeApplianceProject\01_HomeAppliance_Query\bin\Debug\net6.0\BlogManagement.Domain.pdb

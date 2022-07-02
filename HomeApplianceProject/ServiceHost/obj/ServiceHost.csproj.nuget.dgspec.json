@@ -92,6 +92,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\BlogMangement.Infrastrcture\\BlogMangement.Infrastructure.csproj": {
+                "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\BlogMangement.Infrastrcture\\BlogMangement.Infrastructure.csproj"
+              },
               "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\CommentManagement.Infrastructure\\CommentManagement.Infrastructure.csproj": {
                 "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\CommentManagement.Infrastructure\\CommentManagement.Infrastructure.csproj"
               },
@@ -131,7 +134,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.105\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.106\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -342,6 +345,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\01_HomeAppliance_Query\\01_HomeAppliance_Query.csproj": {
+                "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\01_HomeAppliance_Query\\01_HomeAppliance_Query.csproj"
+              },
               "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\BlogManagement.Application.Contracts\\BlogManagement.Application.Contracts.csproj": {
                 "projectPath": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\BlogManagement.Application.Contracts\\BlogManagement.Application.Contracts.csproj"
               },
@@ -387,7 +393,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.105\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.106\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -1777,7 +1783,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.105\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.106\\RuntimeIdentifierGraph.json"
         }
       }
     },
