@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yzLb8sEWGlxexM1UFWYPkfI9ukjPiGGiv18DfRDXdDU=",
+  "Hash": "4aFbOuUYXja7fj/73fa4yzuTUgC3TfdgbZZ5dw9/Wpk=",
   "Source": "ServiceHost",
   "BasePath": "_content/ServiceHost",
   "Mode": "Default",
@@ -8022,6 +8022,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Theme\\assets\\img\\hero-slider\\slider3-eposi1-1820x785.jpg"
+    },
+    {
+      "Identity": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\ServiceHost\\wwwroot\\Theme\\assets\\img\\HomeAppliance.png",
+      "SourceId": "ServiceHost",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\ServiceHost\\wwwroot\\",
+      "BasePath": "_content/ServiceHost",
+      "RelativePath": "Theme/assets/img/HomeAppliance.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Theme\\assets\\img\\HomeAppliance.png"
     },
     {
       "Identity": "E:\\IT Studies\\Asp.Net Sample\\HomeAppliance_Project\\HomeApplianceProject\\ServiceHost\\wwwroot\\Theme\\assets\\img\\icons\\de-de.png",

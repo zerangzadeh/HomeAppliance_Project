@@ -2,7 +2,7 @@
 using _01_HomeAppliance_Query.Contracts.Article;
 using _01_HomeAppliance_Query.Contracts.ArticleCategory;
 using CommentManagement.Application.Contracts.Comment;
-
+using CommentManagement.Infrastructure;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Collections.Generic;
@@ -32,11 +32,11 @@ namespace ServiceHost.Pages
             ArticleCategories = _articleCategoryQuery.GetArticleCategories();
         }
 
-        //public IActionResult OnPost(AddComment command, string articleSlug)
-        //{
-        //    command.Type = CommentType.Article;
-        //    var result = _commentApplication.Add(command);
-        //    return RedirectToPage("/Article", new { Id = articleSlug });
-        //}
+        public IActionResult OnPost(AddComment command, string articleSlug)
+        {
+            command.Type = CommentType.Article;
+            var result = _commentApplication.Add(command);
+            return RedirectToPage("/Article", new { Id = articleSlug });
+        }
     }
 }

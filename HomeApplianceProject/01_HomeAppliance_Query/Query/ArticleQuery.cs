@@ -52,27 +52,27 @@ namespace _01_HomeAppliance_Query.Query
                 article.KeywordList = article.Keywords.Split(",").ToList();
 
 
-            //var comments = _commentContext.Comments
-            //    .Where(x => !x.IsCanceled)
-            //    .Where(x => x.IsConfirmed)
-            //    .Where(x => x.Type == CommentType.Article)
-            //    .Where(x => x.OwnerRecordId == article.ID)
-            //    .Select(x => new CommentQueryModel
-            //    {
-            //        ID = x.ID,
-            //        Message = x.Message,
-            //        Name = x.Name,
-            //        //ParentID = x.ParentId,
-            //        CreationDate = x.CreationDate.ToFarsi()
-            //    }).OrderByDescending(x => x.ID).ToList();
+            var comments = _commentContext.Comments
+                .Where(x => !x.IsCanceled)
+                .Where(x => x.IsConfirmed)
+                .Where(x => x.Type == CommentType.Article)
+                .Where(x => x.OwnerRecordId == article.ID)
+                .Select(x => new CommentQueryModel
+                {
+                    ID = x.ID,
+                    Message = x.Message,
+                    Name = x.Name,
+                    ParentID = x.ParentID,
+                    CreationDate = x.CreationDate.ToFarsi()
+                }).OrderByDescending(x => x.ID).ToList();
 
-            //foreach (var comment in comments)
-            //{
-            //    if (comment.ParentId > 0)
-            //        comment.parentName = comments.FirstOrDefault(x => x.ID == comment.ParentID)?.Name;
-            //}
+            foreach (var comment in comments)
+            {
+                if (comment.ParentID > 0)
+                    comment.ParentName = comments.FirstOrDefault(x => x.ID == comment.ParentID)?.Name;
+            }
 
-            //article.Comments = comments;
+            article.Comments = comments;
 
             return article;
         }

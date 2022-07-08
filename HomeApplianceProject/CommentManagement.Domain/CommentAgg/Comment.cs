@@ -17,12 +17,15 @@ namespace CommentManagement.Domain.CommentAgg
         
          public long OwnerRecordId { get; private set; }
          public int Type { get; private set; }
-         public long ParentId { get; private set; }
+         public long ParentID { get; private set; }
         public Comment Parent { get; private set; }
-        //public List<Comment> Children { get; private set; }
+        
 
-        public Comment(string name, string email, string website, string message,
-            long ownerRecordId, int type, long parentId)
+        public Comment()
+        {
+            
+        }
+        public Comment(string name, string email, string website, string message, long ownerRecordId, int type, long parentId)
         {
             Name = name;
             Email = email;
@@ -30,7 +33,7 @@ namespace CommentManagement.Domain.CommentAgg
             Message = message;
             OwnerRecordId = ownerRecordId;
             Type = type;
-            ParentId = parentId;
+            ParentID = parentId;
         }
 
         public void Confirm()

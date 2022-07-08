@@ -99,14 +99,14 @@
                                         </div>
                                     </div>
 
-                                    @*<div class="comment-section">
+                                    <div class="comment-section">
                                         <h3 class="comment-counter">نظرات (@Model.Article.Comments.Count)</h3>
                                         <div class="comment-container">
                                             @foreach (var comment in Model.Article.Comments)
                                             {
                                                 <div class="single-comment" id="comment-@comment.ID">
                                                     <span class="reply-btn">
-                                                        <a href="#postComment" onclick='$("#commentParentId").val(@comment.Id)'>پاسخ</a>
+                                                        <a href="#postComment" onclick='$("#commentParentId").val(@comment.ID)'>پاسخ</a>
                                                     </span>
                                                     <div class="image">
                                                         <img src="~/Theme/assets/img/blog/comment-icon.png" alt="" width="50" height="50">
@@ -117,10 +117,10 @@
                                                                 @comment.CreationDate
                                                             </span>
                                                         </h3>
-                                                        @if (comment.ParentId > 0)
+                                                        @if (comment.ParentID > 0)
                                                         {
                                                             <p>
-                                                                <span>در پاسخ به: </span><a href="#comment-@comment.ParentId">@comment.parentName</a>
+                                                                <span>در پاسخ به: </span><a href="#comment-@comment.ParentID">@comment.ParentName</a>
                                                             </p>
                                                         }
                                                         <p class="comment-text">@comment.Message</p>
@@ -161,7 +161,7 @@
                                                                 <input type="text" name="website" placeholder="مثال: http://www.atriya.com">
                                                             </div>
                                                         </div>
-                                                        <input type="hidden" name="ownerRecordId" value="@Model.Article.Id" />
+                                                        <input type="hidden" name="ownerRecordId" value="@Model.Article.ID" />
                                                         <input type="hidden" name="articleSlug" value="@Model.Article.Slug" />
                                                         <input type="hidden" name="parentId" id="commentParentId" value="" />
                                                         <div class="col-lg-12">
@@ -173,7 +173,7 @@
                                                 </form>
                                             </div>
                                         </div>
-                                    </div>*@
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-lg-3 order-2 order-lg-2">

@@ -7,6 +7,8 @@ using CommentManagement.Infrastructure.Configuration;
 using _0_Framework.Application;
 using ServiceHost;
 using BlogManagement.Infrastructure.Configuration;
+using System.Text.Encodings.Web;
+using System.Text.Unicode;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,8 +19,8 @@ DiscountManagementBootStrapper.Configure(builder.Services, builder.Configuration
 InventoryManagementBootStrapper.Configure(builder.Services, builder.Configuration.GetConnectionString("HomeApplianceDB"));
 CommentManagementBootstrapper.Configure(builder.Services, builder.Configuration.GetConnectionString("HomeApplianceDB"));
 BlogManagementBootstrapper.Configure(builder.Services, builder.Configuration.GetConnectionString("HomeApplianceDB"));
-
 builder.Services.AddTransient<IFileUploader, FileUploader>();
+builder.Services.AddSingleton(HtmlEncoder.Create(UnicodeRanges.BasicLatin, UnicodeRanges.Arabic));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
